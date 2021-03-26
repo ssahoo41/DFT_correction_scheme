@@ -27,7 +27,7 @@ def subsample_system(system, hdf5_filename, functional = "GGA_PBE", MCSH_RADIAL_
                     cutoff_sig = 0.1, standard_scale = False, num_grid_pts = 100*100*100):
 
 
-    subsampled_data_filename = "./subsampled_features/{}_MCSHLegendre_{}_{:.6f}_{}_subsampled_{}_{}.pickle"\
+    subsampled_data_filename = "./system_subsampled_files/{}_MCSHLegendre_{}_{:.6f}_{}_subsampled_{}_{}.pickle"\
                          .format(system,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER,cutoff_sig,standard_scale)
 
     # hdf5_filename = "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\

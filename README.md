@@ -17,6 +17,19 @@ Once all the calculations are finished, please run `./preparation/save_to_hdf5.p
 
 Note: Please change the path and list of functionals accordingly
 
+
 ## 1: Subsampling envrionment for each system ##
 
-once
+Subsample the prepared data files by going to `./training` and run
+
+python system_subsample.py [system_name] [data_file_path] [functional]
+e.g.
+python system_subsample.py C2H2 ../preparation/sample_files/C2H2/C2H2_MCSHLegendre_3_3_3.000000_Legendre_3.h5 GGA_PBE
+
+Please do this for each system
+
+## 2: Overall subsampling ##
+
+Once all systems are subsampled and saved to `./training/system_subsampled_files/`, run
+python overall_subsample.py
+to get the representitive envrionments across all systems. please make sure the resulting number of representitive environment is less than the total number of systems.
