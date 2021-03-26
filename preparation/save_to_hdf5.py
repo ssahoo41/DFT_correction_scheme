@@ -102,28 +102,6 @@ def print_hdf5_attrs(name, obj):
 
 
 
-def process_system(system_name, list_of_functionals = ["GGA_PBE","GGA_PBEsol","GGA_RPBE"], MCSH_RADIAL_MAX_ORDER = 5, MCSH_MAX_ORDER = 3, MCSH_MAX_R = 3.0):
-    print("\n==========\nstart system: {}".format(system_name))
-
-    system_folder = "./{}/".format(system_name)
-    hdf5_filename = system_folder + "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
-                         .format(system_name,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER)
-
-    # system_folder = "./{}/".format(system_name)
-    CCSDT_0K_energy = read_ref_energy(system_name, filename = system_folder + "energy")
-    atomic_numbers, coords = read_ref_coords(system_name, filename = system_folder + "coords")
-    with h5py.File(hdf5_filename,'w') as data:
-        metadata_grp = data.create_group("metadata")
-        metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy])
-        metadata_grp.create_dataset("atomic_numbers", data=atomic_numbers)
-        metadata_grp.create_dataset("atomic_coords", data=coords)
-
-    for functional in list_of_functionals:
-        process_one_functional(system_name, functional, hdf5_filename)
-
-    print("finish system: {}".format(system_name))
-
-    return
 
 def process_one_functional(system_name, functional, hdf5_filename):
 
@@ -204,6 +182,30 @@ def process_one_functional(system_name, functional, hdf5_filename):
             metadata_grp.create_dataset("FD_GRID", data=FD_GRID)
             metadata_grp.create_dataset("CELL", data=cell)
             metadata_grp.create_dataset("LATVEC", data=U)
+
+    return
+
+
+def process_system(system_name, list_of_functionals = ["GGA_PBE","GGA_PBEsol","GGA_RPBE"], MCSH_RADIAL_MAX_ORDER = 5, MCSH_MAX_ORDER = 3, MCSH_MAX_R = 3.0):
+    print("\n==========\nstart system: {}".format(system_name))
+
+    system_folder = "./{}/".format(system_name)
+    hdf5_filename = "./raw_data_files/{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
+                         .format(system_name,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER)
+
+    # system_folder = "./{}/".format(system_name)
+    CCSDT_0K_energy = read_ref_energy(system_name, filename = system_folder + "energy")
+    atomic_numbers, coords = read_ref_coords(system_name, filename = system_folder + "coords")
+    with h5py.File(hdf5_filename,'w') as data:
+        metadata_grp = data.create_group("metadata")
+        metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy])
+        metadata_grp.create_dataset("atomic_numbers", data=atomic_numbers)
+        metadata_grp.create_dataset("atomic_coords", data=coords)
+
+    for functional in list_of_functionals:
+        process_one_functional(system_name, functional, hdf5_filename)
+
+    print("finish system: {}".format(system_name))
 
     return
 
