@@ -104,7 +104,7 @@ subsampled_filename = model_setup["refdata_filename"]
 refdata = pickle.load(open(subsampled_filename, "rb" ))
 refdata = np.vstack((refdata, np.zeros(len(refdata[0]))))
 
-model["refdata"] = refdata
+
 
 
 if model_setup["PCA"]:
@@ -112,6 +112,10 @@ if model_setup["PCA"]:
     pca.fit(refdata)
     refdata_transformed= pca.transform(refdata)
     model["PCA_model"] = pca
+else:
+    refdata_transformed = refdata
+
+model["refdata_transformed"] = refdata_transformed
 
 count_arr = np.zeros((len(systems), len(refdata)))
 target = np.zeros(len(systems))

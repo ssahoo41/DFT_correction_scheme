@@ -83,6 +83,7 @@ model = pickle.load( open( model_filename, "wb" ) )
 model_setup = model["model_setup"]
 max_distance = model["max_distance"]
 reg_model = model["regression_model"]
+refdata_transformed = model["refdata_transformed"]
 
 
 temp_feature_arr = load_system( system, \
