@@ -22,8 +22,11 @@ Note: Please change the path and list of functionals accordingly
 Extract the information for each training system, calculate the core reference energies for reference and the functionals, and output the amount of corrections for each system
 
 simply run
+
 python extract_reference_energies.py [functional]
+
 e.g.
+
 python extract_reference_energies.py [GGA_PBE]
 
 ## 2: Subsampling envrionment for each system ##
@@ -31,7 +34,9 @@ python extract_reference_energies.py [GGA_PBE]
 Subsample the prepared data files by going to `./training` and run
 
 python system_subsample.py [system_name] [data_file_path] [functional]
+
 e.g.
+
 python system_subsample.py C2H2 ../preparation/sample_files/C2H2/C2H2_MCSHLegendre_3_3_3.000000_Legendre_3.h5 GGA_PBE
 
 Please do this for each system
@@ -39,7 +44,9 @@ Please do this for each system
 ## 3: Overall subsampling ##
 
 Once all systems are subsampled and saved to `./training/system_subsampled_files/`, run
+
 python overall_subsample.py
+
 to get the representitive envrionments across all systems. please make sure the resulting number of representitive environment is less than the total number of systems.
 
 
