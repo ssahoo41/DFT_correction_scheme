@@ -12,7 +12,8 @@ def get_mcsh_order_group(mcsh_order):
                   1:[1],\
                   2:[1,2],\
                   3:[1,2,3],\
-                  4:[1,2,3,4]}
+                  4:[1,2,3,4],\
+                  5:[1,2,3,4,5]}
     return group_dict[mcsh_order]
 
 def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):

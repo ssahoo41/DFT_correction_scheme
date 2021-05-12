@@ -12,7 +12,8 @@ def get_mcsh_order_group(mcsh_order):
                   1:[1],\
                   2:[1,2],\
                   3:[1,2,3],\
-                  4:[1,2,3,4]}
+                  4:[1,2,3,4],\
+                  5:[1,2,3,4,5]}
     return group_dict[mcsh_order]
 
 def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
@@ -24,7 +25,7 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
     return result
 
 
-def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "./"):
+def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/raw_data_files/"):
 
 
     hdf5_filename = directory + "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
@@ -53,15 +54,15 @@ def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_
             feature_arr[:,i+1] = temp_feature.flatten()
     return feature_arr
 
-def partition(data, refdata):
-    kd_tree = KDTree(refdata,leafsize=6)
+def partition(data, refdata): 
+    kd_tree = KDTree(refdata,leafsize=6)   
     distances, indices = kd_tree.query(data, k=1)
     
     indices, counts = np.unique(indices, return_counts=True)
     count_arr = np.zeros(len(refdata))
     
     for i, index in enumerate(indices):
-        count_arr[index] = counts[i]
+        count_arr[index] = counts[i] #how many grid points have a particular environment 
 
     max_distance = np.max(distances)
     print("max distance")
@@ -69,7 +70,7 @@ def partition(data, refdata):
     
     return count_arr, max_distance
 
-def load_system_info(filename):
+def load_system_info(filename): #dictionary to store the energy for each system
     # system_list = []
     energy_dict = {}
     skip = True
@@ -81,29 +82,38 @@ def load_system_info(filename):
                 continue
             temp = line.strip().split()
             system = temp[-1]
-            energy = float(temp[-2])
+            #system = temp[-1]split("_files/")[1]
+            energy = float(temp[-2]) #error is stored in energy 
             energy_dict[system] = energy
     return energy_dict
 
-model_setup = {"refdata_filename": "Overall_subsampled_0.97_False.pickle", \
+#model_setup is a dictionary with keys and values
+model_setup = {"refdata_filename": "Overall_subsampled_1.0_True.pickle", \
                 "functional": "GGA_PBE", \
                 "MCSH_RADIAL_MAX_ORDER": 5, \
                 "MCSH_MAX_ORDER" :3, \
                 "MCSH_MAX_R":3.0, \
-                "PCA": True,\
+                "PCA": False,\
                 "PCA_n_components":15}
 
 model = {"model_setup": model_setup}
 
-functional = model_setup["functional"] 
+functional = model_setup["functional"] #value of functional 
 
-ref_energy_dict = load_system_info("ref_energy_regression_error.csv")
-functional_energy_dict = load_system_info("{}_energy_regression_error.csv".format(functional))
+ref_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/ref_energy_regression_error.csv")
+print("reference energy dictionary\n")
+print(ref_energy_dict)
+functional_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/{}_energy_regression_error.csv".format(functional))
+print("functional energy dictionary\n")
+print(functional_energy_dict)
 systems = ref_energy_dict.keys()
+print("systems\n")
+print(systems)
 subsampled_filename = model_setup["refdata_filename"]
-refdata = pickle.load(open(subsampled_filename, "rb" ))
+refdata = pickle.load(open(subsampled_filename, "rb" )) #subsampled file
 refdata = np.vstack((refdata, np.zeros(len(refdata[0]))))
-
+print("refdata\n")
+print(refdata)
 
 
 
@@ -135,13 +145,13 @@ for i, system in enumerate(systems):
         feature_arr_transformed = temp_feature_arr
     count_arr[i], temp_max_distance = partition(feature_arr_transformed, refdata_transformed)
     max_distance = max(max_distance, temp_max_distance)
-    target[i] = ref_energy_dict[system] - functional_energy_dict[system]
+    target[i] = ref_energy_dict[system] - functional_energy_dict[system] #target is the difference between CCSDT(T) energy and SPARC energy
     # except:
     #     print("ERROR: system {} not processed".format(system))
 
 model["max_distance"] = max_distance
 
-with open('{}_count_array.csv'.format(functional), 'w', newline='') as csvfile:
+with open('{}_count_array.csv'.format(functional), 'w', newline='') as csvfile:#count_array consists of how many points are there in each environment 
     writer2 = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for i, system in enumerate(systems):
@@ -159,10 +169,12 @@ with open('{}_ccsdt_correction_result.csv'.format(functional), 'w', newline='') 
     writer2 = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for i in range(len(refdata)):
-        writer2.writerow([i, coef[i]])
-        
+        writer2.writerow([i, coef[i]]) #each row will have correction corresponding to each environment from overall subsampled file
+
+#actual correction is GGA_PBE_ccsdt_correction_result 
+
 prediction = reg.predict(count_arr)
-error = target - prediction
+error = target - prediction 
 with open('{}_ccsdt_correction_result_error.csv'.format(functional), 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter='\t',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)

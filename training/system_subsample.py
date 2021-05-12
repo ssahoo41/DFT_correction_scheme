@@ -11,7 +11,8 @@ def get_mcsh_order_group(mcsh_order):
                   1:[1],\
                   2:[1,2],\
                   3:[1,2,3],\
-                  4:[1,2,3,4]}
+                  4:[1,2,3,4],
+                  5:[1,2,3,4,5]}
     return group_dict[mcsh_order]
 
 def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
@@ -24,20 +25,21 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
 
 
 def subsample_system(system, hdf5_filename, functional = "GGA_PBE", MCSH_RADIAL_MAX_ORDER = 5, MCSH_MAX_ORDER = 3, MCSH_MAX_R = 3.0,\
-                    cutoff_sig = 0.1, standard_scale = False, num_grid_pts = 100*100*100):
+                    cutoff_sig = 0.1, standard_scale = False, num_grid_pts = 100*100*100): #can be used with standard_scale = True also
 
 
-    subsampled_data_filename = "./system_subsampled_files/{}_MCSHLegendre_{}_{:.6f}_{}_subsampled_{}_{}.pickle"\
-                         .format(system,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER,cutoff_sig,standard_scale)
-
+    subsampled_data_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/training/system_subsampled_files/{}_MCSHLegendre_{}_{:.6f}_{}_subsampled_{}_{}.pickle"\
+                         .format(system,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER,cutoff_sig,standard_scale)#save the subsampled files as this
+    #print(subsampled_data_filename)
     # hdf5_filename = "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
     #                      .format(system,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER)
     
     if os.path.exists(subsampled_data_filename):
+        #print(os.path.exists(subsampled_data_filename))
         return
-    else:
+    else: #else make the file
         feature_list = get_feature_list_legendre(MCSH_MAX_ORDER, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_R)
-        num_features = len(feature_list) + 1
+        num_features = len(feature_list) + 1 #for density
 
         feature_arr = np.zeros((num_grid_pts, num_features))
 
@@ -50,16 +52,21 @@ def subsample_system(system, hdf5_filename, functional = "GGA_PBE", MCSH_RADIAL_
             for i, feature in enumerate(feature_list):
                 temp_feature = np.array(feature_grp[feature])
                 feature_arr[:,i+1] = temp_feature.flatten()
-                
-        subsampled_feature_arr = subsampling(feature_arr,cutoff_sig=cutoff_sig,rate=0.1, method = "pykdtree",\
-                                             verbose = 2, standard_scale=standard_scale)
+            #print(feature_arr)
+        subsampled_feature_arr = subsampling(data=feature_arr,cutoff_sig=cutoff_sig,rate=0.1, method = "pykdtree",\
+                                             verbose = 2, standard_scale=False)# can turn off standard scale here 
+        #print(subsampled_feature_arr)
         pickle.dump( subsampled_feature_arr, open( subsampled_data_filename, "wb" ) )
 
-system_name = sys.argv[1]
-data_filepath = sys.argv[2]
-functional = sys.argv[3]
+#How the subsampling is run (import sys)- we give arguments while running the code for subsampling 
+#system_name = sys.argv[1] #name of the system
+data_filepath = sys.argv[1] #this is the file path to hdf5 file
+system = data_filepath.split("_MCSH")[0]
+system_name = system.split("raw_data_files/")[1]
+print(system_name)
+functional = sys.argv[2] #what functional data needs to be subsampled (right now it is just GGA_PBE)
 
-try:
-    subsample_system(system_name, data_filepath, functional = functional)
-except:
-    print("error, file not exist?")
+#try:
+subsample_system(system_name, data_filepath, functional = functional)
+#except:
+#    print("error, file does not exist!")
