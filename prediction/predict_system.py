@@ -25,7 +25,7 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
     return result
 
 
-def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "./"):
+def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/prediction_results/raw_data_files/"):#path to hdf5 file for the 3 systems 
 
 
     hdf5_filename = directory + "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
@@ -34,7 +34,7 @@ def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_
 
 
     feature_list = get_feature_list_legendre(MCSH_MAX_ORDER, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_R)
-    num_features = len(feature_list) + 1
+    num_features = len(feature_list) + 1 #all the features and electron density 
 
 
     with h5py.File(hdf5_filename,'r') as data:
@@ -60,25 +60,34 @@ def partition(data, refdata, max_distance):
 
 
     indices = []
-    for i, distance in enumerate(temp_distances):
-        if distance[0]< max_distance:
+    for i, distance in enumerate(temp_distances): #temp distances is going to contain all grid points for each system, what index does each grid point belong to and its distance from that index 
+        if distance[0]< max_distance: #if distance is less than max_distance, distances which are greater than max_distances are the environments that have not been trained on
             indices.append(temp_indices[i])
+        else:
+            indices.append(-1) #the environments that have not been seen 
     indices = np.array(indices)
 
     
-    indices, counts = np.unique(indices, return_counts=True)
-    count_arr = np.zeros(len(refdata))
+    indices_reduced, counts = np.unique(indices, return_counts=True)#count of each index and only unique indices
+    count_arr = np.zeros(len(refdata)+1) #let's say reference data has 10 unique environments, it will add one more for the environment that training has not come across
+
+    #[-1 -1 0 4 3 3 -1 2 1 1] #this is indices
+    #[-1 0 1 2 3 4] #this is indices_reduced
+    #[3 1 2 1 2 1] #count of each environment 
     
-    for i, index in enumerate(indices):
-        count_arr[index] = counts[i]
+    for i, index in enumerate(indices_reduced):
+        count_arr[index] = counts[i] #the number of points corresponding to each representative environment, last number in count_arr will correspond to the environment which has not been seen
 
-    
-    return count_arr
+    #[-1,-1,1,2,3,4,1,1,-1]
+    #count_array will be 
+    return count_arr, indices, indices_reduced #will give all indices in increasing order and count of each index 
 
 
 
-model_filename = ""
-system = ""
+model_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/GGA_PBE_functional_based_model.pickle" #model file name
+system = "CO_box"
+#system = "CO_on_Pt_relax"
+#system = "Pt_relax"
 
 model = pickle.load( open( model_filename, "wb" ) )
 model_setup = model["model_setup"]
@@ -86,6 +95,8 @@ max_distance = model["max_distance"]
 reg_model = model["regression_model"]
 refdata_transformed = model["refdata_transformed"]
 
+#model will give coefficient corresponding to each environment (the count)
+#[e1 , e2, e3, ...... en] + [0] = [e1, e2, e3, ......,en, 0] #adding 0 correction corresponding to environment that has not been seen 
 
 temp_feature_arr = load_system( system, \
                                 functional = model_setup["functional"], \
@@ -96,7 +107,25 @@ if model_setup["PCA"]:
     feature_arr_transformed = model["PCA_model"].transform(temp_feature_arr)
 else:
     feature_arr_transformed = temp_feature_arr
-count_arr = partition(feature_arr_transformed, refdata_transformed)
+indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed) #will get the count and unique indices in the list 
 
-correction = reg_model.predict(count_arr)
+
+
+correction = reg_model.predict(count_arr[:-1]) #correction corresponding to each environment except the last one based on regression model
 print("calculated correction is: {}".format(correction))
+
+correction_amount_per_env = [0] + reg_model.coef_ 
+
+correction_amount_per_gridpoint = np.zeros(feature_arr_transformed)
+
+for i, index in enumerate(indices):
+    for j in range(len(list(indices_reduced))):
+        if index == indices_reduced[j]:
+            correction_amount_per_gridpoint[i] = correction_amount_per_env[j]
+
+
+with open('{}_correction_per_gridpoint.csv'.format(system), 'w', newline='') as csvfile:
+    writer2 = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    for i in range(len(data)):
+        writer2.writerow([i, correction_amount_per_gridpoint[i]]) 

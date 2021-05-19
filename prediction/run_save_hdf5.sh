@@ -1,7 +1,7 @@
 #!/bin/bash
-#PBS -l nodes=4:ppn=24
+#PBS -l nodes=2:ppn=24
 #PBS -l walltime=12:00:00
-#PBS -N overall_subsample
+#PBS -N prediction_data_gen
 #PBS -o stdout
 #PBS -e stderr
 #PBS -m abe
@@ -15,4 +15,4 @@ source ~/.bashrc
 
 pyenv activate miniconda3-latest
 
-python overall_subsample.py
+python save_data_hdf5.py

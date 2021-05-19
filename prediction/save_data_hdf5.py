@@ -6,6 +6,8 @@ import sys
 from ase.atom import Atom
 from ase import Atoms
 
+#script for saving data of systems for which we want to predict 
+
 def get_mcsh_order_group(mcsh_order):
     group_dict = {0:[1],\
                   1:[1],\
@@ -24,6 +26,7 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
     return result
 
 def read_feature_file(filename, grid_dimensions):
+    #print(grid_dimensions)
     result = np.zeros(grid_dimensions)
     with open(filename, newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
@@ -72,29 +75,29 @@ def read_coordinate_file(filename, grid_dimensions):
 #            exc[i,j,k] = float(temp[3])
 #    return exc
 
-def read_ref_energy(system_name, filename = "energy"):
-    with open(filename) as fp: 
-        for line in fp: 
+#def read_ref_energy(system_name, filename = "energy"):
+#    with open(filename) as fp: 
+#        for line in fp: 
             # temp = line.strip().split()
-            if line.strip().startswith("Energy at 0K"):
-                CCSDT_0K_energy = float(line.strip().split()[-1]) 
-    return CCSDT_0K_energy/23.061
+#            if line.strip().startswith("Energy at 0K"):
+#                CCSDT_0K_energy = float(line.strip().split()[-1]) 
+#    return CCSDT_0K_energy/23.061
 
-def read_ref_coords(system_name, filename = "coords"):
+#def read_ref_coords(system_name, filename = "coords"):
+#
+#    skip = True
+#    list_atoms = []
+#    with open(filename) as fp: 
+#        for line in fp: 
+#            if skip:
+#                skip = False
+#                continue
+#            temp = line.strip().split()
+#            list_atoms.append(Atom(temp[0], (float(temp[1]), float(temp[2]), float(temp[3])))) #list of Atom from ase (list of Atom will form an Atoms object)
 
-    skip = True
-    list_atoms = []
-    with open(filename) as fp: 
-        for line in fp: 
-            if skip:
-                skip = False
-                continue
-            temp = line.strip().split()
-            list_atoms.append(Atom(temp[0], (float(temp[1]), float(temp[2]), float(temp[3])))) #list of Atom from ase (list of Atom will form an Atoms object)
-
-    system = Atoms(list_atoms)
-
-    return system.get_atomic_numbers(), system.get_positions()
+#    system = Atoms(list_atoms)
+#
+#    return system.get_atomic_numbers(), system.get_positions()
 
 def print_hdf5_attrs(name, obj):
     print(name)
@@ -105,8 +108,10 @@ def print_hdf5_attrs(name, obj):
 
 
 def process_one_functional(filepath, system_name, functional, hdf5_filename):
-
-    current_out_file = filepath + '{}/{}/sprc-calc.out'.format(system_name, functional)
+    print(system_name)
+    print("Reading SPARC output file ")
+    current_out_file = filepath + '{}/sprc-calc.out'.format(system_name)
+    print(current_out_file)
 
     output_file = []
     with open(current_out_file) as fp:
@@ -135,7 +140,7 @@ def process_one_functional(filepath, system_name, functional, hdf5_filename):
         elif line[0] == "FD_GRID:":
             FD_GRID[0] = int(line[1])
             FD_GRID[1] = int(line[2])
-            FD_GRID[2] = int(line[3])
+            FD_GRID[2] = int(line[3])+1 #added one for slab system (figure out what is happening here)
         elif line[0] == "MCSH_RADIAL_TYPE:":
             MCSH_RADIAL_TYPE = int(line[1])
         elif line[0] == "MCSH_MAX_ORDER:":
@@ -150,7 +155,9 @@ def process_one_functional(filepath, system_name, functional, hdf5_filename):
             output_energy = float(line[4])*27.2114 #converting it to eV from Hartree
     U = np.array(U)
     cell = np.array(cell)
-
+    print(FD_GRID)
+    #print(U)
+    #print(cell)
     if MCSH_RADIAL_TYPE == 2:
         feature_list = get_feature_list_legendre(MCSH_MAX_ORDER, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_R)
         # result_filename = "{}-MCSH_feature_Legendre_{}_{:.6f}_{}.h5"\
@@ -165,13 +172,14 @@ def process_one_functional(filepath, system_name, functional, hdf5_filename):
             metadata_grp = functional_group.create_group('metadata')
             feature_grp  = functional_group.create_group('feature')
             for feature in feature_list:
-                # print("reading feature: {}".format(feature))
-                feature_filename = filepath + "{}/{}/MCSH_feature_{}.csv".format(system_name, functional,feature)
+                print("reading feature: {}".format(feature))
+                feature_filename = filepath + "{}/MCSH_feature_{}.csv".format(system_name,feature)
                 temp_data = read_feature_file(feature_filename, FD_GRID)
+                #print(temp_data)
                 feature_grp.create_dataset(feature,data=temp_data)
             
-            # print("reading coordinate file")
-            coordinate_filename = filepath + "{}/{}/Mesh_Coordinates.csv".format(system_name, functional)
+            print("reading coordinate file")
+            coordinate_filename = filepath + "{}/Mesh_Coordinates.csv".format(system_name)
             x,y,z,rho = read_coordinate_file(coordinate_filename, FD_GRID)
             feature_grp.create_dataset("x",data=x)
             feature_grp.create_dataset("y",data=y)
@@ -192,23 +200,23 @@ def process_one_functional(filepath, system_name, functional, hdf5_filename):
 
 def process_system(filepath, system_name, list_of_functionals = ["GGA_PBE","GGA_PBEsol","GGA_RPBE"], MCSH_RADIAL_MAX_ORDER = 5, MCSH_MAX_ORDER = 3, MCSH_MAX_R = 3.0):
     print("\n==========\nstart system: {}".format(system_name))
-    print(system_name)
+    #print(system_name)
 
 #have a raw_data_files folder in place 
 
     system_folder = filepath + "{}/".format(system_name)#will go to the system folder 
-    hdf5_filename = "./raw_data_files/{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
+    hdf5_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/prediction_results/raw_data_files/{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
                          .format(system_name,MCSH_MAX_ORDER, MCSH_MAX_R, MCSH_RADIAL_MAX_ORDER)
 
     # system_folder = "./{}/".format(system_name)
-    CCSDT_0K_energy = read_ref_energy(system_name, filename = system_folder + "energy")
-    atomic_numbers, coords = read_ref_coords(system_name, filename = system_folder + "coords")
+    #CCSDT_0K_energy = read_ref_energy(system_name, filename = system_folder + "energy") #this won't be there
+    #atomic_numbers, coords = read_ref_coords(system_name, filename = system_folder + "coords") #this is not there
     with h5py.File(hdf5_filename,'w') as data:
         metadata_grp = data.create_group("metadata")
         #metadata_grp.create_dataset("System_name", data=str(system_name))#comment this out
-        metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy]) #this is in kcal/mol most likely
-        metadata_grp.create_dataset("atomic_numbers", data=atomic_numbers)
-        metadata_grp.create_dataset("atomic_coords", data=coords)
+        #metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy]) #this is in kcal/mol most likely
+        #metadata_grp.create_dataset("atomic_numbers", data=atomic_numbers)
+        #metadata_grp.create_dataset("atomic_coords", data=coords)
 
     for functional in list_of_functionals:
         process_one_functional(filepath, system_name, functional, hdf5_filename)
@@ -217,9 +225,10 @@ def process_system(filepath, system_name, list_of_functionals = ["GGA_PBE","GGA_
 
     return
 
-file_path_training = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/"
+file_path_training = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/prediction_results/initial_mcsh_data/" #folders are here 
+#we don't have CCSD(T) level data for these systems
 for system in os.listdir(file_path_training):
-    if os.path.exists(file_path_training + "{}/energy".format(system)):
+    if os.path.exists(file_path_training + "{}/sprc-calc.out".format(system)):
         try:
             process_system(file_path_training, system, list_of_functionals = ["GGA_PBE"])
         except:
