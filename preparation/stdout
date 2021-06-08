@@ -1,0 +1,4220 @@
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:34:28 EDT 2021
+Job ID:     1886997.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:34:28 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:34:29 EDT 2021
+Job ID:     1886998.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:34:29 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:34:29 EDT 2021
+Job ID:     1886999.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:34:29 EDT 2021
+---------------------------------------
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C5H8_Bicyclopentane/energy
+
+==========
+start system: C5H8_Bicyclopentane
+C5H8_Bicyclopentane
+processing failed for system: C5H8_Bicyclopentane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C5H5N_Pyridine/energy
+
+==========
+start system: C5H5N_Pyridine
+C5H5N_Pyridine
+processing failed for system: C5H5N_Pyridine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/HN3/energy
+
+==========
+start system: HN3
+HN3
+processing failed for system: HN3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH2CH2CH2CH3/energy
+
+==========
+start system: NH2CH2CH2CH3
+NH2CH2CH2CH3
+processing failed for system: NH2CH2CH2CH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2H2_E-diazine/energy
+
+==========
+start system: N2H2_E-diazine
+N2H2_E-diazine
+processing failed for system: N2H2_E-diazine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2H4/energy
+
+==========
+start system: N2H4
+N2H4
+processing failed for system: N2H4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/HNO/energy
+
+==========
+start system: HNO
+HNO
+processing failed for system: HNO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C6H10_3-Hexyne/energy
+
+==========
+start system: C6H10_3-Hexyne
+C6H10_3-Hexyne
+processing failed for system: C6H10_3-Hexyne
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH3NH3_AmmoniaDimer/energy
+
+==========
+start system: NH3NH3_AmmoniaDimer
+NH3NH3_AmmoniaDimer
+processing failed for system: NH3NH3_AmmoniaDimer
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/HNO2/energy
+
+==========
+start system: HNO2
+HNO2
+processing failed for system: HNO2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/HNO3/energy
+
+==========
+start system: HNO3
+HNO3
+processing failed for system: HNO3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/HNCO/energy
+
+==========
+start system: HNCO
+HNCO
+processing failed for system: HNCO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NO2/energy
+
+==========
+start system: NO2
+NO2
+processing failed for system: NO2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2O3/energy
+
+==========
+start system: N2O3
+N2O3
+processing failed for system: N2O3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C4H8O_Cyclobutanol/energy
+
+==========
+start system: C4H8O_Cyclobutanol
+C4H8O_Cyclobutanol
+processing failed for system: C4H8O_Cyclobutanol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/H2NO/energy
+
+==========
+start system: H2NO
+H2NO
+processing failed for system: H2NO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C4H9N_Pyrrolidine/energy
+
+==========
+start system: C4H9N_Pyrrolidine
+C4H9N_Pyrrolidine
+processing failed for system: C4H9N_Pyrrolidine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N_CH3_3_Trimethylamine/energy
+
+==========
+start system: N_CH3_3_Trimethylamine
+N_CH3_3_Trimethylamine
+processing failed for system: N_CH3_3_Trimethylamine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH3/energy
+
+==========
+start system: NH3
+NH3
+processing failed for system: NH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2/energy
+
+==========
+start system: N2
+N2
+processing failed for system: N2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH2NO/energy
+
+==========
+start system: NH2NO
+NH2NO
+processing failed for system: NH2NO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C6H6O_25-Cyclohexadienone/energy
+
+==========
+start system: C6H6O_25-Cyclohexadienone
+C6H6O_25-Cyclohexadienone
+processing failed for system: C6H6O_25-Cyclohexadienone
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2O/energy
+
+==========
+start system: N2O
+N2O
+processing failed for system: N2O
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C3H8O2_1-methylethyl-Hydroperoxide/energy
+
+==========
+start system: C3H8O2_1-methylethyl-Hydroperoxide
+C3H8O2_1-methylethyl-Hydroperoxide
+processing failed for system: C3H8O2_1-methylethyl-Hydroperoxide
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C3H4O2_B-Propiolactone/energy
+
+==========
+start system: C3H4O2_B-Propiolactone
+C3H4O2_B-Propiolactone
+processing failed for system: C3H4O2_B-Propiolactone
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/H2O2/energy
+
+==========
+start system: H2O2
+H2O2
+processing failed for system: H2O2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C5H10O_3-Pentanone/energy
+
+==========
+start system: C5H10O_3-Pentanone
+C5H10O_3-Pentanone
+processing failed for system: C5H10O_3-Pentanone
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C6H8_E-hexa-234-triene/energy
+
+==========
+start system: C6H8_E-hexa-234-triene
+C6H8_E-hexa-234-triene
+processing failed for system: C6H8_E-hexa-234-triene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2O4/energy
+
+==========
+start system: N2O4
+N2O4
+processing failed for system: N2O4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/CH3CH_NH2_CH3_2-Propanamine/energy
+
+==========
+start system: CH3CH_NH2_CH3_2-Propanamine
+CH3CH_NH2_CH3_2-Propanamine
+processing failed for system: CH3CH_NH2_CH3_2-Propanamine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C5H8_E-13-Pentadiene/energy
+
+==========
+start system: C5H8_E-13-Pentadiene
+C5H8_E-13-Pentadiene
+processing failed for system: C5H8_E-13-Pentadiene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/N2H2_Z-Diazene/energy
+
+==========
+start system: N2H2_Z-Diazene
+N2H2_Z-Diazene
+processing failed for system: N2H2_Z-Diazene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH2OH/energy
+
+==========
+start system: NH2OH
+NH2OH
+processing failed for system: NH2OH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/C5H10_11-dimethyl-Cyclopropane/energy
+
+==========
+start system: C5H10_11-dimethyl-Cyclopropane
+C5H10_11-dimethyl-Cyclopropane
+processing failed for system: C5H10_11-dimethyl-Cyclopropane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NO/energy
+
+==========
+start system: NO
+NO
+processing failed for system: NO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set3/NH3O/energy
+
+==========
+start system: NH3O
+NH3O
+processing failed for system: NH3O
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH2CH2CN_Butanenitrile/energy
+
+==========
+start system: CH3CH2CH2CN_Butanenitrile
+CH3CH2CH2CN_Butanenitrile
+processing failed for system: CH3CH2CH2CN_Butanenitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3OCH2CN_Methoxyacetonitrile/energy
+
+==========
+start system: CH3OCH2CN_Methoxyacetonitrile
+CH3OCH2CN_Methoxyacetonitrile
+processing failed for system: CH3OCH2CN_Methoxyacetonitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H5N_Z-2-Butenenitrile/energy
+
+==========
+start system: C4H5N_Z-2-Butenenitrile
+C4H5N_Z-2-Butenenitrile
+processing failed for system: C4H5N_Z-2-Butenenitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH7N3_triaminomethane/energy
+
+==========
+start system: CH7N3_triaminomethane
+CH7N3_triaminomethane
+processing failed for system: CH7N3_triaminomethane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H4O2_propanedial/energy
+
+==========
+start system: C3H4O2_propanedial
+C3H4O2_propanedial
+processing failed for system: C3H4O2_propanedial
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3COOCH3/energy
+
+==========
+start system: CH3COOCH3
+CH3COOCH3
+processing failed for system: CH3COOCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H4O2_propenalol/energy
+
+==========
+start system: C3H4O2_propenalol
+C3H4O2_propenalol
+processing failed for system: C3H4O2_propenalol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/H2NCH2COOH_Glycine/energy
+
+==========
+start system: H2NCH2COOH_Glycine
+H2NCH2COOH_Glycine
+processing failed for system: H2NCH2COOH_Glycine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3NHCH3/energy
+
+==========
+start system: CH3NHCH3
+CH3NHCH3
+processing failed for system: CH3NHCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3COCH3/energy
+
+==========
+start system: CH3COCH3
+CH3COCH3
+processing failed for system: CH3COCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6O_Cyclobutanone/energy
+
+==========
+start system: C4H6O_Cyclobutanone
+C4H6O_Cyclobutanone
+processing failed for system: C4H6O_Cyclobutanone
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3C_OH_NH_Ethaninidic-acid/energy
+
+==========
+start system: CH3C_OH_NH_Ethaninidic-acid
+CH3C_OH_NH_Ethaninidic-acid
+processing failed for system: CH3C_OH_NH_Ethaninidic-acid
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CHOCHCHCH3_2-Butenal/energy
+
+==========
+start system: CHOCHCHCH3_2-Butenal
+CHOCHCHCH3_2-Butenal
+processing failed for system: CHOCHCHCH3_2-Butenal
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H6_Trimethylenecycopropane/energy
+
+==========
+start system: C6H6_Trimethylenecycopropane
+C6H6_Trimethylenecycopropane
+processing failed for system: C6H6_Trimethylenecycopropane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H4N2_13-Diazine/energy
+
+==========
+start system: C4H4N2_13-Diazine
+C4H4N2_13-Diazine
+processing failed for system: C4H4N2_13-Diazine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H5N_E-2-Butenenitrile/energy
+
+==========
+start system: C4H5N_E-2-Butenenitrile
+C4H5N_E-2-Butenenitrile
+processing failed for system: C4H5N_E-2-Butenenitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6_Methylenecyclopropane/energy
+
+==========
+start system: C4H6_Methylenecyclopropane
+C4H6_Methylenecyclopropane
+processing failed for system: C4H6_Methylenecyclopropane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H4N4_1H-Tetrazole-5-methyl-/energy
+
+==========
+start system: C2H4N4_1H-Tetrazole-5-methyl-
+C2H4N4_1H-Tetrazole-5-methyl-
+processing failed for system: C2H4N4_1H-Tetrazole-5-methyl-
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H4CO3_EthyleneCarbonate/energy
+
+==========
+start system: C2H4CO3_EthyleneCarbonate
+C2H4CO3_EthyleneCarbonate
+processing failed for system: C2H4CO3_EthyleneCarbonate
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH2CHOCHCH2_VinylEther/energy
+
+==========
+start system: CH2CHOCHCH2_VinylEther
+CH2CHOCHCH2_VinylEther
+processing failed for system: CH2CHOCHCH2_VinylEther
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H6N2_3-Aminopropionitrile/energy
+
+==========
+start system: C3H6N2_3-Aminopropionitrile
+C3H6N2_3-Aminopropionitrile
+processing failed for system: C3H6N2_3-Aminopropionitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H8_Cyclopentene/energy
+
+==========
+start system: C5H8_Cyclopentene
+C5H8_Cyclopentene
+processing failed for system: C5H8_Cyclopentene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CHCHCH3_E-2-Butene/energy
+
+==========
+start system: CH3CHCHCH3_E-2-Butene
+CH3CHCHCH3_E-2-Butene
+processing failed for system: CH3CHCHCH3_E-2-Butene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H6_13-Cyclopentadiene/energy
+
+==========
+start system: C5H6_13-Cyclopentadiene
+C5H6_13-Cyclopentadiene
+processing failed for system: C5H6_13-Cyclopentadiene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3NNCH3_E-12-Dimethyldiazene/energy
+
+==========
+start system: CH3NNCH3_E-12-Dimethyldiazene
+CH3NNCH3_E-12-Dimethyldiazene
+processing failed for system: CH3NNCH3_E-12-Dimethyldiazene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H6_Benzene/energy
+
+==========
+start system: C6H6_Benzene
+C6H6_Benzene
+processing failed for system: C6H6_Benzene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6_Cyclobutene/energy
+
+==========
+start system: C4H6_Cyclobutene
+C4H6_Cyclobutene
+processing failed for system: C4H6_Cyclobutene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH2OH/energy
+
+==========
+start system: CH3CH2OH
+CH3CH2OH
+processing failed for system: CH3CH2OH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H4N2_Succinonitrile/energy
+
+==========
+start system: C4H4N2_Succinonitrile
+C4H4N2_Succinonitrile
+processing failed for system: C4H4N2_Succinonitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H5OH_Cyclopropanol/energy
+
+==========
+start system: C3H5OH_Cyclopropanol
+C3H5OH_Cyclopropanol
+processing failed for system: C3H5OH_Cyclopropanol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H4O2_2-PropenoicAcid/energy
+
+==========
+start system: C3H4O2_2-PropenoicAcid
+C3H4O2_2-PropenoicAcid
+processing failed for system: C3H4O2_2-PropenoicAcid
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6_1-Methylcyclopropene/energy
+
+==========
+start system: C4H6_1-Methylcyclopropene
+C4H6_1-Methylcyclopropene
+processing failed for system: C4H6_1-Methylcyclopropene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3NNCH3_Z-12-Dimethyldiazene/energy
+
+==========
+start system: CH3NNCH3_Z-12-Dimethyldiazene
+CH3NNCH3_Z-12-Dimethyldiazene
+processing failed for system: CH3NNCH3_Z-12-Dimethyldiazene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H6O_AcetoneEnol/energy
+
+==========
+start system: C3H6O_AcetoneEnol
+C3H6O_AcetoneEnol
+processing failed for system: C3H6O_AcetoneEnol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H4N2O2_Oxalamide/energy
+
+==========
+start system: C2H4N2O2_Oxalamide
+C2H4N2O2_Oxalamide
+processing failed for system: C2H4N2O2_Oxalamide
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H6O2_12-Ethanediol/energy
+
+==========
+start system: C2H6O2_12-Ethanediol
+C2H6O2_12-Ethanediol
+processing failed for system: C2H6O2_12-Ethanediol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H6_3-Penten-1-yne-E-/energy
+
+==========
+start system: C5H6_3-Penten-1-yne-E-
+C5H6_3-Penten-1-yne-E-
+processing failed for system: C5H6_3-Penten-1-yne-E-
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H8_cyclobutane/energy
+
+==========
+start system: C4H8_cyclobutane
+C4H8_cyclobutane
+processing failed for system: C4H8_cyclobutane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H8_Spiropentane/energy
+
+==========
+start system: C5H8_Spiropentane
+C5H8_Spiropentane
+processing failed for system: C5H8_Spiropentane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH2CHCHCH2_Butadiene/energy
+
+==========
+start system: CH2CHCHCH2_Butadiene
+CH2CHCHCH2_Butadiene
+processing failed for system: CH2CHCHCH2_Butadiene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH2CHCONH_Acrylamide/energy
+
+==========
+start system: CH2CHCONH_Acrylamide
+CH2CHCONH_Acrylamide
+processing failed for system: CH2CHCONH_Acrylamide
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3OC2H5/energy
+
+==========
+start system: CH3OC2H5
+CH3OC2H5
+processing failed for system: CH3OC2H5
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H6O_PropyleneOxide/energy
+
+==========
+start system: C3H6O_PropyleneOxide
+C3H6O_PropyleneOxide
+processing failed for system: C3H6O_PropyleneOxide
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH2CHO/energy
+
+==========
+start system: CH3CH2CHO
+CH3CH2CHO
+processing failed for system: CH3CH2CHO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H8N2_Ethylenediamine/energy
+
+==========
+start system: C2H8N2_Ethylenediamine
+C2H8N2_Ethylenediamine
+processing failed for system: C2H8N2_Ethylenediamine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6O_cis-2-butenal/energy
+
+==========
+start system: C4H6O_cis-2-butenal
+C4H6O_cis-2-butenal
+processing failed for system: C4H6O_cis-2-butenal
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH2COOH/energy
+
+==========
+start system: CH3CH2COOH
+CH3CH2COOH
+processing failed for system: CH3CH2COOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H5N_Cyclopropanecarbonitrile/energy
+
+==========
+start system: C4H5N_Cyclopropanecarbonitrile
+C4H5N_Cyclopropanecarbonitrile
+processing failed for system: C4H5N_Cyclopropanecarbonitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H8/energy
+
+==========
+start system: C3H8
+C3H8
+processing failed for system: C3H8
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH_CH3_CN_2-methyl-Propanenitrile/energy
+
+==========
+start system: CH3CH_CH3_CN_2-methyl-Propanenitrile
+CH3CH_CH3_CN_2-methyl-Propanenitrile
+processing failed for system: CH3CH_CH3_CN_2-methyl-Propanenitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H4N4_1H-Tetrazole-1-methyl-/energy
+
+==========
+start system: C2H4N4_1H-Tetrazole-1-methyl-
+C2H4N4_1H-Tetrazole-1-methyl-
+processing failed for system: C2H4N4_1H-Tetrazole-1-methyl-
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H7N_Cyclopropylamine/energy
+
+==========
+start system: C3H7N_Cyclopropylamine
+C3H7N_Cyclopropylamine
+processing failed for system: C3H7N_Cyclopropylamine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H5N_Pyrrole/energy
+
+==========
+start system: C4H5N_Pyrrole
+C4H5N_Pyrrole
+processing failed for system: C4H5N_Pyrrole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CH2NH2/energy
+
+==========
+start system: CH3CH2NH2
+CH3CH2NH2
+processing failed for system: CH3CH2NH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6O_23-dihydro-Furan/energy
+
+==========
+start system: C4H6O_23-dihydro-Furan
+C4H6O_23-dihydro-Furan
+processing failed for system: C4H6O_23-dihydro-Furan
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CHNOH/energy
+
+==========
+start system: CH3CHNOH
+CH3CHNOH
+processing failed for system: CH3CHNOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H6O_25-dihydro-Furan/energy
+
+==========
+start system: C4H6O_25-dihydro-Furan
+C4H6O_25-dihydro-Furan
+processing failed for system: C4H6O_25-dihydro-Furan
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3COCCH/energy
+
+==========
+start system: CH3COCCH
+CH3COCCH
+processing failed for system: CH3COCCH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H4N2_Pyrazine/energy
+
+==========
+start system: C4H4N2_Pyrazine
+C4H4N2_Pyrazine
+processing failed for system: C4H4N2_Pyrazine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/HCONHCH3/energy
+
+==========
+start system: HCONHCH3
+HCONHCH3
+processing failed for system: HCONHCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CHCHCH3_Z-2-Butene/energy
+
+==========
+start system: CH3CHCHCH3_Z-2-Butene
+CH3CHCHCH3_Z-2-Butene
+processing failed for system: CH3CHCHCH3_Z-2-Butene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CHCCH2CH3_1-Butyne/energy
+
+==========
+start system: CHCCH2CH3_1-Butyne
+CHCCH2CH3_1-Butyne
+processing failed for system: CHCCH2CH3_1-Butyne
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H6_1245-Hexatetraene/energy
+
+==========
+start system: C6H6_1245-Hexatetraene
+C6H6_1245-Hexatetraene
+processing failed for system: C6H6_1245-Hexatetraene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H4O3_123-trioxolane/energy
+
+==========
+start system: C2H4O3_123-trioxolane
+C2H4O3_123-trioxolane
+processing failed for system: C2H4O3_123-trioxolane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H4_Z-Hexa-15-diyne-3-ene/energy
+
+==========
+start system: C6H4_Z-Hexa-15-diyne-3-ene
+C6H4_Z-Hexa-15-diyne-3-ene
+processing failed for system: C6H4_Z-Hexa-15-diyne-3-ene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H7OH_1-Propanol/energy
+
+==========
+start system: C3H7OH_1-Propanol
+C3H7OH_1-Propanol
+processing failed for system: C3H7OH_1-Propanol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H8_methylcyclopropane/energy
+
+==========
+start system: C4H8_methylcyclopropane
+C4H8_methylcyclopropane
+processing failed for system: C4H8_methylcyclopropane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H6_Hexa-15-diene-3-yne/energy
+
+==========
+start system: C6H6_Hexa-15-diene-3-yne
+C6H6_Hexa-15-diene-3-yne
+processing failed for system: C6H6_Hexa-15-diene-3-yne
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H6_1-Buten-3-yne-2-methyl-/energy
+
+==========
+start system: C5H6_1-Buten-3-yne-2-methyl-
+C5H6_1-Buten-3-yne-2-methyl-
+processing failed for system: C5H6_1-Buten-3-yne-2-methyl-
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H4O_Furan/energy
+
+==========
+start system: C4H4O_Furan
+C4H4O_Furan
+processing failed for system: C4H4O_Furan
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C2H6N2O2_E-Azodioxymethane/energy
+
+==========
+start system: C2H6N2O2_E-Azodioxymethane
+C2H6N2O2_E-Azodioxymethane
+processing failed for system: C2H6N2O2_E-Azodioxymethane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CCCH3/energy
+
+==========
+start system: CH3CCCH3
+CH3CCCH3
+processing failed for system: CH3CCCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C4H4N2_Pyridazine/energy
+
+==========
+start system: C4H4N2_Pyridazine
+C4H4N2_Pyridazine
+processing failed for system: C4H4N2_Pyridazine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C6H4_E-Hexa-15-diyne-3-ene/energy
+
+==========
+start system: C6H4_E-Hexa-15-diyne-3-ene
+C6H4_E-Hexa-15-diyne-3-ene
+processing failed for system: C6H4_E-Hexa-15-diyne-3-ene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H6_3-Penten-1-yne-Z-/energy
+
+==========
+start system: C5H6_3-Penten-1-yne-Z-
+C5H6_3-Penten-1-yne-Z-
+processing failed for system: C5H6_3-Penten-1-yne-Z-
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C5H5N_Bicyclobutane-1-carbonitrile/energy
+
+==========
+start system: C5H5N_Bicyclobutane-1-carbonitrile
+C5H5N_Bicyclobutane-1-carbonitrile
+processing failed for system: C5H5N_Bicyclobutane-1-carbonitrile
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/C3H6O_Oxetane/energy
+
+==========
+start system: C3H6O_Oxetane
+C3H6O_Oxetane
+processing failed for system: C3H6O_Oxetane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3OCH3/energy
+
+==========
+start system: CH3OCH3
+CH3OCH3
+processing failed for system: CH3OCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3CONH2/energy
+
+==========
+start system: CH3CONH2
+CH3CONH2
+processing failed for system: CH3CONH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/HOCHCCHOH/energy
+
+==========
+start system: HOCHCCHOH
+HOCHCCHOH
+processing failed for system: HOCHCCHOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set2/CH3OOCH3_dimethylperoxide/energy
+
+==========
+start system: CH3OOCH3_dimethylperoxide
+CH3OOCH3_dimethylperoxide
+processing failed for system: CH3OOCH3_dimethylperoxide
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2CN/energy
+
+==========
+start system: NH2CN
+NH2CN
+processing failed for system: NH2CN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H2N2/energy
+
+==========
+start system: C3H2N2
+C3H2N2
+processing failed for system: C3H2N2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HNCNH/energy
+
+==========
+start system: HNCNH
+HNCNH
+processing failed for system: HNCNH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H2O4/energy
+
+==========
+start system: C2H2O4
+C2H2O4
+processing failed for system: C2H2O4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2NN_diazomethane/energy
+
+==========
+start system: CH2NN_diazomethane
+CH2NN_diazomethane
+processing failed for system: CH2NN_diazomethane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C4H4/energy
+
+==========
+start system: C4H4
+C4H4
+processing failed for system: C4H4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3CHO/energy
+
+==========
+start system: CH3CHO
+CH3CHO
+processing failed for system: CH3CHO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/H2CCNH/energy
+
+==========
+start system: H2CCNH
+H2CCNH
+processing failed for system: H2CCNH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3O/energy
+
+==========
+start system: C3O
+C3O
+processing failed for system: C3O
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CHNHCH_1H_Azirine/energy
+
+==========
+start system: CHNHCH_1H_Azirine
+CHNHCH_1H_Azirine
+processing failed for system: CHNHCH_1H_Azirine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CHNH/energy
+
+==========
+start system: CH2CHNH
+CH2CHNH
+processing failed for system: CH2CHNH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2N4/energy
+
+==========
+start system: CH2N4
+CH2N4
+processing failed for system: CH2N4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3NH2/energy
+
+==========
+start system: CH3NH2
+CH3NH2
+processing failed for system: CH3NH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3NO/energy
+
+==========
+start system: CH3NO
+CH3NO
+processing failed for system: CH3NO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NHCHNH2/energy
+
+==========
+start system: NHCHNH2
+NHCHNH2
+processing failed for system: NHCHNH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CNH2/energy
+
+==========
+start system: CNH2
+CNH2
+processing failed for system: CNH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/H2CN/energy
+
+==========
+start system: H2CN
+H2CN
+processing failed for system: H2CN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HOCN/energy
+
+==========
+start system: HOCN
+HOCN
+processing failed for system: HOCN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C5H4_Pentatetraene/energy
+
+==========
+start system: C5H4_Pentatetraene
+C5H4_Pentatetraene
+processing failed for system: C5H4_Pentatetraene
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H3NO_Isoxazole/energy
+
+==========
+start system: C3H3NO_Isoxazole
+C3H3NO_Isoxazole
+processing failed for system: C3H3NO_Isoxazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3NO2/energy
+
+==========
+start system: CH3NO2
+CH3NO2
+processing failed for system: CH3NO2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2CCNH2/energy
+
+==========
+start system: NH2CCNH2
+NH2CCNH2
+processing failed for system: NH2CCNH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4N2_4H_Imidazole/energy
+
+==========
+start system: C3H4N2_4H_Imidazole
+C3H4N2_4H_Imidazole
+processing failed for system: C3H4N2_4H_Imidazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCCCN/energy
+
+==========
+start system: HCCCN
+HCCCN
+processing failed for system: HCCCN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3CN/energy
+
+==========
+start system: CH3CN
+CH3CN
+processing failed for system: CH3CN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3OCHO/energy
+
+==========
+start system: CH3OCHO
+CH3OCHO
+processing failed for system: CH3OCHO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HOCHNH/energy
+
+==========
+start system: HOCHNH
+HOCHNH
+processing failed for system: HOCHNH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C_CN_4/energy
+
+==========
+start system: C_CN_4
+C_CN_4
+processing failed for system: C_CN_4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3CCH/energy
+
+==========
+start system: CH3CCH
+CH3CCH
+processing failed for system: CH3CCH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H3CCH/energy
+
+==========
+start system: C2H3CCH
+C2H3CCH
+processing failed for system: C2H3CCH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CHNCH2_2H_Azirine/energy
+
+==========
+start system: CHNCH2_2H_Azirine
+CHNCH2_2H_Azirine
+processing failed for system: CHNCH2_2H_Azirine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3O2/energy
+
+==========
+start system: C3O2
+C3O2
+processing failed for system: C3O2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H3N3/energy
+
+==========
+start system: C2H3N3
+C2H3N3
+processing failed for system: C2H3N3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H4O/energy
+
+==========
+start system: C2H4O
+C2H4O
+processing failed for system: C2H4O
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2CONH2/energy
+
+==========
+start system: NH2CONH2
+NH2CONH2
+processing failed for system: NH2CONH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CCH2/energy
+
+==========
+start system: CCH2
+CCH2
+processing failed for system: CCH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2N2/energy
+
+==========
+start system: C2N2
+C2N2
+processing failed for system: C2N2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CN2/energy
+
+==========
+start system: CN2
+CN2
+processing failed for system: CN2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/H2CO3/energy
+
+==========
+start system: H2CO3
+H2CO3
+processing failed for system: H2CO3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CO/energy
+
+==========
+start system: CH2CO
+CH2CO
+processing failed for system: CH2CO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CHONH2/energy
+
+==========
+start system: CHONH2
+CHONH2
+processing failed for system: CHONH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCOOH/energy
+
+==========
+start system: HCOOH
+HCOOH
+processing failed for system: HCOOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CNOH3/energy
+
+==========
+start system: CNOH3
+CNOH3
+processing failed for system: CNOH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CCH2/energy
+
+==========
+start system: CH2CCH2
+CH2CCH2
+processing failed for system: CH2CCH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NCN/energy
+
+==========
+start system: NCN
+NCN
+processing failed for system: NCN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3COOH/energy
+
+==========
+start system: CH3COOH
+CH3COOH
+processing failed for system: CH3COOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H6/energy
+
+==========
+start system: C2H6
+C2H6
+processing failed for system: C2H6
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4O_allenol/energy
+
+==========
+start system: C3H4O_allenol
+C3H4O_allenol
+processing failed for system: C3H4O_allenol
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2CH2CN/energy
+
+==========
+start system: NH2CH2CN
+NH2CH2CN
+processing failed for system: NH2CH2CN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3NC/energy
+
+==========
+start system: CH3NC
+CH3NC
+processing failed for system: CH3NC
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H2O2/energy
+
+==========
+start system: C2H2O2
+C2H2O2
+processing failed for system: C2H2O2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H3NO_Oxazole/energy
+
+==========
+start system: C3H3NO_Oxazole
+C3H3NO_Oxazole
+processing failed for system: C3H3NO_Oxazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H3N/energy
+
+==========
+start system: C3H3N
+C3H3N
+processing failed for system: C3H3N
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4O_Cyclopropanone/energy
+
+==========
+start system: C3H4O_Cyclopropanone
+C3H4O_Cyclopropanone
+processing failed for system: C3H4O_Cyclopropanone
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCCNH2/energy
+
+==========
+start system: HCCNH2
+HCCNH2
+processing failed for system: HCCNH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3N3/energy
+
+==========
+start system: CH3N3
+CH3N3
+processing failed for system: CH3N3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4N2_2H_Imidazole/energy
+
+==========
+start system: C3H4N2_2H_Imidazole
+C3H4N2_2H_Imidazole
+processing failed for system: C3H4N2_2H_Imidazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2NN_diazirine/energy
+
+==========
+start system: CH2NN_diazirine
+CH2NN_diazirine
+processing failed for system: CH2NN_diazirine
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2NCH3/energy
+
+==========
+start system: CH2NCH3
+CH2NCH3
+processing failed for system: CH2NCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C6H2/energy
+
+==========
+start system: C6H2
+C6H2
+processing failed for system: C6H2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCNO/energy
+
+==========
+start system: HCNO
+HCNO
+processing failed for system: HCNO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H4/energy
+
+==========
+start system: C2H4
+C2H4
+processing failed for system: C2H4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H5N/energy
+
+==========
+start system: C2H5N
+C2H5N
+processing failed for system: C2H5N
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H2O/energy
+
+==========
+start system: C2H2O
+C2H2O
+processing failed for system: C2H2O
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CO2/energy
+
+==========
+start system: CO2
+CO2
+processing failed for system: CO2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CHNH2/energy
+
+==========
+start system: CH2CHNH2
+CH2CHNH2
+processing failed for system: CH2CHNH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCNH/energy
+
+==========
+start system: HCNH
+HCNH
+processing failed for system: HCNH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCCOH/energy
+
+==========
+start system: HCCOH
+HCCOH
+processing failed for system: HCCOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CHOH/energy
+
+==========
+start system: CH2CHOH
+CH2CHOH
+processing failed for system: CH2CHOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCCN/energy
+
+==========
+start system: HCCN
+HCCN
+processing failed for system: HCCN
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H6_Cyclopropane/energy
+
+==========
+start system: C3H6_Cyclopropane
+C3H6_Cyclopropane
+processing failed for system: C3H6_Cyclopropane
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CCO/energy
+
+==========
+start system: CCO
+CCO
+processing failed for system: CCO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HOCH/energy
+
+==========
+start system: HOCH
+HOCH
+processing failed for system: HOCH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3ONO/energy
+
+==========
+start system: CH3ONO
+CH3ONO
+processing failed for system: CH3ONO
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H4O2/energy
+
+==========
+start system: C2H4O2
+C2H4O2
+processing failed for system: C2H4O2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C2H2/energy
+
+==========
+start system: C2H2
+C2H2
+processing failed for system: C2H2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH4/energy
+
+==========
+start system: CH4
+CH4
+processing failed for system: CH4
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2CHCH3/energy
+
+==========
+start system: CH2CHCH3
+CH2CHCH3
+processing failed for system: CH2CHCH3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4N2_1H_Pyrazole/energy
+
+==========
+start system: C3H4N2_1H_Pyrazole
+C3H4N2_1H_Pyrazole
+processing failed for system: C3H4N2_1H_Pyrazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H3N3/energy
+
+==========
+start system: C3H3N3
+C3H3N3
+processing failed for system: C3H3N3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3NO3/energy
+
+==========
+start system: CH3NO3
+CH3NO3
+processing failed for system: CH3NO3
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C4H2/energy
+
+==========
+start system: C4H2
+C4H2
+processing failed for system: C4H2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2COOH/energy
+
+==========
+start system: NH2COOH
+NH2COOH
+processing failed for system: NH2COOH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CHOCH2OH/energy
+
+==========
+start system: CHOCH2OH
+CHOCH2OH
+processing failed for system: CHOCH2OH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2NH/energy
+
+==========
+start system: CH2NH
+CH2NH
+processing failed for system: CH2NH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/H2CNCH/energy
+
+==========
+start system: H2CNCH
+H2CNCH
+processing failed for system: H2CNCH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H2O2/energy
+
+==========
+start system: C3H2O2
+C3H2O2
+processing failed for system: C3H2O2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C4H2N2/energy
+
+==========
+start system: C4H2N2
+C4H2N2
+processing failed for system: C4H2N2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH3OH/energy
+
+==========
+start system: CH3OH
+CH3OH
+processing failed for system: CH3OH
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/CH2/energy
+
+==========
+start system: CH2
+CH2
+processing failed for system: CH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/C3H4N2_1H_Imidazole/energy
+
+==========
+start system: C3H4N2_1H_Imidazole
+C3H4N2_1H_Imidazole
+processing failed for system: C3H4N2_1H_Imidazole
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/NH2CH2NH2/energy
+
+==========
+start system: NH2CH2NH2
+NH2CH2NH2
+processing failed for system: NH2CH2NH2
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HNC/energy
+
+==========
+start system: HNC
+HNC
+processing failed for system: HNC
+/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_cccbdb_data/training_data/_set1/HCN/energy
+
+==========
+start system: HCN
+HCN
+processing failed for system: HCN
+---------------------------------------
+Begin PBS Epilogue Tue May 25 00:34:34 EDT 2021
+Job ID:     1886999.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:00:06,vmem=0kb,walltime=00:00:03,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-019-21-r.pace.gatech.edu atl1-1-02-019-22-l.pace.gatech.edu 
+atl1-1-02-019-22-r.pace.gatech.edu atl1-1-02-019-2-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 00:34:34 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Epilogue Tue May 25 00:34:34 EDT 2021
+Job ID:     1886998.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:00:06,vmem=0kb,walltime=00:00:03,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-007-10-r.pace.gatech.edu atl1-1-02-007-11-l.pace.gatech.edu 
+atl1-1-02-007-15-l.pace.gatech.edu atl1-1-02-007-16-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 00:34:34 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Epilogue Tue May 25 00:34:34 EDT 2021
+Job ID:     1886997.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:00:06,vmem=0kb,walltime=00:00:04,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-017-14-r.pace.gatech.edu atl1-1-02-017-17-l.pace.gatech.edu 
+atl1-1-02-017-24-r.pace.gatech.edu atl1-1-02-017-36-l.pace.gatech.edu
+End PBS Epilogue Tue May 25 00:34:34 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:37:14 EDT 2021
+Job ID:     1887013.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:37:14 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Epilogue Tue May 25 00:37:18 EDT 2021
+Job ID:     1887013.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:00:06,vmem=0kb,walltime=00:00:02,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-017-14-r.pace.gatech.edu atl1-1-02-017-17-l.pace.gatech.edu 
+atl1-1-02-017-24-r.pace.gatech.edu atl1-1-02-017-36-l.pace.gatech.edu
+End PBS Epilogue Tue May 25 00:37:18 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:44:15 EDT 2021
+Job ID:     1887037.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:44:15 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Epilogue Tue May 25 00:44:20 EDT 2021
+Job ID:     1887037.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:00:06,vmem=0kb,walltime=00:00:03,mem=1108kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-017-8-l.pace.gatech.edu atl1-1-02-020-12-l.pace.gatech.edu 
+atl1-1-02-020-17-l.pace.gatech.edu atl1-1-02-020-34-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 00:44:20 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 00:50:19 EDT 2021
+Job ID:     1887068.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 00:50:19 EDT 2021
+---------------------------------------
+
+==========
+start system: NH2CN
+NH2CN
+finish system: NH2CN
+
+==========
+start system: C3H2N2
+C3H2N2
+finish system: C3H2N2
+
+==========
+start system: HNCNH
+HNCNH
+finish system: HNCNH
+
+==========
+start system: C2H2O4
+C2H2O4
+finish system: C2H2O4
+
+==========
+start system: CH2NN_diazomethane
+CH2NN_diazomethane
+finish system: CH2NN_diazomethane
+
+==========
+start system: C4H4
+C4H4
+finish system: C4H4
+
+==========
+start system: CH3CHO
+CH3CHO
+finish system: CH3CHO
+
+==========
+start system: H2CCNH
+H2CCNH
+finish system: H2CCNH
+
+==========
+start system: C3O
+C3O
+finish system: C3O
+
+==========
+start system: CHNHCH_1H_Azirine
+CHNHCH_1H_Azirine
+finish system: CHNHCH_1H_Azirine
+
+==========
+start system: CH2CHNH
+CH2CHNH
+finish system: CH2CHNH
+
+==========
+start system: CH2N4
+CH2N4
+finish system: CH2N4
+
+==========
+start system: CH3NH2
+CH3NH2
+finish system: CH3NH2
+
+==========
+start system: CH3NO
+CH3NO
+finish system: CH3NO
+
+==========
+start system: NHCHNH2
+NHCHNH2
+finish system: NHCHNH2
+
+==========
+start system: CNH2
+CNH2
+finish system: CNH2
+
+==========
+start system: H2CN
+H2CN
+finish system: H2CN
+
+==========
+start system: HOCN
+HOCN
+finish system: HOCN
+
+==========
+start system: C5H4_Pentatetraene
+C5H4_Pentatetraene
+finish system: C5H4_Pentatetraene
+
+==========
+start system: C3H3NO_Isoxazole
+C3H3NO_Isoxazole
+finish system: C3H3NO_Isoxazole
+
+==========
+start system: CH3NO2
+CH3NO2
+finish system: CH3NO2
+
+==========
+start system: NH2CCNH2
+NH2CCNH2
+finish system: NH2CCNH2
+
+==========
+start system: C3H4N2_4H_Imidazole
+C3H4N2_4H_Imidazole
+finish system: C3H4N2_4H_Imidazole
+
+==========
+start system: HCCCN
+HCCCN
+finish system: HCCCN
+
+==========
+start system: CH3CN
+CH3CN
+finish system: CH3CN
+
+==========
+start system: CH3OCHO
+CH3OCHO
+finish system: CH3OCHO
+
+==========
+start system: HOCHNH
+HOCHNH
+finish system: HOCHNH
+
+==========
+start system: C_CN_4
+C_CN_4
+finish system: C_CN_4
+
+==========
+start system: CH3CCH
+CH3CCH
+finish system: CH3CCH
+
+==========
+start system: C2H3CCH
+C2H3CCH
+finish system: C2H3CCH
+
+==========
+start system: CHNCH2_2H_Azirine
+CHNCH2_2H_Azirine
+finish system: CHNCH2_2H_Azirine
+
+==========
+start system: C3O2
+C3O2
+finish system: C3O2
+
+==========
+start system: C2H3N3
+C2H3N3
+finish system: C2H3N3
+
+==========
+start system: C2H4O
+C2H4O
+finish system: C2H4O
+
+==========
+start system: NH2CONH2
+NH2CONH2
+finish system: NH2CONH2
+
+==========
+start system: CCH2
+CCH2
+finish system: CCH2
+
+==========
+start system: C2N2
+C2N2
+finish system: C2N2
+
+==========
+start system: CN2
+CN2
+finish system: CN2
+
+==========
+start system: H2CO3
+H2CO3
+finish system: H2CO3
+
+==========
+start system: CH2CO
+CH2CO
+finish system: CH2CO
+
+==========
+start system: CHONH2
+CHONH2
+finish system: CHONH2
+
+==========
+start system: HCOOH
+HCOOH
+finish system: HCOOH
+
+==========
+start system: CNOH3
+CNOH3
+finish system: CNOH3
+
+==========
+start system: CH2CCH2
+CH2CCH2
+finish system: CH2CCH2
+
+==========
+start system: NCN
+NCN
+finish system: NCN
+
+==========
+start system: CH3COOH
+CH3COOH
+finish system: CH3COOH
+
+==========
+start system: C2H6
+C2H6
+finish system: C2H6
+
+==========
+start system: C3H4O_allenol
+C3H4O_allenol
+finish system: C3H4O_allenol
+
+==========
+start system: NH2CH2CN
+NH2CH2CN
+finish system: NH2CH2CN
+
+==========
+start system: CH3NC
+CH3NC
+finish system: CH3NC
+
+==========
+start system: C2H2O2
+C2H2O2
+finish system: C2H2O2
+
+==========
+start system: C3H3NO_Oxazole
+C3H3NO_Oxazole
+finish system: C3H3NO_Oxazole
+
+==========
+start system: C3H3N
+C3H3N
+finish system: C3H3N
+
+==========
+start system: C3H4O_Cyclopropanone
+C3H4O_Cyclopropanone
+finish system: C3H4O_Cyclopropanone
+
+==========
+start system: HCCNH2
+HCCNH2
+finish system: HCCNH2
+
+==========
+start system: CH3N3
+CH3N3
+finish system: CH3N3
+
+==========
+start system: C3H4N2_2H_Imidazole
+C3H4N2_2H_Imidazole
+finish system: C3H4N2_2H_Imidazole
+
+==========
+start system: CH2NN_diazirine
+CH2NN_diazirine
+finish system: CH2NN_diazirine
+
+==========
+start system: CH2NCH3
+CH2NCH3
+finish system: CH2NCH3
+
+==========
+start system: C6H2
+C6H2
+finish system: C6H2
+
+==========
+start system: HCNO
+HCNO
+finish system: HCNO
+
+==========
+start system: C2H4
+C2H4
+finish system: C2H4
+
+==========
+start system: C2H5N
+C2H5N
+finish system: C2H5N
+
+==========
+start system: C2H2O
+C2H2O
+finish system: C2H2O
+
+==========
+start system: CO2
+CO2
+finish system: CO2
+
+==========
+start system: CH2CHNH2
+CH2CHNH2
+finish system: CH2CHNH2
+
+==========
+start system: HCNH
+HCNH
+finish system: HCNH
+
+==========
+start system: HCCOH
+HCCOH
+finish system: HCCOH
+
+==========
+start system: CH2CHOH
+CH2CHOH
+finish system: CH2CHOH
+
+==========
+start system: HCCN
+HCCN
+finish system: HCCN
+
+==========
+start system: C3H6_Cyclopropane
+C3H6_Cyclopropane
+finish system: C3H6_Cyclopropane
+
+==========
+start system: CCO
+CCO
+finish system: CCO
+
+==========
+start system: HOCH
+HOCH
+finish system: HOCH
+
+==========
+start system: CH3ONO
+CH3ONO
+finish system: CH3ONO
+
+==========
+start system: C2H4O2
+C2H4O2
+finish system: C2H4O2
+
+==========
+start system: C2H2
+C2H2
+finish system: C2H2
+
+==========
+start system: CH4
+CH4
+finish system: CH4
+
+==========
+start system: CH2CHCH3
+CH2CHCH3
+finish system: CH2CHCH3
+
+==========
+start system: C3H4N2_1H_Pyrazole
+C3H4N2_1H_Pyrazole
+finish system: C3H4N2_1H_Pyrazole
+
+==========
+start system: C3H3N3
+C3H3N3
+finish system: C3H3N3
+
+==========
+start system: CH3NO3
+CH3NO3
+finish system: CH3NO3
+
+==========
+start system: C4H2
+C4H2
+finish system: C4H2
+
+==========
+start system: NH2COOH
+NH2COOH
+finish system: NH2COOH
+
+==========
+start system: CHOCH2OH
+CHOCH2OH
+finish system: CHOCH2OH
+
+==========
+start system: CH2NH
+CH2NH
+finish system: CH2NH
+
+==========
+start system: H2CNCH
+H2CNCH
+finish system: H2CNCH
+
+==========
+start system: C3H2O2
+C3H2O2
+finish system: C3H2O2
+
+==========
+start system: C4H2N2
+C4H2N2
+finish system: C4H2N2
+
+==========
+start system: CH3OH
+CH3OH
+finish system: CH3OH
+
+==========
+start system: CH2
+CH2
+finish system: CH2
+
+==========
+start system: C3H4N2_1H_Imidazole
+C3H4N2_1H_Imidazole
+finish system: C3H4N2_1H_Imidazole
+
+==========
+start system: NH2CH2NH2
+NH2CH2NH2
+finish system: NH2CH2NH2
+
+==========
+start system: HNC
+HNC
+finish system: HNC
+
+==========
+start system: HCN
+HCN
+finish system: HCN
+---------------------------------------
+Begin PBS Epilogue Tue May 25 02:17:50 EDT 2021
+Job ID:     1887068.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=01:23:00,vmem=2254628kb,walltime=01:27:29,mem=64976kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-006-13-l.pace.gatech.edu atl1-1-02-006-15-r.pace.gatech.edu 
+atl1-1-02-006-25-l.pace.gatech.edu atl1-1-02-006-7-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 02:17:50 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 11:05:18 EDT 2021
+Job ID:     1890829.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 11:05:18 EDT 2021
+---------------------------------------
+
+==========
+start system: CH3CH2CH2CN_Butanenitrile
+CH3CH2CH2CN_Butanenitrile
+finish system: CH3CH2CH2CN_Butanenitrile
+
+==========
+start system: CH3OCH2CN_Methoxyacetonitrile
+CH3OCH2CN_Methoxyacetonitrile
+finish system: CH3OCH2CN_Methoxyacetonitrile
+
+==========
+start system: C4H5N_Z-2-Butenenitrile
+C4H5N_Z-2-Butenenitrile
+finish system: C4H5N_Z-2-Butenenitrile
+
+==========
+start system: CH7N3_triaminomethane
+CH7N3_triaminomethane
+finish system: CH7N3_triaminomethane
+
+==========
+start system: C3H4O2_propanedial
+C3H4O2_propanedial
+finish system: C3H4O2_propanedial
+
+==========
+start system: CH3COOCH3
+CH3COOCH3
+finish system: CH3COOCH3
+
+==========
+start system: C3H4O2_propenalol
+C3H4O2_propenalol
+finish system: C3H4O2_propenalol
+
+==========
+start system: H2NCH2COOH_Glycine
+H2NCH2COOH_Glycine
+finish system: H2NCH2COOH_Glycine
+
+==========
+start system: CH3NHCH3
+CH3NHCH3
+processing failed for system: CH3NHCH3
+
+==========
+start system: CH3COCH3
+CH3COCH3
+finish system: CH3COCH3
+
+==========
+start system: C4H6O_Cyclobutanone
+C4H6O_Cyclobutanone
+finish system: C4H6O_Cyclobutanone
+
+==========
+start system: CH3C_OH_NH_Ethaninidic-acid
+CH3C_OH_NH_Ethaninidic-acid
+finish system: CH3C_OH_NH_Ethaninidic-acid
+
+==========
+start system: CHOCHCHCH3_2-Butenal
+CHOCHCHCH3_2-Butenal
+finish system: CHOCHCHCH3_2-Butenal
+
+==========
+start system: C6H6_Trimethylenecycopropane
+C6H6_Trimethylenecycopropane
+finish system: C6H6_Trimethylenecycopropane
+
+==========
+start system: C4H4N2_13-Diazine
+C4H4N2_13-Diazine
+finish system: C4H4N2_13-Diazine
+
+==========
+start system: C4H5N_E-2-Butenenitrile
+C4H5N_E-2-Butenenitrile
+finish system: C4H5N_E-2-Butenenitrile
+
+==========
+start system: C4H6_Methylenecyclopropane
+C4H6_Methylenecyclopropane
+finish system: C4H6_Methylenecyclopropane
+
+==========
+start system: C2H4N4_1H-Tetrazole-5-methyl-
+C2H4N4_1H-Tetrazole-5-methyl-
+finish system: C2H4N4_1H-Tetrazole-5-methyl-
+
+==========
+start system: C2H4CO3_EthyleneCarbonate
+C2H4CO3_EthyleneCarbonate
+finish system: C2H4CO3_EthyleneCarbonate
+
+==========
+start system: CH2CHOCHCH2_VinylEther
+CH2CHOCHCH2_VinylEther
+finish system: CH2CHOCHCH2_VinylEther
+
+==========
+start system: C3H6N2_3-Aminopropionitrile
+C3H6N2_3-Aminopropionitrile
+finish system: C3H6N2_3-Aminopropionitrile
+
+==========
+start system: C5H8_Cyclopentene
+C5H8_Cyclopentene
+finish system: C5H8_Cyclopentene
+
+==========
+start system: CH3CHCHCH3_E-2-Butene
+CH3CHCHCH3_E-2-Butene
+finish system: CH3CHCHCH3_E-2-Butene
+
+==========
+start system: C5H6_13-Cyclopentadiene
+C5H6_13-Cyclopentadiene
+finish system: C5H6_13-Cyclopentadiene
+
+==========
+start system: CH3NNCH3_E-12-Dimethyldiazene
+CH3NNCH3_E-12-Dimethyldiazene
+finish system: CH3NNCH3_E-12-Dimethyldiazene
+
+==========
+start system: C6H6_Benzene
+C6H6_Benzene
+finish system: C6H6_Benzene
+
+==========
+start system: C4H6_Cyclobutene
+C4H6_Cyclobutene
+processing failed for system: C4H6_Cyclobutene
+
+==========
+start system: CH3CH2OH
+CH3CH2OH
+finish system: CH3CH2OH
+
+==========
+start system: C4H4N2_Succinonitrile
+C4H4N2_Succinonitrile
+finish system: C4H4N2_Succinonitrile
+
+==========
+start system: C3H5OH_Cyclopropanol
+C3H5OH_Cyclopropanol
+finish system: C3H5OH_Cyclopropanol
+
+==========
+start system: C3H4O2_2-PropenoicAcid
+C3H4O2_2-PropenoicAcid
+finish system: C3H4O2_2-PropenoicAcid
+
+==========
+start system: C4H6_1-Methylcyclopropene
+C4H6_1-Methylcyclopropene
+finish system: C4H6_1-Methylcyclopropene
+
+==========
+start system: CH3NNCH3_Z-12-Dimethyldiazene
+CH3NNCH3_Z-12-Dimethyldiazene
+finish system: CH3NNCH3_Z-12-Dimethyldiazene
+
+==========
+start system: C3H6O_AcetoneEnol
+C3H6O_AcetoneEnol
+finish system: C3H6O_AcetoneEnol
+
+==========
+start system: C2H4N2O2_Oxalamide
+C2H4N2O2_Oxalamide
+finish system: C2H4N2O2_Oxalamide
+
+==========
+start system: C2H6O2_12-Ethanediol
+C2H6O2_12-Ethanediol
+finish system: C2H6O2_12-Ethanediol
+
+==========
+start system: C5H6_3-Penten-1-yne-E-
+C5H6_3-Penten-1-yne-E-
+finish system: C5H6_3-Penten-1-yne-E-
+
+==========
+start system: C4H8_cyclobutane
+C4H8_cyclobutane
+finish system: C4H8_cyclobutane
+
+==========
+start system: C5H8_Spiropentane
+C5H8_Spiropentane
+finish system: C5H8_Spiropentane
+
+==========
+start system: CH2CHCHCH2_Butadiene
+CH2CHCHCH2_Butadiene
+finish system: CH2CHCHCH2_Butadiene
+
+==========
+start system: CH2CHCONH_Acrylamide
+CH2CHCONH_Acrylamide
+finish system: CH2CHCONH_Acrylamide
+
+==========
+start system: CH3OC2H5
+CH3OC2H5
+finish system: CH3OC2H5
+
+==========
+start system: C3H6O_PropyleneOxide
+C3H6O_PropyleneOxide
+finish system: C3H6O_PropyleneOxide
+
+==========
+start system: CH3CH2CHO
+CH3CH2CHO
+finish system: CH3CH2CHO
+
+==========
+start system: C2H8N2_Ethylenediamine
+C2H8N2_Ethylenediamine
+finish system: C2H8N2_Ethylenediamine
+
+==========
+start system: C4H6O_cis-2-butenal
+C4H6O_cis-2-butenal
+finish system: C4H6O_cis-2-butenal
+
+==========
+start system: CH3CH2COOH
+CH3CH2COOH
+finish system: CH3CH2COOH
+
+==========
+start system: C4H5N_Cyclopropanecarbonitrile
+C4H5N_Cyclopropanecarbonitrile
+finish system: C4H5N_Cyclopropanecarbonitrile
+
+==========
+start system: C3H8
+C3H8
+finish system: C3H8
+
+==========
+start system: CH3CH_CH3_CN_2-methyl-Propanenitrile
+CH3CH_CH3_CN_2-methyl-Propanenitrile
+finish system: CH3CH_CH3_CN_2-methyl-Propanenitrile
+
+==========
+start system: C2H4N4_1H-Tetrazole-1-methyl-
+C2H4N4_1H-Tetrazole-1-methyl-
+finish system: C2H4N4_1H-Tetrazole-1-methyl-
+
+==========
+start system: C3H7N_Cyclopropylamine
+C3H7N_Cyclopropylamine
+finish system: C3H7N_Cyclopropylamine
+
+==========
+start system: C4H5N_Pyrrole
+C4H5N_Pyrrole
+finish system: C4H5N_Pyrrole
+
+==========
+start system: CH3CH2NH2
+CH3CH2NH2
+finish system: CH3CH2NH2
+
+==========
+start system: C4H6O_23-dihydro-Furan
+C4H6O_23-dihydro-Furan
+finish system: C4H6O_23-dihydro-Furan
+
+==========
+start system: CH3CHNOH
+CH3CHNOH
+finish system: CH3CHNOH
+
+==========
+start system: C4H6O_25-dihydro-Furan
+C4H6O_25-dihydro-Furan
+finish system: C4H6O_25-dihydro-Furan
+
+==========
+start system: CH3COCCH
+CH3COCCH
+finish system: CH3COCCH
+
+==========
+start system: C4H4N2_Pyrazine
+C4H4N2_Pyrazine
+finish system: C4H4N2_Pyrazine
+
+==========
+start system: HCONHCH3
+HCONHCH3
+finish system: HCONHCH3
+
+==========
+start system: CH3CHCHCH3_Z-2-Butene
+CH3CHCHCH3_Z-2-Butene
+finish system: CH3CHCHCH3_Z-2-Butene
+
+==========
+start system: CHCCH2CH3_1-Butyne
+CHCCH2CH3_1-Butyne
+finish system: CHCCH2CH3_1-Butyne
+
+==========
+start system: C6H6_1245-Hexatetraene
+C6H6_1245-Hexatetraene
+finish system: C6H6_1245-Hexatetraene
+
+==========
+start system: C2H4O3_123-trioxolane
+C2H4O3_123-trioxolane
+finish system: C2H4O3_123-trioxolane
+
+==========
+start system: C6H4_Z-Hexa-15-diyne-3-ene
+C6H4_Z-Hexa-15-diyne-3-ene
+finish system: C6H4_Z-Hexa-15-diyne-3-ene
+
+==========
+start system: C3H7OH_1-Propanol
+C3H7OH_1-Propanol
+finish system: C3H7OH_1-Propanol
+
+==========
+start system: C4H8_methylcyclopropane
+C4H8_methylcyclopropane
+finish system: C4H8_methylcyclopropane
+
+==========
+start system: C6H6_Hexa-15-diene-3-yne
+C6H6_Hexa-15-diene-3-yne
+finish system: C6H6_Hexa-15-diene-3-yne
+
+==========
+start system: C5H6_1-Buten-3-yne-2-methyl-
+C5H6_1-Buten-3-yne-2-methyl-
+finish system: C5H6_1-Buten-3-yne-2-methyl-
+
+==========
+start system: C4H4O_Furan
+C4H4O_Furan
+finish system: C4H4O_Furan
+
+==========
+start system: C2H6N2O2_E-Azodioxymethane
+C2H6N2O2_E-Azodioxymethane
+finish system: C2H6N2O2_E-Azodioxymethane
+
+==========
+start system: CH3CCCH3
+CH3CCCH3
+finish system: CH3CCCH3
+
+==========
+start system: C4H4N2_Pyridazine
+C4H4N2_Pyridazine
+finish system: C4H4N2_Pyridazine
+
+==========
+start system: C6H4_E-Hexa-15-diyne-3-ene
+C6H4_E-Hexa-15-diyne-3-ene
+finish system: C6H4_E-Hexa-15-diyne-3-ene
+
+==========
+start system: C5H6_3-Penten-1-yne-Z-
+C5H6_3-Penten-1-yne-Z-
+finish system: C5H6_3-Penten-1-yne-Z-
+
+==========
+start system: C5H5N_Bicyclobutane-1-carbonitrile
+C5H5N_Bicyclobutane-1-carbonitrile
+finish system: C5H5N_Bicyclobutane-1-carbonitrile
+
+==========
+start system: C3H6O_Oxetane
+C3H6O_Oxetane
+finish system: C3H6O_Oxetane
+
+==========
+start system: CH3OCH3
+CH3OCH3
+finish system: CH3OCH3
+
+==========
+start system: CH3CONH2
+CH3CONH2
+finish system: CH3CONH2
+
+==========
+start system: HOCHCCHOH
+HOCHCCHOH
+finish system: HOCHCCHOH
+
+==========
+start system: CH3OOCH3_dimethylperoxide
+CH3OOCH3_dimethylperoxide
+finish system: CH3OOCH3_dimethylperoxide
+---------------------------------------
+Begin PBS Epilogue Tue May 25 12:18:57 EDT 2021
+Job ID:     1890829.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=01:09:58,vmem=2254628kb,walltime=01:13:37,mem=70420kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-005-12-l.pace.gatech.edu atl1-1-02-005-17-l.pace.gatech.edu 
+atl1-1-02-005-1-r.pace.gatech.edu atl1-1-02-005-26-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 12:18:57 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Tue May 25 12:19:56 EDT 2021
+Job ID:     1891440.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Queue:      inferno
+End PBS Prologue Tue May 25 12:19:56 EDT 2021
+---------------------------------------
+
+==========
+start system: C5H8_Bicyclopentane
+C5H8_Bicyclopentane
+finish system: C5H8_Bicyclopentane
+
+==========
+start system: C5H5N_Pyridine
+C5H5N_Pyridine
+finish system: C5H5N_Pyridine
+
+==========
+start system: HN3
+HN3
+finish system: HN3
+
+==========
+start system: NH2CH2CH2CH3
+NH2CH2CH2CH3
+finish system: NH2CH2CH2CH3
+
+==========
+start system: N2H2_E-diazine
+N2H2_E-diazine
+finish system: N2H2_E-diazine
+
+==========
+start system: N2H4
+N2H4
+finish system: N2H4
+
+==========
+start system: HNO
+HNO
+finish system: HNO
+
+==========
+start system: C6H10_3-Hexyne
+C6H10_3-Hexyne
+finish system: C6H10_3-Hexyne
+
+==========
+start system: NH3NH3_AmmoniaDimer
+NH3NH3_AmmoniaDimer
+finish system: NH3NH3_AmmoniaDimer
+
+==========
+start system: HNO2
+HNO2
+finish system: HNO2
+
+==========
+start system: HNO3
+HNO3
+finish system: HNO3
+
+==========
+start system: HNCO
+HNCO
+finish system: HNCO
+
+==========
+start system: NO2
+NO2
+finish system: NO2
+
+==========
+start system: N2O3
+N2O3
+finish system: N2O3
+
+==========
+start system: C4H8O_Cyclobutanol
+C4H8O_Cyclobutanol
+finish system: C4H8O_Cyclobutanol
+
+==========
+start system: H2NO
+H2NO
+finish system: H2NO
+
+==========
+start system: C4H9N_Pyrrolidine
+C4H9N_Pyrrolidine
+finish system: C4H9N_Pyrrolidine
+
+==========
+start system: N_CH3_3_Trimethylamine
+N_CH3_3_Trimethylamine
+finish system: N_CH3_3_Trimethylamine
+
+==========
+start system: NH3
+NH3
+finish system: NH3
+
+==========
+start system: N2
+N2
+finish system: N2
+
+==========
+start system: NH2NO
+NH2NO
+finish system: NH2NO
+
+==========
+start system: C6H6O_25-Cyclohexadienone
+C6H6O_25-Cyclohexadienone
+finish system: C6H6O_25-Cyclohexadienone
+
+==========
+start system: N2O
+N2O
+finish system: N2O
+
+==========
+start system: C3H8O2_1-methylethyl-Hydroperoxide
+C3H8O2_1-methylethyl-Hydroperoxide
+finish system: C3H8O2_1-methylethyl-Hydroperoxide
+
+==========
+start system: C3H4O2_B-Propiolactone
+C3H4O2_B-Propiolactone
+finish system: C3H4O2_B-Propiolactone
+
+==========
+start system: H2O2
+H2O2
+finish system: H2O2
+
+==========
+start system: C5H10O_3-Pentanone
+C5H10O_3-Pentanone
+finish system: C5H10O_3-Pentanone
+
+==========
+start system: C6H8_E-hexa-234-triene
+C6H8_E-hexa-234-triene
+finish system: C6H8_E-hexa-234-triene
+
+==========
+start system: N2O4
+N2O4
+finish system: N2O4
+
+==========
+start system: CH3CH_NH2_CH3_2-Propanamine
+CH3CH_NH2_CH3_2-Propanamine
+finish system: CH3CH_NH2_CH3_2-Propanamine
+
+==========
+start system: C5H8_E-13-Pentadiene
+C5H8_E-13-Pentadiene
+finish system: C5H8_E-13-Pentadiene
+
+==========
+start system: N2H2_Z-Diazene
+N2H2_Z-Diazene
+processing failed for system: N2H2_Z-Diazene
+
+==========
+start system: NH2OH
+NH2OH
+finish system: NH2OH
+
+==========
+start system: C5H10_11-dimethyl-Cyclopropane
+C5H10_11-dimethyl-Cyclopropane
+finish system: C5H10_11-dimethyl-Cyclopropane
+
+==========
+start system: NO
+NO
+finish system: NO
+
+==========
+start system: NH3O
+NH3O
+finish system: NH3O
+---------------------------------------
+Begin PBS Epilogue Tue May 25 12:53:18 EDT 2021
+Job ID:     1891440.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   raw_data_gen
+Resources:  nodes=4:ppn=24,walltime=12:00:00,neednodes=4:ppn=24
+Rsrc Used:  cput=00:31:42,vmem=2254628kb,walltime=00:33:21,mem=64960kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-005-12-l.pace.gatech.edu atl1-1-02-005-17-l.pace.gatech.edu 
+atl1-1-02-005-1-r.pace.gatech.edu atl1-1-02-005-26-r.pace.gatech.edu
+End PBS Epilogue Tue May 25 12:53:19 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Wed May 26 12:30:45 EDT 2021
+Job ID:     1928382.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   extract_energies
+Queue:      inferno
+End PBS Prologue Wed May 26 12:30:45 EDT 2021
+---------------------------------------
+start system: ./raw_data_files/CHOCH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHOCH2OH_MCSHLegendre_3_3.000000_5.h5
+-6223.473361156801
+end
+start system: ./raw_data_files/C4H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H2_MCSHLegendre_3_3.000000_5.h5
+-4168.6888727082005
+end
+start system: ./raw_data_files/N2H2_Z-Diazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H2_Z-Diazene_MCSHLegendre_3_3.000000_5.h5
+error, file not exist?
+end
+start system: ./raw_data_files/NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NO_MCSHLegendre_3_3.000000_5.h5
+-3529.7766294962003
+end
+start system: ./raw_data_files/C6H6_Hexa-15-diene-3-yne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Hexa-15-diene-3-yne_MCSHLegendre_3_3.000000_5.h5
+-6304.9452995786005
+end
+start system: ./raw_data_files/CH3CH2COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2COOH_MCSHLegendre_3_3.000000_5.h5
+-7292.465291639401
+end
+start system: ./raw_data_files/CH3CH_CH3_CN_2-methyl-Propanenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH_CH3_CN_2-methyl-Propanenitrile_MCSHLegendre_3_3.000000_5.h5
+-5741.833458743401
+end
+start system: ./raw_data_files/H2CNCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CNCH_MCSHLegendre_3_3.000000_5.h5
+-3603.7266566730004
+end
+start system: ./raw_data_files/C5H5N_Pyridine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H5N_Pyridine_MCSHLegendre_3_3.000000_5.h5
+-6743.8574807524
+end
+start system: ./raw_data_files/C3H4N2_2H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_2H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6142.527010926
+end
+start system: ./raw_data_files/CH2NH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NH_MCSHLegendre_3_3.000000_5.h5
+-2570.731435526
+end
+start system: ./raw_data_files/CH3NNCH3_Z-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NNCH3_Z-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+-5141.3767741824
+end
+start system: ./raw_data_files/HNO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO_MCSHLegendre_3_3.000000_5.h5
+-3545.6034055983996
+end
+start system: ./raw_data_files/CH2CHNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHNH2_MCSHLegendre_3_3.000000_5.h5
+-3638.5718339834
+end
+start system: ./raw_data_files/HNCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNCNH_MCSHLegendre_3_3.000000_5.h5
+-4042.0857117190003
+end
+start system: ./raw_data_files/C2H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2_MCSHLegendre_3_3.000000_5.h5
+-2100.3839647872
+end
+start system: ./raw_data_files/NHCHNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NHCHNH2_MCSHLegendre_3_3.000000_5.h5
+-4075.3228313464
+end
+start system: ./raw_data_files/NH2NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2NO_MCSHLegendre_3_3.000000_5.h5
+-5050.0557783762
+end
+start system: ./raw_data_files/HOCHNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCHNH_MCSHLegendre_3_3.000000_5.h5
+-4615.504332898
+end
+start system: ./raw_data_files/CH3CH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2OH_MCSHLegendre_3_3.000000_5.h5
+-4212.195057679
+end
+start system: ./raw_data_files/C6H6_Trimethylenecycopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Trimethylenecycopropane_MCSHLegendre_3_3.000000_5.h5
+-6303.944083327001
+end
+start system: ./raw_data_files/C4H4N2_Pyrazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Pyrazine_MCSHLegendre_3_3.000000_5.h5
+-7179.849824283401
+end
+start system: ./raw_data_files/N2O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O_MCSHLegendre_3_3.000000_5.h5
+-5014.850621455201
+end
+start system: ./raw_data_files/CH3C_OH_NH_Ethaninidic-acid_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3C_OH_NH_Ethaninidic-acid_MCSHLegendre_3_3.000000_5.h5
+-5683.759623571201
+end
+start system: ./raw_data_files/C3H6O_AcetoneEnol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_AcetoneEnol_MCSHLegendre_3_3.000000_5.h5
+-5246.8562695796
+end
+start system: ./raw_data_files/C4H8O_Cyclobutanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8O_Cyclobutanol_MCSHLegendre_3_3.000000_5.h5
+-6314.1960326998005
+end
+start system: ./raw_data_files/C3H4O2_propenalol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_propenalol_MCSHLegendre_3_3.000000_5.h5
+-7258.4369189228
+end
+start system: ./raw_data_files/C2H4N2O2_Oxalamide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N2O2_Oxalamide_MCSHLegendre_3_3.000000_5.h5
+-9200.4295285092
+end
+start system: ./raw_data_files/N2H2_E-diazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H2_E-diazine_MCSHLegendre_3_3.000000_5.h5
+-3006.2617839078002
+end
+start system: ./raw_data_files/C4H5N_Z-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Z-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.3802806
+end
+start system: ./raw_data_files/HCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCNH_MCSHLegendre_3_3.000000_5.h5
+-2552.4686676844
+end
+start system: ./raw_data_files/HNCO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNCO_MCSHLegendre_3_3.000000_5.h5
+-4583.287804039001
+end
+start system: ./raw_data_files/CN2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CN2_MCSHLegendre_3_3.000000_5.h5
+-4005.5806662200002
+end
+start system: ./raw_data_files/CH3COCCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COCCH_MCSHLegendre_3_3.000000_5.h5
+-6247.467911083
+end
+start system: ./raw_data_files/C2H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O2_MCSHLegendre_3_3.000000_5.h5
+-6190.244921966
+end
+start system: ./raw_data_files/N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2_MCSHLegendre_3_3.000000_5.h5
+-2976.2179220704
+end
+start system: ./raw_data_files/C3O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3O_MCSHLegendre_3_3.000000_5.h5
+-5145.1841116362
+end
+start system: ./raw_data_files/C5H6_3-Penten-1-yne-Z-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_3-Penten-1-yne-Z-_MCSHLegendre_3_3.000000_5.h5
+-5270.548691331601
+end
+start system: ./raw_data_files/C2H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4_MCSHLegendre_3_3.000000_5.h5
+-2134.4296439542
+end
+start system: ./raw_data_files/CH2CHOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHOH_MCSHLegendre_3_3.000000_5.h5
+-4178.8623716148
+end
+start system: ./raw_data_files/C3H6O_PropyleneOxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_PropyleneOxide_MCSHLegendre_3_3.000000_5.h5
+-5246.1042281178
+end
+start system: ./raw_data_files/H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2O2_MCSHLegendre_3_3.000000_5.h5
+-4118.6797073654
+end
+start system: ./raw_data_files/H2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CN_MCSHLegendre_3_3.000000_5.h5
+-2553.0515902952
+end
+start system: ./raw_data_files/C3H3N_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3N_MCSHLegendre_3_3.000000_5.h5
+-4640.446329349401
+end
+start system: ./raw_data_files/CH7N3_triaminomethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH7N3_triaminomethane_MCSHLegendre_3_3.000000_5.h5
+-5612.2865957136
+end
+start system: ./raw_data_files/NO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NO2_MCSHLegendre_3_3.000000_5.h5
+-5572.901767752601
+end
+start system: ./raw_data_files/C4H6O_25-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_25-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+-6281.1563589908
+end
+start system: ./raw_data_files/C6H6_1245-Hexatetraene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_1245-Hexatetraene_MCSHLegendre_3_3.000000_5.h5
+-6304.3792752472
+end
+start system: ./raw_data_files/C4H6O_cis-2-butenal_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_cis-2-butenal_MCSHLegendre_3_3.000000_5.h5
+-6281.468147212001
+end
+start system: ./raw_data_files/CH3NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NH2_MCSHLegendre_3_3.000000_5.h5
+-2604.0419715106004
+end
+start system: ./raw_data_files/C4H4N2_13-Diazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_13-Diazine_MCSHLegendre_3_3.000000_5.h5
+-7180.0521954652
+end
+start system: ./raw_data_files/C3H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H2O2_MCSHLegendre_3_3.000000_5.h5
+-7224.626563943
+end
+start system: ./raw_data_files/CH3COCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COCH3_MCSHLegendre_3_3.000000_5.h5
+-5247.3490136108
+end
+start system: ./raw_data_files/N2O3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O3_MCSHLegendre_3_3.000000_5.h5
+-9103.0844185482
+end
+start system: ./raw_data_files/C4H8_methylcyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8_methylcyclopropane_MCSHLegendre_3_3.000000_5.h5
+-4269.8144624712
+end
+start system: ./raw_data_files/CH3OCHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCHO_MCSHLegendre_3_3.000000_5.h5
+-6223.9604724282
+end
+start system: ./raw_data_files/CH3CHCHCH3_E-2-Butene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHCHCH3_E-2-Butene_MCSHLegendre_3_3.000000_5.h5
+-4270.1595846574
+end
+start system: ./raw_data_files/C6H4_Z-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H4_Z-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+-6270.8520820958
+end
+start system: ./raw_data_files/CH2CHCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCH3_MCSHLegendre_3_3.000000_5.h5
+-3202.3046825238002
+end
+start system: ./raw_data_files/CH3CCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CCH_MCSHLegendre_3_3.000000_5.h5
+-3168.3637944582
+end
+start system: ./raw_data_files/C2H4N4_1H-Tetrazole-1-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N4_1H-Tetrazole-1-methyl-_MCSHLegendre_3_3.000000_5.h5
+-8084.0859524306
+end
+start system: ./raw_data_files/C4H6O_23-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_23-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+-6281.305477462801
+end
+start system: ./raw_data_files/CH3OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OH_MCSHLegendre_3_3.000000_5.h5
+-3144.2986581604
+end
+start system: ./raw_data_files/H2CO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CO3_MCSHLegendre_3_3.000000_5.h5
+-7201.664659435401
+end
+start system: ./raw_data_files/CH3OC2H5_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OC2H5_MCSHLegendre_3_3.000000_5.h5
+-5279.5983866296
+end
+start system: ./raw_data_files/C3H3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3N3_MCSHLegendre_3_3.000000_5.h5
+-7616.341088833401
+end
+start system: ./raw_data_files/HNO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO3_MCSHLegendre_3_3.000000_5.h5
+-7633.335968703401
+end
+start system: ./raw_data_files/C2H6_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6_MCSHLegendre_3_3.000000_5.h5
+-2168.0531926730005
+end
+start system: ./raw_data_files/N2O4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O4_MCSHLegendre_3_3.000000_5.h5
+-11146.377559988201
+end
+start system: ./raw_data_files/C3H6_Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6_Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+-3201.9742272822
+end
+start system: ./raw_data_files/C3O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3O2_MCSHLegendre_3_3.000000_5.h5
+-7192.2163171274005
+end
+start system: ./raw_data_files/C3H2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H2N2_MCSHLegendre_3_3.000000_5.h5
+-6111.801666787001
+end
+start system: ./raw_data_files/CH2CHCHCH2_Butadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCHCH2_Butadiene_MCSHLegendre_3_3.000000_5.h5
+-4236.579302064601
+end
+start system: ./raw_data_files/C3H4O2_B-Propiolactone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_B-Propiolactone_MCSHLegendre_3_3.000000_5.h5
+-7258.5395059008
+end
+start system: ./raw_data_files/C3H4O_Cyclopropanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O_Cyclopropanone_MCSHLegendre_3_3.000000_5.h5
+-5212.7137178286
+end
+start system: ./raw_data_files/CHNCH2_2H_Azirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHNCH2_2H_Azirine_MCSHLegendre_3_3.000000_5.h5
+-3604.1641071394006
+end
+start system: ./raw_data_files/C2H4CO3_EthyleneCarbonate_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4CO3_EthyleneCarbonate_MCSHLegendre_3_3.000000_5.h5
+-9303.456977441
+end
+start system: ./raw_data_files/C3H7N_Cyclopropylamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H7N_Cyclopropylamine_MCSHLegendre_3_3.000000_5.h5
+-4705.9275701954
+end
+start system: ./raw_data_files/C5H8_Spiropentane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Spiropentane_MCSHLegendre_3_3.000000_5.h5
+-5303.4927169696
+end
+start system: ./raw_data_files/C2H2O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O_MCSHLegendre_3_3.000000_5.h5
+-4142.4528109184
+end
+start system: ./raw_data_files/CH3CHNOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHNOH_MCSHLegendre_3_3.000000_5.h5
+-5681.995807834601
+end
+start system: ./raw_data_files/CH2NCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NCH3_MCSHLegendre_3_3.000000_5.h5
+-3638.3567278664
+end
+start system: ./raw_data_files/C5H4_Pentatetraene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H4_Pentatetraene_MCSHLegendre_3_3.000000_5.h5
+-5236.332913703201
+end
+start system: ./raw_data_files/CH3CONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CONH2_MCSHLegendre_3_3.000000_5.h5
+-5684.187713316001
+end
+start system: ./raw_data_files/C2H2O4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O4_MCSHLegendre_3_3.000000_5.h5
+-10280.9040983524
+end
+start system: ./raw_data_files/HCCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCN_MCSHLegendre_3_3.000000_5.h5
+-3569.8243271612
+end
+start system: ./raw_data_files/NH3O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3O_MCSHLegendre_3_3.000000_5.h5
+-3578.0969465094
+end
+start system: ./raw_data_files/C5H8_Bicyclopentane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Bicyclopentane_MCSHLegendre_3_3.000000_5.h5
+-5303.8043963452
+end
+start system: ./raw_data_files/HCCNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCNH2_MCSHLegendre_3_3.000000_5.h5
+-3604.376192791
+end
+start system: ./raw_data_files/C3H8O2_1-methylethyl-Hydroperoxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H8O2_1-methylethyl-Hydroperoxide_MCSHLegendre_3_3.000000_5.h5
+-7321.981306739601
+end
+start system: ./raw_data_files/C6H6O_25-Cyclohexadienone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6O_25-Cyclohexadienone_MCSHLegendre_3_3.000000_5.h5
+-8351.44941343
+end
+start system: ./raw_data_files/C6H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H2_MCSHLegendre_3_3.000000_5.h5
+-6237.058761452401
+end
+start system: ./raw_data_files/HNC_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNC_MCSHLegendre_3_3.000000_5.h5
+-2537.5016357652003
+end
+start system: ./raw_data_files/HN3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HN3_MCSHLegendre_3_3.000000_5.h5
+-4477.3277553178
+end
+start system: ./raw_data_files/CO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CO2_MCSHLegendre_3_3.000000_5.h5
+-5124.6472326738
+end
+start system: ./raw_data_files/H2NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2NO_MCSHLegendre_3_3.000000_5.h5
+-3562.0811328114
+end
+start system: ./raw_data_files/C3H4N2_4H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_4H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6144.5560561784005
+end
+start system: ./raw_data_files/C6H6_Benzene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Benzene_MCSHLegendre_3_3.000000_5.h5
+-6307.7628767802
+end
+start system: ./raw_data_files/CH3OCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCH3_MCSHLegendre_3_3.000000_5.h5
+-4211.6893610214
+end
+start system: ./raw_data_files/CH3NO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO3_MCSHLegendre_3_3.000000_5.h5
+-8700.758617748
+end
+start system: ./raw_data_files/C6H8_E-hexa-234-triene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H8_E-hexa-234-triene_MCSHLegendre_3_3.000000_5.h5
+-6338.0431240494
+end
+start system: ./raw_data_files/CH2CO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CO_MCSHLegendre_3_3.000000_5.h5
+-4145.8802228054
+end
+start system: ./raw_data_files/C3H7OH_1-Propanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H7OH_1-Propanol_MCSHLegendre_3_3.000000_5.h5
+-5279.9564070194
+end
+start system: ./raw_data_files/NCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NCN_MCSHLegendre_3_3.000000_5.h5
+-4006.8916842606004
+end
+start system: ./raw_data_files/C4H6_Methylenecyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_Methylenecyclopropane_MCSHLegendre_3_3.000000_5.h5
+-4235.8381451628
+end
+start system: ./raw_data_files/CH3CH2NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2NH2_MCSHLegendre_3_3.000000_5.h5
+-3671.8889551268
+end
+start system: ./raw_data_files/CHOCHCHCH3_2-Butenal_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHOCHCHCH3_2-Butenal_MCSHLegendre_3_3.000000_5.h5
+-6281.5433050988
+end
+start system: ./raw_data_files/CNOH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CNOH3_MCSHLegendre_3_3.000000_5.h5
+-4613.202520572
+end
+start system: ./raw_data_files/C5H6_3-Penten-1-yne-E-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_3-Penten-1-yne-E-_MCSHLegendre_3_3.000000_5.h5
+-5270.5334529476
+end
+start system: ./raw_data_files/C4H5N_Pyrrole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Pyrrole_MCSHLegendre_3_3.000000_5.h5
+-5708.757566661
+end
+start system: ./raw_data_files/CCO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CCO_MCSHLegendre_3_3.000000_5.h5
+-4109.3928647164
+end
+start system: ./raw_data_files/C4H6O_Cyclobutanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_Cyclobutanone_MCSHLegendre_3_3.000000_5.h5
+-6281.4265681928
+end
+start system: ./raw_data_files/C3H3NO_Oxazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3NO_Oxazole_MCSHLegendre_3_3.000000_5.h5
+-6685.1867907326005
+end
+start system: ./raw_data_files/C3H4O_allenol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O_allenol_MCSHLegendre_3_3.000000_5.h5
+-5212.511509915201
+end
+start system: ./raw_data_files/C3H4N2_1H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_1H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6145.2119053412
+end
+start system: ./raw_data_files/C2H8N2_Ethylenediamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H8N2_Ethylenediamine_MCSHLegendre_3_3.000000_5.h5
+-5175.7341055136
+end
+start system: ./raw_data_files/C3H4O2_propanedial_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_propanedial_MCSHLegendre_3_3.000000_5.h5
+-7258.169594129201
+end
+start system: ./raw_data_files/C6H10_3-Hexyne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H10_3-Hexyne_MCSHLegendre_3_3.000000_5.h5
+-6371.835056911401
+end
+start system: ./raw_data_files/CH3CCCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CCCH3_MCSHLegendre_3_3.000000_5.h5
+-4236.3115418886
+end
+start system: ./raw_data_files/NH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3_MCSHLegendre_3_3.000000_5.h5
+-1536.7147528458001
+end
+start system: ./raw_data_files/C5H10O_3-Pentanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H10O_3-Pentanone_MCSHLegendre_3_3.000000_5.h5
+-7382.9361216754005
+end
+start system: ./raw_data_files/C5H10_11-dimethyl-Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H10_11-dimethyl-Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+-5337.6820179057995
+end
+start system: ./raw_data_files/C3H8_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H8_MCSHLegendre_3_3.000000_5.h5
+-3235.815739315
+end
+start system: ./raw_data_files/CH3NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO_MCSHLegendre_3_3.000000_5.h5
+-4613.5116148646
+end
+start system: ./raw_data_files/CH3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3N3_MCSHLegendre_3_3.000000_5.h5
+-5544.8251812896
+end
+start system: ./raw_data_files/C5H6_1-Buten-3-yne-2-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_1-Buten-3-yne-2-methyl-_MCSHLegendre_3_3.000000_5.h5
+-5270.5364462016005
+end
+start system: ./raw_data_files/HOCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCN_MCSHLegendre_3_3.000000_5.h5
+-4582.2558389054
+end
+start system: ./raw_data_files/H2NCH2COOH_Glycine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2NCH2COOH_Glycine_MCSHLegendre_3_3.000000_5.h5
+-7728.5271875088
+end
+start system: ./raw_data_files/CH3CH2CHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2CHO_MCSHLegendre_3_3.000000_5.h5
+-5247.0927094342
+end
+start system: ./raw_data_files/CH2CCH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CCH2_MCSHLegendre_3_3.000000_5.h5
+-3168.3216984224
+end
+start system: ./raw_data_files/C4H5N_Cyclopropanecarbonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Cyclopropanecarbonitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.0010625296
+end
+start system: ./raw_data_files/NH2CH2NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2NH2_MCSHLegendre_3_3.000000_5.h5
+-4108.116350731
+end
+start system: ./raw_data_files/N_CH3_3_Trimethylamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N_CH3_3_Trimethylamine_MCSHLegendre_3_3.000000_5.h5
+-4739.1576420702
+end
+start system: ./raw_data_files/C4H4O_Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4O_Furan_MCSHLegendre_3_3.000000_5.h5
+-6248.686954591601
+end
+start system: ./raw_data_files/N2H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H4_MCSHLegendre_3_3.000000_5.h5
+-3039.4785221966
+end
+start system: ./raw_data_files/HCCOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCOH_MCSHLegendre_3_3.000000_5.h5
+-4144.404684640401
+end
+start system: ./raw_data_files/NH2CH2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2CN_MCSHLegendre_3_3.000000_5.h5
+-5110.0281529264
+end
+start system: ./raw_data_files/CH3CH_NH2_CH3_2-Propanamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH_NH2_CH3_2-Propanamine_MCSHLegendre_3_3.000000_5.h5
+-4739.7827695624
+end
+start system: ./raw_data_files/HCONHCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCONHCH3_MCSHLegendre_3_3.000000_5.h5
+-5683.6888467198005
+end
+start system: ./raw_data_files/CNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CNH2_MCSHLegendre_3_3.000000_5.h5
+-2551.7589943724
+end
+start system: ./raw_data_files/C2H3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H3N3_MCSHLegendre_3_3.000000_5.h5
+-6581.2815564596
+end
+start system: ./raw_data_files/NH3NH3_AmmoniaDimer_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3NH3_AmmoniaDimer_MCSHLegendre_3_3.000000_5.h5
+-3073.5962843622
+end
+start system: ./raw_data_files/CHNHCH_1H_Azirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHNHCH_1H_Azirine_MCSHLegendre_3_3.000000_5.h5
+-3602.6762422102006
+end
+start system: ./raw_data_files/CH3NO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO2_MCSHLegendre_3_3.000000_5.h5
+-6657.6107035498
+end
+start system: ./raw_data_files/CH3COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COOH_MCSHLegendre_3_3.000000_5.h5
+-6224.674744466801
+end
+start system: ./raw_data_files/HNO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO2_MCSHLegendre_3_3.000000_5.h5
+-5590.1333323798
+end
+start system: ./raw_data_files/C3H3NO_Isoxazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3NO_Isoxazole_MCSHLegendre_3_3.000000_5.h5
+-6684.1762681822
+end
+start system: ./raw_data_files/C2H4O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O_MCSHLegendre_3_3.000000_5.h5
+-4178.1353918524
+end
+start system: ./raw_data_files/CH2NN_diazomethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NN_diazomethane_MCSHLegendre_3_3.000000_5.h5
+-4040.859429978
+end
+start system: ./raw_data_files/CHCCH2CH3_1-Butyne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHCCH2CH3_1-Butyne_MCSHLegendre_3_3.000000_5.h5
+-4236.1241641882
+end
+start system: ./raw_data_files/CH2CHNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHNH_MCSHLegendre_3_3.000000_5.h5
+-3620.8766959458
+end
+start system: ./raw_data_files/C4H6_1-Methylcyclopropene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_1-Methylcyclopropene_MCSHLegendre_3_3.000000_5.h5
+-4235.3422990320005
+end
+start system: ./raw_data_files/C2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2N2_MCSHLegendre_3_3.000000_5.h5
+-5043.751631704001
+end
+start system: ./raw_data_files/C2H4O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O2_MCSHLegendre_3_3.000000_5.h5
+-6222.3683606256
+end
+start system: ./raw_data_files/CH3NNCH3_E-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NNCH3_E-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+-5141.773217069
+end
+start system: ./raw_data_files/HOCHCCHOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCHCCHOH_MCSHLegendre_3_3.000000_5.h5
+-7256.913271002601
+end
+start system: ./raw_data_files/CHONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHONH2_MCSHLegendre_3_3.000000_5.h5
+-4616.1871213468
+end
+start system: ./raw_data_files/CH3ONO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3ONO_MCSHLegendre_3_3.000000_5.h5
+-6657.5762811288005
+end
+start system: ./raw_data_files/CH4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH4_MCSHLegendre_3_3.000000_5.h5
+-1100.3772599172
+end
+start system: ./raw_data_files/CH3OOCH3_dimethylperoxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OOCH3_dimethylperoxide_MCSHLegendre_3_3.000000_5.h5
+-6253.6479737712
+end
+start system: ./raw_data_files/C5H5N_Bicyclobutane-1-carbonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H5N_Bicyclobutane-1-carbonitrile_MCSHLegendre_3_3.000000_5.h5
+-6741.5350149738
+end
+start system: ./raw_data_files/C4H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4_MCSHLegendre_3_3.000000_5.h5
+-4201.184726588201
+end
+start system: ./raw_data_files/C2H6N2O2_E-Azodioxymethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6N2O2_E-Azodioxymethane_MCSHLegendre_3_3.000000_5.h5
+-9227.6992697508
+end
+start system: ./raw_data_files/C2H5N_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H5N_MCSHLegendre_3_3.000000_5.h5
+-3637.8753037776
+end
+start system: ./raw_data_files/CCH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CCH2_MCSHLegendre_3_3.000000_5.h5
+-2098.4626494674003
+end
+start system: ./raw_data_files/C3H5OH_Cyclopropanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H5OH_Cyclopropanol_MCSHLegendre_3_3.000000_5.h5
+-5246.168120485
+end
+start system: ./raw_data_files/C3H4O2_2-PropenoicAcid_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_2-PropenoicAcid_MCSHLegendre_3_3.000000_5.h5
+-7258.903458375799
+end
+start system: ./raw_data_files/C6H4_E-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H4_E-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+-6270.8654428932
+end
+start system: ./raw_data_files/C3H6O_Oxetane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_Oxetane_MCSHLegendre_3_3.000000_5.h5
+-5246.0028928642005
+end
+start system: ./raw_data_files/C4H4N2_Pyridazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Pyridazine_MCSHLegendre_3_3.000000_5.h5
+-7179.0664080774
+end
+start system: ./raw_data_files/C_CN_4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C_CN_4_MCSHLegendre_3_3.000000_5.h5
+-11122.138080250601
+end
+start system: ./raw_data_files/CH2N4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2N4_MCSHLegendre_3_3.000000_5.h5
+-7016.495953276
+end
+start system: ./raw_data_files/C2H4N4_1H-Tetrazole-5-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N4_1H-Tetrazole-5-methyl-_MCSHLegendre_3_3.000000_5.h5
+-8084.3938494216
+end
+start system: ./raw_data_files/CH3NC_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NC_MCSHLegendre_3_3.000000_5.h5
+-3605.2110113316
+end
+start system: ./raw_data_files/C5H8_E-13-Pentadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_E-13-Pentadiene_MCSHLegendre_3_3.000000_5.h5
+-5304.5754313642
+end
+start system: ./raw_data_files/NH2COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2COOH_MCSHLegendre_3_3.000000_5.h5
+-6661.3466655014
+end
+start system: ./raw_data_files/CH3CH2CH2CN_Butanenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2CH2CN_Butanenitrile_MCSHLegendre_3_3.000000_5.h5
+-5741.7981655576
+end
+start system: ./raw_data_files/C3H6N2_3-Aminopropionitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6N2_3-Aminopropionitrile_MCSHLegendre_3_3.000000_5.h5
+-6177.789856015
+end
+start system: ./raw_data_files/C2H6O2_12-Ethanediol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6O2_12-Ethanediol_MCSHLegendre_3_3.000000_5.h5
+-6256.289166678
+end
+start system: ./raw_data_files/HCOOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCOOH_MCSHLegendre_3_3.000000_5.h5
+-5156.612926847601
+end
+start system: ./raw_data_files/C5H6_13-Cyclopentadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_13-Cyclopentadiene_MCSHLegendre_3_3.000000_5.h5
+-5271.8257767564
+end
+start system: ./raw_data_files/C3H4N2_1H_Pyrazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_1H_Pyrazole_MCSHLegendre_3_3.000000_5.h5
+-6144.742726382401
+end
+start system: ./raw_data_files/CH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2_MCSHLegendre_3_3.000000_5.h5
+-1063.3631163356001
+end
+start system: ./raw_data_files/C4H4N2_Succinonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Succinonitrile_MCSHLegendre_3_3.000000_5.h5
+-7179.8040819200005
+end
+start system: ./raw_data_files/CH3COOCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COOCH3_MCSHLegendre_3_3.000000_5.h5
+-7292.015405563201
+end
+start system: ./raw_data_files/NH2CH2CH2CH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2CH2CH3_MCSHLegendre_3_3.000000_5.h5
+-4739.661107393001
+end
+start system: ./raw_data_files/CH3CHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHO_MCSHLegendre_3_3.000000_5.h5
+-4179.2948968178
+end
+start system: ./raw_data_files/H2CCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CCNH_MCSHLegendre_3_3.000000_5.h5
+-3605.0176743346
+end
+start system: ./raw_data_files/C4H8_cyclobutane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8_cyclobutane_MCSHLegendre_3_3.000000_5.h5
+-4269.8393609022005
+end
+start system: ./raw_data_files/HCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCN_MCSHLegendre_3_3.000000_5.h5
+-2538.1492670852
+end
+start system: ./raw_data_files/C4H6_Cyclobutene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_Cyclobutene_MCSHLegendre_3_3.000000_5.h5
+error, file not exist?
+end
+start system: ./raw_data_files/C4H2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H2N2_MCSHLegendre_3_3.000000_5.h5
+-7146.319909992
+end
+start system: ./raw_data_files/C2H3CCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H3CCH_MCSHLegendre_3_3.000000_5.h5
+-4202.6364819896
+end
+start system: ./raw_data_files/NH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2OH_MCSHLegendre_3_3.000000_5.h5
+-3579.3381128862
+end
+start system: ./raw_data_files/NH2CCNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CCNH2_MCSHLegendre_3_3.000000_5.h5
+-5108.2842559346
+end
+start system: ./raw_data_files/HCCCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCCN_MCSHLegendre_3_3.000000_5.h5
+-4606.3099817976
+end
+start system: ./raw_data_files/CH3CHCHCH3_Z-2-Butene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHCHCH3_Z-2-Butene_MCSHLegendre_3_3.000000_5.h5
+-4270.1149579614
+end
+start system: ./raw_data_files/CH2CHCONH_Acrylamide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCONH_Acrylamide_MCSHLegendre_3_3.000000_5.h5
+-6718.4529177124
+end
+start system: ./raw_data_files/C4H5N_E-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_E-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.364225874
+end
+start system: ./raw_data_files/CH2CHOCHCH2_VinylEther_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHOCHCH2_VinylEther_MCSHLegendre_3_3.000000_5.h5
+-6280.5691369788
+end
+start system: ./raw_data_files/HOCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCH_MCSHLegendre_3_3.000000_5.h5
+-3108.9453079550003
+end
+start system: ./raw_data_files/C5H8_Cyclopentene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Cyclopentene_MCSHLegendre_3_3.000000_5.h5
+-5305.076964677601
+end
+start system: ./raw_data_files/CH3OCH2CN_Methoxyacetonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCH2CN_Methoxyacetonitrile_MCSHLegendre_3_3.000000_5.h5
+-6717.5244103216
+end
+start system: ./raw_data_files/CH2NN_diazirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NN_diazirine_MCSHLegendre_3_3.000000_5.h5
+-4040.4883753276
+end
+start system: ./raw_data_files/NH2CONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CONH2_MCSHLegendre_3_3.000000_5.h5
+-6120.8563417712
+end
+start system: ./raw_data_files/C2H4O3_123-trioxolane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O3_123-trioxolane_MCSHLegendre_3_3.000000_5.h5
+-8263.0938071502
+end
+start system: ./raw_data_files/NH2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CN_MCSHLegendre_3_3.000000_5.h5
+-4042.2098229144
+end
+start system: ./raw_data_files/C4H9N_Pyrrolidine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H9N_Pyrrolidine_MCSHLegendre_3_3.000000_5.h5
+-5774.361258807
+end
+start system: ./raw_data_files/CH3CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CN_MCSHLegendre_3_3.000000_5.h5
+-3606.2639836660005
+end
+start system: ./raw_data_files/HCNO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCNO_MCSHLegendre_3_3.000000_5.h5
+-4580.2553928344
+end
+['CHOCH2OH', 'C4H2', 'NO', 'C6H6_Hexa-15-diene-3-yne', 'CH3CH2COOH', 'CH3CH_CH3_CN_2-methyl-Propanenitrile', 'H2CNCH', 'C5H5N_Pyridine', 'C3H4N2_2H_Imidazole', 'CH2NH', 'CH3NNCH3_Z-12-Dimethyldiazene', 'HNO', 'CH2CHNH2', 'HNCNH', 'C2H2', 'NHCHNH2', 'NH2NO', 'HOCHNH', 'CH3CH2OH', 'C6H6_Trimethylenecycopropane', 'C4H4N2_Pyrazine', 'N2O', 'CH3C_OH_NH_Ethaninidic-acid', 'C3H6O_AcetoneEnol', 'C4H8O_Cyclobutanol', 'C3H4O2_propenalol', 'C2H4N2O2_Oxalamide', 'N2H2_E-diazine', 'C4H5N_Z-2-Butenenitrile', 'HCNH', 'HNCO', 'CN2', 'CH3COCCH', 'C2H2O2', 'N2', 'C3O', 'C5H6_3-Penten-1-yne-Z-', 'C2H4', 'CH2CHOH', 'C3H6O_PropyleneOxide', 'H2O2', 'H2CN', 'C3H3N', 'CH7N3_triaminomethane', 'NO2', 'C4H6O_25-dihydro-Furan', 'C6H6_1245-Hexatetraene', 'C4H6O_cis-2-butenal', 'CH3NH2', 'C4H4N2_13-Diazine', 'C3H2O2', 'CH3COCH3', 'N2O3', 'C4H8_methylcyclopropane', 'CH3OCHO', 'CH3CHCHCH3_E-2-Butene', 'C6H4_Z-Hexa-15-diyne-3-ene', 'CH2CHCH3', 'CH3CCH', 'C2H4N4_1H-Tetrazole-1-methyl-', 'C4H6O_23-dihydro-Furan', 'CH3OH', 'H2CO3', 'CH3OC2H5', 'C3H3N3', 'HNO3', 'C2H6', 'N2O4', 'C3H6_Cyclopropane', 'C3O2', 'C3H2N2', 'CH2CHCHCH2_Butadiene', 'C3H4O2_B-Propiolactone', 'C3H4O_Cyclopropanone', 'CHNCH2_2H_Azirine', 'C2H4CO3_EthyleneCarbonate', 'C3H7N_Cyclopropylamine', 'C5H8_Spiropentane', 'C2H2O', 'CH3CHNOH', 'CH2NCH3', 'C5H4_Pentatetraene', 'CH3CONH2', 'C2H2O4', 'HCCN', 'NH3O', 'C5H8_Bicyclopentane', 'HCCNH2', 'C3H8O2_1-methylethyl-Hydroperoxide', 'C6H6O_25-Cyclohexadienone', 'C6H2', 'HNC', 'HN3', 'CO2', 'H2NO', 'C3H4N2_4H_Imidazole', 'C6H6_Benzene', 'CH3OCH3', 'CH3NO3', 'C6H8_E-hexa-234-triene', 'CH2CO', 'C3H7OH_1-Propanol', 'NCN', 'C4H6_Methylenecyclopropane', 'CH3CH2NH2', 'CHOCHCHCH3_2-Butenal', 'CNOH3', 'C5H6_3-Penten-1-yne-E-', 'C4H5N_Pyrrole', 'CCO', 'C4H6O_Cyclobutanone', 'C3H3NO_Oxazole', 'C3H4O_allenol', 'C3H4N2_1H_Imidazole', 'C2H8N2_Ethylenediamine', 'C3H4O2_propanedial', 'C6H10_3-Hexyne', 'CH3CCCH3', 'NH3', 'C5H10O_3-Pentanone', 'C5H10_11-dimethyl-Cyclopropane', 'C3H8', 'CH3NO', 'CH3N3', 'C5H6_1-Buten-3-yne-2-methyl-', 'HOCN', 'H2NCH2COOH_Glycine', 'CH3CH2CHO', 'CH2CCH2', 'C4H5N_Cyclopropanecarbonitrile', 'NH2CH2NH2', 'N_CH3_3_Trimethylamine', 'C4H4O_Furan', 'N2H4', 'HCCOH', 'NH2CH2CN', 'CH3CH_NH2_CH3_2-Propanamine', 'HCONHCH3', 'CNH2', 'C2H3N3', 'NH3NH3_AmmoniaDimer', 'CHNHCH_1H_Azirine', 'CH3NO2', 'CH3COOH', 'HNO2', 'C3H3NO_Isoxazole', 'C2H4O', 'CH2NN_diazomethane', 'CHCCH2CH3_1-Butyne', 'CH2CHNH', 'C4H6_1-Methylcyclopropene', 'C2N2', 'C2H4O2', 'CH3NNCH3_E-12-Dimethyldiazene', 'HOCHCCHOH', 'CHONH2', 'CH3ONO', 'CH4', 'CH3OOCH3_dimethylperoxide', 'C5H5N_Bicyclobutane-1-carbonitrile', 'C4H4', 'C2H6N2O2_E-Azodioxymethane', 'C2H5N', 'CCH2', 'C3H5OH_Cyclopropanol', 'C3H4O2_2-PropenoicAcid', 'C6H4_E-Hexa-15-diyne-3-ene', 'C3H6O_Oxetane', 'C4H4N2_Pyridazine', 'C_CN_4', 'CH2N4', 'C2H4N4_1H-Tetrazole-5-methyl-', 'CH3NC', 'C5H8_E-13-Pentadiene', 'NH2COOH', 'CH3CH2CH2CN_Butanenitrile', 'C3H6N2_3-Aminopropionitrile', 'C2H6O2_12-Ethanediol', 'HCOOH', 'C5H6_13-Cyclopentadiene', 'C3H4N2_1H_Pyrazole', 'CH2', 'C4H4N2_Succinonitrile', 'CH3COOCH3', 'NH2CH2CH2CH3', 'CH3CHO', 'H2CCNH', 'C4H8_cyclobutane', 'HCN', 'C4H2N2', 'C2H3CCH', 'NH2OH', 'NH2CCNH2', 'HCCCN', 'CH3CHCHCH3_Z-2-Butene', 'CH2CHCONH_Acrylamide', 'C4H5N_E-2-Butenenitrile', 'CH2CHOCHCH2_VinylEther', 'HOCH', 'C5H8_Cyclopentene', 'CH3OCH2CN_Methoxyacetonitrile', 'CH2NN_diazirine', 'NH2CONH2', 'C2H4O3_123-trioxolane', 'NH2CN', 'C4H9N_Pyrrolidine', 'CH3CN', 'HCNO']
+[array([4, 2, 0, 2]), array([2, 4, 0, 0]), array([0, 0, 1, 1]), array([6, 6, 0, 0]), array([6, 3, 0, 2]), array([7, 4, 1, 0]), array([3, 2, 1, 0]), array([5, 5, 1, 0]), array([4, 3, 2, 0]), array([3, 1, 1, 0]), array([6, 2, 2, 0]), array([1, 0, 1, 1]), array([5, 2, 1, 0]), array([2, 1, 2, 0]), array([2, 2, 0, 0]), array([4, 1, 2, 0]), array([2, 0, 2, 1]), array([3, 1, 1, 1]), array([6, 2, 0, 1]), array([6, 6, 0, 0]), array([4, 4, 2, 0]), array([0, 0, 2, 1]), array([5, 2, 1, 1]), array([6, 3, 0, 1]), array([8, 4, 0, 1]), array([4, 3, 0, 2]), array([4, 2, 2, 2]), array([2, 0, 2, 0]), array([5, 4, 1, 0]), array([2, 1, 1, 0]), array([1, 1, 1, 1]), array([0, 1, 2, 0]), array([4, 4, 0, 1]), array([2, 2, 0, 2]), array([0, 0, 2, 0]), array([0, 3, 0, 1]), array([6, 5, 0, 0]), array([4, 2, 0, 0]), array([4, 2, 0, 1]), array([6, 3, 0, 1]), array([2, 0, 0, 2]), array([2, 1, 1, 0]), array([3, 3, 1, 0]), array([7, 1, 3, 0]), array([0, 0, 1, 2]), array([6, 4, 0, 1]), array([6, 6, 0, 0]), array([6, 4, 0, 1]), array([5, 1, 1, 0]), array([4, 4, 2, 0]), array([2, 3, 0, 2]), array([6, 3, 0, 1]), array([0, 0, 2, 3]), array([8, 4, 0, 0]), array([4, 2, 0, 2]), array([8, 4, 0, 0]), array([4, 6, 0, 0]), array([6, 3, 0, 0]), array([4, 3, 0, 0]), array([4, 2, 4, 0]), array([6, 4, 0, 1]), array([4, 1, 0, 1]), array([2, 1, 0, 3]), array([8, 3, 0, 1]), array([3, 3, 3, 0]), array([1, 0, 1, 3]), array([6, 2, 0, 0]), array([0, 0, 2, 4]), array([6, 3, 0, 0]), array([0, 3, 0, 2]), array([2, 3, 2, 0]), array([6, 4, 0, 0]), array([4, 3, 0, 2]), array([4, 3, 0, 1]), array([3, 2, 1, 0]), array([4, 3, 0, 3]), array([7, 3, 1, 0]), array([8, 5, 0, 0]), array([2, 2, 0, 1]), array([5, 2, 1, 1]), array([5, 2, 1, 0]), array([4, 5, 0, 0]), array([5, 2, 1, 1]), array([2, 2, 0, 4]), array([1, 2, 1, 0]), array([3, 0, 1, 1]), array([8, 5, 0, 0]), array([3, 2, 1, 0]), array([8, 3, 0, 2]), array([6, 6, 0, 1]), array([2, 6, 0, 0]), array([1, 1, 1, 0]), array([1, 0, 3, 0]), array([0, 1, 0, 2]), array([2, 0, 1, 1]), array([4, 3, 2, 0]), array([6, 6, 0, 0]), array([6, 2, 0, 1]), array([3, 1, 1, 3]), array([8, 6, 0, 0]), array([2, 2, 0, 1]), array([8, 3, 0, 1]), array([0, 1, 2, 0]), array([6, 4, 0, 0]), array([7, 2, 1, 0]), array([6, 4, 0, 1]), array([3, 1, 1, 1]), array([6, 5, 0, 0]), array([5, 4, 1, 0]), array([0, 2, 0, 1]), array([6, 4, 0, 1]), array([3, 3, 1, 1]), array([4, 3, 0, 1]), array([4, 3, 2, 0]), array([8, 2, 2, 0]), array([4, 3, 0, 2]), array([10,  6,  0,  0]), array([6, 4, 0, 0]), array([3, 0, 1, 0]), array([10,  5,  0,  1]), array([10,  5,  0,  0]), array([8, 3, 0, 0]), array([3, 1, 1, 1]), array([3, 1, 3, 0]), array([6, 5, 0, 0]), array([1, 1, 1, 1]), array([5, 2, 1, 2]), array([6, 3, 0, 1]), array([4, 3, 0, 0]), array([5, 4, 1, 0]), array([6, 1, 2, 0]), array([9, 3, 1, 0]), array([4, 4, 0, 1]), array([4, 0, 2, 0]), array([2, 2, 0, 1]), array([4, 2, 2, 0]), array([9, 3, 1, 0]), array([5, 2, 1, 1]), array([2, 1, 1, 0]), array([3, 2, 3, 0]), array([6, 0, 2, 0]), array([3, 2, 1, 0]), array([3, 1, 1, 2]), array([4, 2, 0, 2]), array([1, 0, 1, 2]), array([3, 3, 1, 1]), array([4, 2, 0, 1]), array([2, 1, 2, 0]), array([6, 4, 0, 0]), array([4, 2, 1, 0]), array([6, 4, 0, 0]), array([0, 2, 2, 0]), array([4, 2, 0, 2]), array([6, 2, 2, 0]), array([4, 3, 0, 2]), array([3, 1, 1, 1]), array([3, 1, 1, 2]), array([4, 1, 0, 0]), array([6, 2, 0, 2]), array([5, 5, 1, 0]), array([4, 4, 0, 0]), array([6, 2, 2, 2]), array([5, 2, 1, 0]), array([2, 2, 0, 0]), array([6, 3, 0, 1]), array([4, 3, 0, 2]), array([4, 6, 0, 0]), array([6, 3, 0, 1]), array([4, 4, 2, 0]), array([0, 5, 4, 0]), array([2, 1, 4, 0]), array([4, 2, 4, 0]), array([3, 2, 1, 0]), array([8, 5, 0, 0]), array([3, 1, 1, 2]), array([7, 4, 1, 0]), array([6, 3, 2, 0]), array([6, 2, 0, 2]), array([2, 1, 0, 2]), array([6, 5, 0, 0]), array([4, 3, 2, 0]), array([2, 1, 0, 0]), array([4, 4, 2, 0]), array([6, 3, 0, 2]), array([9, 3, 1, 0]), array([4, 2, 0, 1]), array([3, 2, 1, 0]), array([8, 4, 0, 0]), array([1, 1, 1, 0]), array([2, 4, 2, 0]), array([4, 4, 0, 0]), array([3, 0, 1, 1]), array([4, 2, 2, 0]), array([1, 3, 1, 0]), array([8, 4, 0, 0]), array([5, 3, 1, 1]), array([5, 4, 1, 0]), array([6, 4, 0, 1]), array([2, 1, 0, 1]), array([8, 5, 0, 0]), array([5, 3, 1, 1]), array([2, 1, 2, 0]), array([4, 1, 2, 1]), array([4, 2, 0, 3]), array([2, 1, 2, 0]), array([9, 4, 1, 0]), array([3, 2, 1, 0]), array([1, 1, 1, 1])]
+[-6223.473361156801, -4168.6888727082005, -3529.7766294962003, -6304.9452995786005, -7292.465291639401, -5741.833458743401, -3603.7266566730004, -6743.8574807524, -6142.527010926, -2570.731435526, -5141.3767741824, -3545.6034055983996, -3638.5718339834, -4042.0857117190003, -2100.3839647872, -4075.3228313464, -5050.0557783762, -4615.504332898, -4212.195057679, -6303.944083327001, -7179.849824283401, -5014.850621455201, -5683.759623571201, -5246.8562695796, -6314.1960326998005, -7258.4369189228, -9200.4295285092, -3006.2617839078002, -5708.3802806, -2552.4686676844, -4583.287804039001, -4005.5806662200002, -6247.467911083, -6190.244921966, -2976.2179220704, -5145.1841116362, -5270.548691331601, -2134.4296439542, -4178.8623716148, -5246.1042281178, -4118.6797073654, -2553.0515902952, -4640.446329349401, -5612.2865957136, -5572.901767752601, -6281.1563589908, -6304.3792752472, -6281.468147212001, -2604.0419715106004, -7180.0521954652, -7224.626563943, -5247.3490136108, -9103.0844185482, -4269.8144624712, -6223.9604724282, -4270.1595846574, -6270.8520820958, -3202.3046825238002, -3168.3637944582, -8084.0859524306, -6281.305477462801, -3144.2986581604, -7201.664659435401, -5279.5983866296, -7616.341088833401, -7633.335968703401, -2168.0531926730005, -11146.377559988201, -3201.9742272822, -7192.2163171274005, -6111.801666787001, -4236.579302064601, -7258.5395059008, -5212.7137178286, -3604.1641071394006, -9303.456977441, -4705.9275701954, -5303.4927169696, -4142.4528109184, -5681.995807834601, -3638.3567278664, -5236.332913703201, -5684.187713316001, -10280.9040983524, -3569.8243271612, -3578.0969465094, -5303.8043963452, -3604.376192791, -7321.981306739601, -8351.44941343, -6237.058761452401, -2537.5016357652003, -4477.3277553178, -5124.6472326738, -3562.0811328114, -6144.5560561784005, -6307.7628767802, -4211.6893610214, -8700.758617748, -6338.0431240494, -4145.8802228054, -5279.9564070194, -4006.8916842606004, -4235.8381451628, -3671.8889551268, -6281.5433050988, -4613.202520572, -5270.5334529476, -5708.757566661, -4109.3928647164, -6281.4265681928, -6685.1867907326005, -5212.511509915201, -6145.2119053412, -5175.7341055136, -7258.169594129201, -6371.835056911401, -4236.3115418886, -1536.7147528458001, -7382.9361216754005, -5337.6820179057995, -3235.815739315, -4613.5116148646, -5544.8251812896, -5270.5364462016005, -4582.2558389054, -7728.5271875088, -5247.0927094342, -3168.3216984224, -5708.0010625296, -4108.116350731, -4739.1576420702, -6248.686954591601, -3039.4785221966, -4144.404684640401, -5110.0281529264, -4739.7827695624, -5683.6888467198005, -2551.7589943724, -6581.2815564596, -3073.5962843622, -3602.6762422102006, -6657.6107035498, -6224.674744466801, -5590.1333323798, -6684.1762681822, -4178.1353918524, -4040.859429978, -4236.1241641882, -3620.8766959458, -4235.3422990320005, -5043.751631704001, -6222.3683606256, -5141.773217069, -7256.913271002601, -4616.1871213468, -6657.5762811288005, -1100.3772599172, -6253.6479737712, -6741.5350149738, -4201.184726588201, -9227.6992697508, -3637.8753037776, -2098.4626494674003, -5246.168120485, -7258.903458375799, -6270.8654428932, -5246.0028928642005, -7179.0664080774, -11122.138080250601, -7016.495953276, -8084.3938494216, -3605.2110113316, -5304.5754313642, -6661.3466655014, -5741.7981655576, -6177.789856015, -6256.289166678, -5156.612926847601, -5271.8257767564, -6144.742726382401, -1063.3631163356001, -7179.8040819200005, -7292.015405563201, -4739.661107393001, -4179.2948968178, -3605.0176743346, -4269.8393609022005, -2538.1492670852, -7146.319909992, -4202.6364819896, -3579.3381128862, -5108.2842559346, -4606.3099817976, -4270.1149579614, -6718.4529177124, -5708.364225874, -6280.5691369788, -3108.9453079550003, -5305.076964677601, -6717.5244103216, -4040.4883753276, -6120.8563417712, -8263.0938071502, -4042.2098229144, -5774.361258807, -3606.2639836660005, -4580.2553928344]
+[array(-1247.63683413), array(-651.52656927), array(-704.78730151), array(-1029.03789794), array(-1437.18566762), array(-1008.06876026), array(-629.40289107), array(-1131.38912244), array(-1072.91914362), array(-475.27211282), array(-950.5100823), array(-720.90266153), array(-663.94353553), array(-731.1674952), array(-341.58134169), array(-764.16989865), array(-1009.84452201), array(-911.68042015), array(-844.68019213), array(-1028.36632478), array(-1230.75570518), array(-977.76668449), array(-1100.49185855), array(-1000.15214697), array(-1187.97610835), array(-1403.57074731), array(-1793.16174304), array(-574.11367596), array(-974.90283629), array(-457.04732137), array(-879.77983995), array(-693.80732699), array(-1121.59566418), array(-1214.44992846), array(-543.81768757), array(-898.89654122), array(-873.84280382), array(-375.56455072), array(-811.59691697), array(-999.39085217), array(-901.51281573), array(-457.09323824), array(-786.37902136), array(-1084.78296115), array(-1140.06173043), array(-1155.11572821), array(-1028.68009217), array(-1155.52523921), array(-508.53717292), array(-1230.93285597), array(-1369.67559326), array(-1000.62610542), array(-1846.23485705), array(-752.23601055), array(-1248.09790771), array(-752.53518642), array(-994.99393753), array(-564.06101874), array(-530.27582892), array(-1461.80994948), array(-1155.30496946), array(-656.22192927), array(-1496.72016824), array(-1032.61766588), array(-1329.08793061), array(-1592.30161583), array(-409.07732569), array(-2281.58919075), array(-563.84034966), array(-1338.02605411), array(-1041.62075663), array(-719.06278394), array(-1403.51390936), array(-966.35137849), array(-629.48310459), array(-1839.83424319), array(-851.84404731), array(-906.83845882), array(-775.36165952), array(-1098.74439632), array(-663.50358469), array(-840.24891817), array(-1101.09795809), array(-2088.26328278), array(-594.40555422), array(-753.80924275), array(-906.99145233), array(-629.83384108), array(-1466.4766713), array(-1467.02900171), array(-961.56234232), array(-441.96842352), array(-829.75321857), array(-1028.39937193), array(-737.4406209), array(-1074.56787906), array(-1031.90007876), array(-844.16045861), array(-1780.29022296), array(-1062.19968705), array(-778.90107122), array(-1032.9830137), array(-694.63778874), array(-718.55663878), array(-696.93973729), array(-1155.62605165), array(-909.25979989), array(-873.83304606), array(-975.75243361), array(-741.40411476), array(-1155.48440793), array(-1222.80696615), array(-966.13156597), array(-1075.56858822), array(-984.79338309), array(-1403.03489174), array(-1095.48501031), array(-718.90084762), array(-320.62980477), array(-1377.26602651), array(-940.64007619), array(-597.38930687), array(-909.52899906), array(-1017.84860104), array(-873.77359938), array(-878.38802702), array(-1536.7296429), array(-1000.3057919), array(-530.37428934), array(-974.61358156), array(-796.64056786), array(-884.74993375), array(-1122.98529794), array(-607.4520516), array(-777.24831549), array(-919.19707584), array(-885.35472719), array(-1100.60279312), array(-455.82515163), array(-1174.99902771), array(-641.38543435), array(-628.08616029), array(-1345.54707788), array(-1248.8675549), array(-1157.23876202), array(-1221.87715337), array(-810.85358405), array(-729.85759503), array(-718.55598947), array(-645.86316677), array(-718.03888345), array(-853.0340811), array(-1246.36787999), array(-950.91364592), array(-1402.08909733), array(-912.52066391), array(-1345.22528786), array(-220.82633474), array(-1277.63457145), array(-1129.05748304), array(-683.71815096), array(-1820.62895681), array(-663.13995347), array(-339.50925668), array(-999.51132678), array(-1403.82111083), array(-995.04307783), array(-999.20561744), array(-1229.98463013), array(-1861.05141719), array(-1273.57206241), array(-1462.16233025), array(-630.34519769), array(-907.73777684), array(-1349.11466899), array(-1008.06935643), array(-1107.60207068), array(-1280.19687984), array(-1060.20031915), array(-875.14043875), array(-1075.1291621), array(-182.59559778), array(-1230.11341666), array(-1436.74302019), array(-885.25673073), array(-811.97787561), array(-630.57918051), array(-752.14609935), array(-442.60673616), array(-1196.94765563), array(-685.31433487), array(-754.72386485), array(-917.99905619), array(-752.4577917), array(-752.44036612), array(-1256.07998621), array(-974.9008402), array(-1154.68118041), array(-620.76005591), array(-908.13180929), array(-1254.66746178), array(-729.00487033), array(-1201.24072406), array(-1678.78056328), array(-731.04089449), array(-1040.65675765), array(-631.45095284), array(-876.95559557)]
+---------------------------------------
+Begin PBS Epilogue Wed May 26 12:31:36 EDT 2021
+Job ID:     1928382.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   extract_energies
+Resources:  nodes=1:ppn=20,walltime=10:00:00,neednodes=1:ppn=20
+Rsrc Used:  cput=00:00:08,vmem=2091872kb,walltime=00:00:51,mem=55000kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-010-22-r.pace.gatech.edu
+End PBS Epilogue Wed May 26 12:31:37 EDT 2021
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Wed May 26 13:18:35 EDT 2021
+Job ID:     1928707.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   extract_energies
+Queue:      inferno
+End PBS Prologue Wed May 26 13:18:35 EDT 2021
+---------------------------------------
+start system: ./raw_data_files/CHOCH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHOCH2OH_MCSHLegendre_3_3.000000_5.h5
+-6223.473361156801
+end
+start system: ./raw_data_files/C4H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H2_MCSHLegendre_3_3.000000_5.h5
+-4168.6888727082005
+end
+start system: ./raw_data_files/N2H2_Z-Diazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H2_Z-Diazene_MCSHLegendre_3_3.000000_5.h5
+error, file not exist?
+end
+start system: ./raw_data_files/NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NO_MCSHLegendre_3_3.000000_5.h5
+-3529.7766294962003
+end
+start system: ./raw_data_files/C6H6_Hexa-15-diene-3-yne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Hexa-15-diene-3-yne_MCSHLegendre_3_3.000000_5.h5
+-6304.9452995786005
+end
+start system: ./raw_data_files/CH3CH2COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2COOH_MCSHLegendre_3_3.000000_5.h5
+-7292.465291639401
+end
+start system: ./raw_data_files/CH3CH_CH3_CN_2-methyl-Propanenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH_CH3_CN_2-methyl-Propanenitrile_MCSHLegendre_3_3.000000_5.h5
+-5741.833458743401
+end
+start system: ./raw_data_files/H2CNCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CNCH_MCSHLegendre_3_3.000000_5.h5
+-3603.7266566730004
+end
+start system: ./raw_data_files/C5H5N_Pyridine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H5N_Pyridine_MCSHLegendre_3_3.000000_5.h5
+-6743.8574807524
+end
+start system: ./raw_data_files/C3H4N2_2H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_2H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6142.527010926
+end
+start system: ./raw_data_files/CH2NH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NH_MCSHLegendre_3_3.000000_5.h5
+-2570.731435526
+end
+start system: ./raw_data_files/CH3NNCH3_Z-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NNCH3_Z-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+-5141.3767741824
+end
+start system: ./raw_data_files/HNO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO_MCSHLegendre_3_3.000000_5.h5
+-3545.6034055983996
+end
+start system: ./raw_data_files/CH2CHNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHNH2_MCSHLegendre_3_3.000000_5.h5
+-3638.5718339834
+end
+start system: ./raw_data_files/HNCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNCNH_MCSHLegendre_3_3.000000_5.h5
+-4042.0857117190003
+end
+start system: ./raw_data_files/C2H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2_MCSHLegendre_3_3.000000_5.h5
+-2100.3839647872
+end
+start system: ./raw_data_files/NHCHNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NHCHNH2_MCSHLegendre_3_3.000000_5.h5
+-4075.3228313464
+end
+start system: ./raw_data_files/NH2NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2NO_MCSHLegendre_3_3.000000_5.h5
+-5050.0557783762
+end
+start system: ./raw_data_files/HOCHNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCHNH_MCSHLegendre_3_3.000000_5.h5
+-4615.504332898
+end
+start system: ./raw_data_files/CH3CH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2OH_MCSHLegendre_3_3.000000_5.h5
+-4212.195057679
+end
+start system: ./raw_data_files/C6H6_Trimethylenecycopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Trimethylenecycopropane_MCSHLegendre_3_3.000000_5.h5
+-6303.944083327001
+end
+start system: ./raw_data_files/C4H4N2_Pyrazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Pyrazine_MCSHLegendre_3_3.000000_5.h5
+-7179.849824283401
+end
+start system: ./raw_data_files/N2O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O_MCSHLegendre_3_3.000000_5.h5
+-5014.850621455201
+end
+start system: ./raw_data_files/CH3C_OH_NH_Ethaninidic-acid_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3C_OH_NH_Ethaninidic-acid_MCSHLegendre_3_3.000000_5.h5
+-5683.759623571201
+end
+start system: ./raw_data_files/C3H6O_AcetoneEnol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_AcetoneEnol_MCSHLegendre_3_3.000000_5.h5
+-5246.8562695796
+end
+start system: ./raw_data_files/C4H8O_Cyclobutanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8O_Cyclobutanol_MCSHLegendre_3_3.000000_5.h5
+-6314.1960326998005
+end
+start system: ./raw_data_files/C3H4O2_propenalol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_propenalol_MCSHLegendre_3_3.000000_5.h5
+-7258.4369189228
+end
+start system: ./raw_data_files/C2H4N2O2_Oxalamide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N2O2_Oxalamide_MCSHLegendre_3_3.000000_5.h5
+-9200.4295285092
+end
+start system: ./raw_data_files/N2H2_E-diazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H2_E-diazine_MCSHLegendre_3_3.000000_5.h5
+-3006.2617839078002
+end
+start system: ./raw_data_files/C4H5N_Z-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Z-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.3802806
+end
+start system: ./raw_data_files/HCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCNH_MCSHLegendre_3_3.000000_5.h5
+-2552.4686676844
+end
+start system: ./raw_data_files/HNCO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNCO_MCSHLegendre_3_3.000000_5.h5
+-4583.287804039001
+end
+start system: ./raw_data_files/CN2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CN2_MCSHLegendre_3_3.000000_5.h5
+-4005.5806662200002
+end
+start system: ./raw_data_files/CH3COCCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COCCH_MCSHLegendre_3_3.000000_5.h5
+-6247.467911083
+end
+start system: ./raw_data_files/C2H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O2_MCSHLegendre_3_3.000000_5.h5
+-6190.244921966
+end
+start system: ./raw_data_files/N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2_MCSHLegendre_3_3.000000_5.h5
+-2976.2179220704
+end
+start system: ./raw_data_files/C3O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3O_MCSHLegendre_3_3.000000_5.h5
+-5145.1841116362
+end
+start system: ./raw_data_files/C5H6_3-Penten-1-yne-Z-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_3-Penten-1-yne-Z-_MCSHLegendre_3_3.000000_5.h5
+-5270.548691331601
+end
+start system: ./raw_data_files/C2H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4_MCSHLegendre_3_3.000000_5.h5
+-2134.4296439542
+end
+start system: ./raw_data_files/CH2CHOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHOH_MCSHLegendre_3_3.000000_5.h5
+-4178.8623716148
+end
+start system: ./raw_data_files/C3H6O_PropyleneOxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_PropyleneOxide_MCSHLegendre_3_3.000000_5.h5
+-5246.1042281178
+end
+start system: ./raw_data_files/H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2O2_MCSHLegendre_3_3.000000_5.h5
+-4118.6797073654
+end
+start system: ./raw_data_files/H2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CN_MCSHLegendre_3_3.000000_5.h5
+-2553.0515902952
+end
+start system: ./raw_data_files/C3H3N_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3N_MCSHLegendre_3_3.000000_5.h5
+-4640.446329349401
+end
+start system: ./raw_data_files/CH7N3_triaminomethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH7N3_triaminomethane_MCSHLegendre_3_3.000000_5.h5
+-5612.2865957136
+end
+start system: ./raw_data_files/NO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NO2_MCSHLegendre_3_3.000000_5.h5
+-5572.901767752601
+end
+start system: ./raw_data_files/C4H6O_25-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_25-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+-6281.1563589908
+end
+start system: ./raw_data_files/C6H6_1245-Hexatetraene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_1245-Hexatetraene_MCSHLegendre_3_3.000000_5.h5
+-6304.3792752472
+end
+start system: ./raw_data_files/C4H6O_cis-2-butenal_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_cis-2-butenal_MCSHLegendre_3_3.000000_5.h5
+-6281.468147212001
+end
+start system: ./raw_data_files/CH3NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NH2_MCSHLegendre_3_3.000000_5.h5
+-2604.0419715106004
+end
+start system: ./raw_data_files/C4H4N2_13-Diazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_13-Diazine_MCSHLegendre_3_3.000000_5.h5
+-7180.0521954652
+end
+start system: ./raw_data_files/C3H2O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H2O2_MCSHLegendre_3_3.000000_5.h5
+-7224.626563943
+end
+start system: ./raw_data_files/CH3COCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COCH3_MCSHLegendre_3_3.000000_5.h5
+-5247.3490136108
+end
+start system: ./raw_data_files/N2O3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O3_MCSHLegendre_3_3.000000_5.h5
+-9103.0844185482
+end
+start system: ./raw_data_files/C4H8_methylcyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8_methylcyclopropane_MCSHLegendre_3_3.000000_5.h5
+-4269.8144624712
+end
+start system: ./raw_data_files/CH3OCHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCHO_MCSHLegendre_3_3.000000_5.h5
+-6223.9604724282
+end
+start system: ./raw_data_files/CH3CHCHCH3_E-2-Butene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHCHCH3_E-2-Butene_MCSHLegendre_3_3.000000_5.h5
+-4270.1595846574
+end
+start system: ./raw_data_files/C6H4_Z-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H4_Z-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+-6270.8520820958
+end
+start system: ./raw_data_files/CH2CHCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCH3_MCSHLegendre_3_3.000000_5.h5
+-3202.3046825238002
+end
+start system: ./raw_data_files/CH3CCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CCH_MCSHLegendre_3_3.000000_5.h5
+-3168.3637944582
+end
+start system: ./raw_data_files/C2H4N4_1H-Tetrazole-1-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N4_1H-Tetrazole-1-methyl-_MCSHLegendre_3_3.000000_5.h5
+-8084.0859524306
+end
+start system: ./raw_data_files/C4H6O_23-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_23-dihydro-Furan_MCSHLegendre_3_3.000000_5.h5
+-6281.305477462801
+end
+start system: ./raw_data_files/CH3OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OH_MCSHLegendre_3_3.000000_5.h5
+-3144.2986581604
+end
+start system: ./raw_data_files/H2CO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CO3_MCSHLegendre_3_3.000000_5.h5
+-7201.664659435401
+end
+start system: ./raw_data_files/CH3OC2H5_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OC2H5_MCSHLegendre_3_3.000000_5.h5
+-5279.5983866296
+end
+start system: ./raw_data_files/C3H3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3N3_MCSHLegendre_3_3.000000_5.h5
+-7616.341088833401
+end
+start system: ./raw_data_files/HNO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO3_MCSHLegendre_3_3.000000_5.h5
+-7633.335968703401
+end
+start system: ./raw_data_files/C2H6_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6_MCSHLegendre_3_3.000000_5.h5
+-2168.0531926730005
+end
+start system: ./raw_data_files/N2O4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2O4_MCSHLegendre_3_3.000000_5.h5
+-11146.377559988201
+end
+start system: ./raw_data_files/C3H6_Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6_Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+-3201.9742272822
+end
+start system: ./raw_data_files/C3O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3O2_MCSHLegendre_3_3.000000_5.h5
+-7192.2163171274005
+end
+start system: ./raw_data_files/C3H2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H2N2_MCSHLegendre_3_3.000000_5.h5
+-6111.801666787001
+end
+start system: ./raw_data_files/CH2CHCHCH2_Butadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCHCH2_Butadiene_MCSHLegendre_3_3.000000_5.h5
+-4236.579302064601
+end
+start system: ./raw_data_files/C3H4O2_B-Propiolactone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_B-Propiolactone_MCSHLegendre_3_3.000000_5.h5
+-7258.5395059008
+end
+start system: ./raw_data_files/C3H4O_Cyclopropanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O_Cyclopropanone_MCSHLegendre_3_3.000000_5.h5
+-5212.7137178286
+end
+start system: ./raw_data_files/CHNCH2_2H_Azirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHNCH2_2H_Azirine_MCSHLegendre_3_3.000000_5.h5
+-3604.1641071394006
+end
+start system: ./raw_data_files/C2H4CO3_EthyleneCarbonate_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4CO3_EthyleneCarbonate_MCSHLegendre_3_3.000000_5.h5
+-9303.456977441
+end
+start system: ./raw_data_files/C3H7N_Cyclopropylamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H7N_Cyclopropylamine_MCSHLegendre_3_3.000000_5.h5
+-4705.9275701954
+end
+start system: ./raw_data_files/C5H8_Spiropentane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Spiropentane_MCSHLegendre_3_3.000000_5.h5
+-5303.4927169696
+end
+start system: ./raw_data_files/C2H2O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O_MCSHLegendre_3_3.000000_5.h5
+-4142.4528109184
+end
+start system: ./raw_data_files/CH3CHNOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHNOH_MCSHLegendre_3_3.000000_5.h5
+-5681.995807834601
+end
+start system: ./raw_data_files/CH2NCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NCH3_MCSHLegendre_3_3.000000_5.h5
+-3638.3567278664
+end
+start system: ./raw_data_files/C5H4_Pentatetraene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H4_Pentatetraene_MCSHLegendre_3_3.000000_5.h5
+-5236.332913703201
+end
+start system: ./raw_data_files/CH3CONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CONH2_MCSHLegendre_3_3.000000_5.h5
+-5684.187713316001
+end
+start system: ./raw_data_files/C2H2O4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H2O4_MCSHLegendre_3_3.000000_5.h5
+-10280.9040983524
+end
+start system: ./raw_data_files/HCCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCN_MCSHLegendre_3_3.000000_5.h5
+-3569.8243271612
+end
+start system: ./raw_data_files/NH3O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3O_MCSHLegendre_3_3.000000_5.h5
+-3578.0969465094
+end
+start system: ./raw_data_files/C5H8_Bicyclopentane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Bicyclopentane_MCSHLegendre_3_3.000000_5.h5
+-5303.8043963452
+end
+start system: ./raw_data_files/HCCNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCNH2_MCSHLegendre_3_3.000000_5.h5
+-3604.376192791
+end
+start system: ./raw_data_files/C3H8O2_1-methylethyl-Hydroperoxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H8O2_1-methylethyl-Hydroperoxide_MCSHLegendre_3_3.000000_5.h5
+-7321.981306739601
+end
+start system: ./raw_data_files/C6H6O_25-Cyclohexadienone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6O_25-Cyclohexadienone_MCSHLegendre_3_3.000000_5.h5
+-8351.44941343
+end
+start system: ./raw_data_files/C6H2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H2_MCSHLegendre_3_3.000000_5.h5
+-6237.058761452401
+end
+start system: ./raw_data_files/HNC_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNC_MCSHLegendre_3_3.000000_5.h5
+-2537.5016357652003
+end
+start system: ./raw_data_files/HN3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HN3_MCSHLegendre_3_3.000000_5.h5
+-4477.3277553178
+end
+start system: ./raw_data_files/CO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CO2_MCSHLegendre_3_3.000000_5.h5
+-5124.6472326738
+end
+start system: ./raw_data_files/H2NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2NO_MCSHLegendre_3_3.000000_5.h5
+-3562.0811328114
+end
+start system: ./raw_data_files/C3H4N2_4H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_4H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6144.5560561784005
+end
+start system: ./raw_data_files/C6H6_Benzene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H6_Benzene_MCSHLegendre_3_3.000000_5.h5
+-6307.7628767802
+end
+start system: ./raw_data_files/CH3OCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCH3_MCSHLegendre_3_3.000000_5.h5
+-4211.6893610214
+end
+start system: ./raw_data_files/CH3NO3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO3_MCSHLegendre_3_3.000000_5.h5
+-8700.758617748
+end
+start system: ./raw_data_files/C6H8_E-hexa-234-triene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H8_E-hexa-234-triene_MCSHLegendre_3_3.000000_5.h5
+-6338.0431240494
+end
+start system: ./raw_data_files/CH2CO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CO_MCSHLegendre_3_3.000000_5.h5
+-4145.8802228054
+end
+start system: ./raw_data_files/C3H7OH_1-Propanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H7OH_1-Propanol_MCSHLegendre_3_3.000000_5.h5
+-5279.9564070194
+end
+start system: ./raw_data_files/NCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NCN_MCSHLegendre_3_3.000000_5.h5
+-4006.8916842606004
+end
+start system: ./raw_data_files/C4H6_Methylenecyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_Methylenecyclopropane_MCSHLegendre_3_3.000000_5.h5
+-4235.8381451628
+end
+start system: ./raw_data_files/CH3CH2NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2NH2_MCSHLegendre_3_3.000000_5.h5
+-3671.8889551268
+end
+start system: ./raw_data_files/CHOCHCHCH3_2-Butenal_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHOCHCHCH3_2-Butenal_MCSHLegendre_3_3.000000_5.h5
+-6281.5433050988
+end
+start system: ./raw_data_files/CNOH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CNOH3_MCSHLegendre_3_3.000000_5.h5
+-4613.202520572
+end
+start system: ./raw_data_files/C5H6_3-Penten-1-yne-E-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_3-Penten-1-yne-E-_MCSHLegendre_3_3.000000_5.h5
+-5270.5334529476
+end
+start system: ./raw_data_files/C4H5N_Pyrrole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Pyrrole_MCSHLegendre_3_3.000000_5.h5
+-5708.757566661
+end
+start system: ./raw_data_files/CCO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CCO_MCSHLegendre_3_3.000000_5.h5
+-4109.3928647164
+end
+start system: ./raw_data_files/C4H6O_Cyclobutanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6O_Cyclobutanone_MCSHLegendre_3_3.000000_5.h5
+-6281.4265681928
+end
+start system: ./raw_data_files/C3H3NO_Oxazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3NO_Oxazole_MCSHLegendre_3_3.000000_5.h5
+-6685.1867907326005
+end
+start system: ./raw_data_files/C3H4O_allenol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O_allenol_MCSHLegendre_3_3.000000_5.h5
+-5212.511509915201
+end
+start system: ./raw_data_files/C3H4N2_1H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_1H_Imidazole_MCSHLegendre_3_3.000000_5.h5
+-6145.2119053412
+end
+start system: ./raw_data_files/C2H8N2_Ethylenediamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H8N2_Ethylenediamine_MCSHLegendre_3_3.000000_5.h5
+-5175.7341055136
+end
+start system: ./raw_data_files/C3H4O2_propanedial_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_propanedial_MCSHLegendre_3_3.000000_5.h5
+-7258.169594129201
+end
+start system: ./raw_data_files/C6H10_3-Hexyne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H10_3-Hexyne_MCSHLegendre_3_3.000000_5.h5
+-6371.835056911401
+end
+start system: ./raw_data_files/CH3CCCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CCCH3_MCSHLegendre_3_3.000000_5.h5
+-4236.3115418886
+end
+start system: ./raw_data_files/NH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3_MCSHLegendre_3_3.000000_5.h5
+-1536.7147528458001
+end
+start system: ./raw_data_files/C5H10O_3-Pentanone_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H10O_3-Pentanone_MCSHLegendre_3_3.000000_5.h5
+-7382.9361216754005
+end
+start system: ./raw_data_files/C5H10_11-dimethyl-Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H10_11-dimethyl-Cyclopropane_MCSHLegendre_3_3.000000_5.h5
+-5337.6820179057995
+end
+start system: ./raw_data_files/C3H8_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H8_MCSHLegendre_3_3.000000_5.h5
+-3235.815739315
+end
+start system: ./raw_data_files/CH3NO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO_MCSHLegendre_3_3.000000_5.h5
+-4613.5116148646
+end
+start system: ./raw_data_files/CH3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3N3_MCSHLegendre_3_3.000000_5.h5
+-5544.8251812896
+end
+start system: ./raw_data_files/C5H6_1-Buten-3-yne-2-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_1-Buten-3-yne-2-methyl-_MCSHLegendre_3_3.000000_5.h5
+-5270.5364462016005
+end
+start system: ./raw_data_files/HOCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCN_MCSHLegendre_3_3.000000_5.h5
+-4582.2558389054
+end
+start system: ./raw_data_files/H2NCH2COOH_Glycine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2NCH2COOH_Glycine_MCSHLegendre_3_3.000000_5.h5
+-7728.5271875088
+end
+start system: ./raw_data_files/CH3CH2CHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2CHO_MCSHLegendre_3_3.000000_5.h5
+-5247.0927094342
+end
+start system: ./raw_data_files/CH2CCH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CCH2_MCSHLegendre_3_3.000000_5.h5
+-3168.3216984224
+end
+start system: ./raw_data_files/C4H5N_Cyclopropanecarbonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_Cyclopropanecarbonitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.0010625296
+end
+start system: ./raw_data_files/NH2CH2NH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2NH2_MCSHLegendre_3_3.000000_5.h5
+-4108.116350731
+end
+start system: ./raw_data_files/N_CH3_3_Trimethylamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N_CH3_3_Trimethylamine_MCSHLegendre_3_3.000000_5.h5
+-4739.1576420702
+end
+start system: ./raw_data_files/C4H4O_Furan_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4O_Furan_MCSHLegendre_3_3.000000_5.h5
+-6248.686954591601
+end
+start system: ./raw_data_files/N2H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/N2H4_MCSHLegendre_3_3.000000_5.h5
+-3039.4785221966
+end
+start system: ./raw_data_files/HCCOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCOH_MCSHLegendre_3_3.000000_5.h5
+-4144.404684640401
+end
+start system: ./raw_data_files/NH2CH2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2CN_MCSHLegendre_3_3.000000_5.h5
+-5110.0281529264
+end
+start system: ./raw_data_files/CH3CH_NH2_CH3_2-Propanamine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH_NH2_CH3_2-Propanamine_MCSHLegendre_3_3.000000_5.h5
+-4739.7827695624
+end
+start system: ./raw_data_files/HCONHCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCONHCH3_MCSHLegendre_3_3.000000_5.h5
+-5683.6888467198005
+end
+start system: ./raw_data_files/CNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CNH2_MCSHLegendre_3_3.000000_5.h5
+-2551.7589943724
+end
+start system: ./raw_data_files/C2H3N3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H3N3_MCSHLegendre_3_3.000000_5.h5
+-6581.2815564596
+end
+start system: ./raw_data_files/NH3NH3_AmmoniaDimer_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH3NH3_AmmoniaDimer_MCSHLegendre_3_3.000000_5.h5
+-3073.5962843622
+end
+start system: ./raw_data_files/CHNHCH_1H_Azirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHNHCH_1H_Azirine_MCSHLegendre_3_3.000000_5.h5
+-3602.6762422102006
+end
+start system: ./raw_data_files/CH3NO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NO2_MCSHLegendre_3_3.000000_5.h5
+-6657.6107035498
+end
+start system: ./raw_data_files/CH3COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COOH_MCSHLegendre_3_3.000000_5.h5
+-6224.674744466801
+end
+start system: ./raw_data_files/HNO2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HNO2_MCSHLegendre_3_3.000000_5.h5
+-5590.1333323798
+end
+start system: ./raw_data_files/C3H3NO_Isoxazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H3NO_Isoxazole_MCSHLegendre_3_3.000000_5.h5
+-6684.1762681822
+end
+start system: ./raw_data_files/C2H4O_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O_MCSHLegendre_3_3.000000_5.h5
+-4178.1353918524
+end
+start system: ./raw_data_files/CH2NN_diazomethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NN_diazomethane_MCSHLegendre_3_3.000000_5.h5
+-4040.859429978
+end
+start system: ./raw_data_files/CHCCH2CH3_1-Butyne_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHCCH2CH3_1-Butyne_MCSHLegendre_3_3.000000_5.h5
+-4236.1241641882
+end
+start system: ./raw_data_files/CH2CHNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHNH_MCSHLegendre_3_3.000000_5.h5
+-3620.8766959458
+end
+start system: ./raw_data_files/C4H6_1-Methylcyclopropene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_1-Methylcyclopropene_MCSHLegendre_3_3.000000_5.h5
+-4235.3422990320005
+end
+start system: ./raw_data_files/C2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2N2_MCSHLegendre_3_3.000000_5.h5
+-5043.751631704001
+end
+start system: ./raw_data_files/C2H4O2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O2_MCSHLegendre_3_3.000000_5.h5
+-6222.3683606256
+end
+start system: ./raw_data_files/CH3NNCH3_E-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NNCH3_E-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5.h5
+-5141.773217069
+end
+start system: ./raw_data_files/HOCHCCHOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCHCCHOH_MCSHLegendre_3_3.000000_5.h5
+-7256.913271002601
+end
+start system: ./raw_data_files/CHONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CHONH2_MCSHLegendre_3_3.000000_5.h5
+-4616.1871213468
+end
+start system: ./raw_data_files/CH3ONO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3ONO_MCSHLegendre_3_3.000000_5.h5
+-6657.5762811288005
+end
+start system: ./raw_data_files/CH4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH4_MCSHLegendre_3_3.000000_5.h5
+-1100.3772599172
+end
+start system: ./raw_data_files/CH3OOCH3_dimethylperoxide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OOCH3_dimethylperoxide_MCSHLegendre_3_3.000000_5.h5
+-6253.6479737712
+end
+start system: ./raw_data_files/C5H5N_Bicyclobutane-1-carbonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H5N_Bicyclobutane-1-carbonitrile_MCSHLegendre_3_3.000000_5.h5
+-6741.5350149738
+end
+start system: ./raw_data_files/C4H4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4_MCSHLegendre_3_3.000000_5.h5
+-4201.184726588201
+end
+start system: ./raw_data_files/C2H6N2O2_E-Azodioxymethane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6N2O2_E-Azodioxymethane_MCSHLegendre_3_3.000000_5.h5
+-9227.6992697508
+end
+start system: ./raw_data_files/C2H5N_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H5N_MCSHLegendre_3_3.000000_5.h5
+-3637.8753037776
+end
+start system: ./raw_data_files/CCH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CCH2_MCSHLegendre_3_3.000000_5.h5
+-2098.4626494674003
+end
+start system: ./raw_data_files/C3H5OH_Cyclopropanol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H5OH_Cyclopropanol_MCSHLegendre_3_3.000000_5.h5
+-5246.168120485
+end
+start system: ./raw_data_files/C3H4O2_2-PropenoicAcid_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4O2_2-PropenoicAcid_MCSHLegendre_3_3.000000_5.h5
+-7258.903458375799
+end
+start system: ./raw_data_files/C6H4_E-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C6H4_E-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5.h5
+-6270.8654428932
+end
+start system: ./raw_data_files/C3H6O_Oxetane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6O_Oxetane_MCSHLegendre_3_3.000000_5.h5
+-5246.0028928642005
+end
+start system: ./raw_data_files/C4H4N2_Pyridazine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Pyridazine_MCSHLegendre_3_3.000000_5.h5
+-7179.0664080774
+end
+start system: ./raw_data_files/C_CN_4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C_CN_4_MCSHLegendre_3_3.000000_5.h5
+-11122.138080250601
+end
+start system: ./raw_data_files/CH2N4_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2N4_MCSHLegendre_3_3.000000_5.h5
+-7016.495953276
+end
+start system: ./raw_data_files/C2H4N4_1H-Tetrazole-5-methyl-_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4N4_1H-Tetrazole-5-methyl-_MCSHLegendre_3_3.000000_5.h5
+-8084.3938494216
+end
+start system: ./raw_data_files/CH3NC_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3NC_MCSHLegendre_3_3.000000_5.h5
+-3605.2110113316
+end
+start system: ./raw_data_files/C5H8_E-13-Pentadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_E-13-Pentadiene_MCSHLegendre_3_3.000000_5.h5
+-5304.5754313642
+end
+start system: ./raw_data_files/NH2COOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2COOH_MCSHLegendre_3_3.000000_5.h5
+-6661.3466655014
+end
+start system: ./raw_data_files/CH3CH2CH2CN_Butanenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CH2CH2CN_Butanenitrile_MCSHLegendre_3_3.000000_5.h5
+-5741.7981655576
+end
+start system: ./raw_data_files/C3H6N2_3-Aminopropionitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H6N2_3-Aminopropionitrile_MCSHLegendre_3_3.000000_5.h5
+-6177.789856015
+end
+start system: ./raw_data_files/C2H6O2_12-Ethanediol_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H6O2_12-Ethanediol_MCSHLegendre_3_3.000000_5.h5
+-6256.289166678
+end
+start system: ./raw_data_files/HCOOH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCOOH_MCSHLegendre_3_3.000000_5.h5
+-5156.612926847601
+end
+start system: ./raw_data_files/C5H6_13-Cyclopentadiene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H6_13-Cyclopentadiene_MCSHLegendre_3_3.000000_5.h5
+-5271.8257767564
+end
+start system: ./raw_data_files/C3H4N2_1H_Pyrazole_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C3H4N2_1H_Pyrazole_MCSHLegendre_3_3.000000_5.h5
+-6144.742726382401
+end
+start system: ./raw_data_files/CH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2_MCSHLegendre_3_3.000000_5.h5
+-1063.3631163356001
+end
+start system: ./raw_data_files/C4H4N2_Succinonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H4N2_Succinonitrile_MCSHLegendre_3_3.000000_5.h5
+-7179.8040819200005
+end
+start system: ./raw_data_files/CH3COOCH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3COOCH3_MCSHLegendre_3_3.000000_5.h5
+-7292.015405563201
+end
+start system: ./raw_data_files/NH2CH2CH2CH3_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CH2CH2CH3_MCSHLegendre_3_3.000000_5.h5
+-4739.661107393001
+end
+start system: ./raw_data_files/CH3CHO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHO_MCSHLegendre_3_3.000000_5.h5
+-4179.2948968178
+end
+start system: ./raw_data_files/H2CCNH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/H2CCNH_MCSHLegendre_3_3.000000_5.h5
+-3605.0176743346
+end
+start system: ./raw_data_files/C4H8_cyclobutane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H8_cyclobutane_MCSHLegendre_3_3.000000_5.h5
+-4269.8393609022005
+end
+start system: ./raw_data_files/HCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCN_MCSHLegendre_3_3.000000_5.h5
+-2538.1492670852
+end
+start system: ./raw_data_files/C4H6_Cyclobutene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H6_Cyclobutene_MCSHLegendre_3_3.000000_5.h5
+error, file not exist?
+end
+start system: ./raw_data_files/C4H2N2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H2N2_MCSHLegendre_3_3.000000_5.h5
+-7146.319909992
+end
+start system: ./raw_data_files/C2H3CCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H3CCH_MCSHLegendre_3_3.000000_5.h5
+-4202.6364819896
+end
+start system: ./raw_data_files/NH2OH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2OH_MCSHLegendre_3_3.000000_5.h5
+-3579.3381128862
+end
+start system: ./raw_data_files/NH2CCNH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CCNH2_MCSHLegendre_3_3.000000_5.h5
+-5108.2842559346
+end
+start system: ./raw_data_files/HCCCN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCCCN_MCSHLegendre_3_3.000000_5.h5
+-4606.3099817976
+end
+start system: ./raw_data_files/CH3CHCHCH3_Z-2-Butene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CHCHCH3_Z-2-Butene_MCSHLegendre_3_3.000000_5.h5
+-4270.1149579614
+end
+start system: ./raw_data_files/CH2CHCONH_Acrylamide_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHCONH_Acrylamide_MCSHLegendre_3_3.000000_5.h5
+-6718.4529177124
+end
+start system: ./raw_data_files/C4H5N_E-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H5N_E-2-Butenenitrile_MCSHLegendre_3_3.000000_5.h5
+-5708.364225874
+end
+start system: ./raw_data_files/CH2CHOCHCH2_VinylEther_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2CHOCHCH2_VinylEther_MCSHLegendre_3_3.000000_5.h5
+-6280.5691369788
+end
+start system: ./raw_data_files/HOCH_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HOCH_MCSHLegendre_3_3.000000_5.h5
+-3108.9453079550003
+end
+start system: ./raw_data_files/C5H8_Cyclopentene_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C5H8_Cyclopentene_MCSHLegendre_3_3.000000_5.h5
+-5305.076964677601
+end
+start system: ./raw_data_files/CH3OCH2CN_Methoxyacetonitrile_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3OCH2CN_Methoxyacetonitrile_MCSHLegendre_3_3.000000_5.h5
+-6717.5244103216
+end
+start system: ./raw_data_files/CH2NN_diazirine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH2NN_diazirine_MCSHLegendre_3_3.000000_5.h5
+-4040.4883753276
+end
+start system: ./raw_data_files/NH2CONH2_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CONH2_MCSHLegendre_3_3.000000_5.h5
+-6120.8563417712
+end
+start system: ./raw_data_files/C2H4O3_123-trioxolane_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C2H4O3_123-trioxolane_MCSHLegendre_3_3.000000_5.h5
+-8263.0938071502
+end
+start system: ./raw_data_files/NH2CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/NH2CN_MCSHLegendre_3_3.000000_5.h5
+-4042.2098229144
+end
+start system: ./raw_data_files/C4H9N_Pyrrolidine_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/C4H9N_Pyrrolidine_MCSHLegendre_3_3.000000_5.h5
+-5774.361258807
+end
+start system: ./raw_data_files/CH3CN_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/CH3CN_MCSHLegendre_3_3.000000_5.h5
+-3606.2639836660005
+end
+start system: ./raw_data_files/HCNO_MCSHLegendre_3_3.000000_5.h5
+./raw_data_files/HCNO_MCSHLegendre_3_3.000000_5.h5
+-4580.2553928344
+end
+['CHOCH2OH', 'C4H2', 'NO', 'C6H6_Hexa-15-diene-3-yne', 'CH3CH2COOH', 'CH3CH_CH3_CN_2-methyl-Propanenitrile', 'H2CNCH', 'C5H5N_Pyridine', 'C3H4N2_2H_Imidazole', 'CH2NH', 'CH3NNCH3_Z-12-Dimethyldiazene', 'HNO', 'CH2CHNH2', 'HNCNH', 'C2H2', 'NHCHNH2', 'NH2NO', 'HOCHNH', 'CH3CH2OH', 'C6H6_Trimethylenecycopropane', 'C4H4N2_Pyrazine', 'N2O', 'CH3C_OH_NH_Ethaninidic-acid', 'C3H6O_AcetoneEnol', 'C4H8O_Cyclobutanol', 'C3H4O2_propenalol', 'C2H4N2O2_Oxalamide', 'N2H2_E-diazine', 'C4H5N_Z-2-Butenenitrile', 'HCNH', 'HNCO', 'CN2', 'CH3COCCH', 'C2H2O2', 'N2', 'C3O', 'C5H6_3-Penten-1-yne-Z-', 'C2H4', 'CH2CHOH', 'C3H6O_PropyleneOxide', 'H2O2', 'H2CN', 'C3H3N', 'CH7N3_triaminomethane', 'NO2', 'C4H6O_25-dihydro-Furan', 'C6H6_1245-Hexatetraene', 'C4H6O_cis-2-butenal', 'CH3NH2', 'C4H4N2_13-Diazine', 'C3H2O2', 'CH3COCH3', 'N2O3', 'C4H8_methylcyclopropane', 'CH3OCHO', 'CH3CHCHCH3_E-2-Butene', 'C6H4_Z-Hexa-15-diyne-3-ene', 'CH2CHCH3', 'CH3CCH', 'C2H4N4_1H-Tetrazole-1-methyl-', 'C4H6O_23-dihydro-Furan', 'CH3OH', 'H2CO3', 'CH3OC2H5', 'C3H3N3', 'HNO3', 'C2H6', 'N2O4', 'C3H6_Cyclopropane', 'C3O2', 'C3H2N2', 'CH2CHCHCH2_Butadiene', 'C3H4O2_B-Propiolactone', 'C3H4O_Cyclopropanone', 'CHNCH2_2H_Azirine', 'C2H4CO3_EthyleneCarbonate', 'C3H7N_Cyclopropylamine', 'C5H8_Spiropentane', 'C2H2O', 'CH3CHNOH', 'CH2NCH3', 'C5H4_Pentatetraene', 'CH3CONH2', 'C2H2O4', 'HCCN', 'NH3O', 'C5H8_Bicyclopentane', 'HCCNH2', 'C3H8O2_1-methylethyl-Hydroperoxide', 'C6H6O_25-Cyclohexadienone', 'C6H2', 'HNC', 'HN3', 'CO2', 'H2NO', 'C3H4N2_4H_Imidazole', 'C6H6_Benzene', 'CH3OCH3', 'CH3NO3', 'C6H8_E-hexa-234-triene', 'CH2CO', 'C3H7OH_1-Propanol', 'NCN', 'C4H6_Methylenecyclopropane', 'CH3CH2NH2', 'CHOCHCHCH3_2-Butenal', 'CNOH3', 'C5H6_3-Penten-1-yne-E-', 'C4H5N_Pyrrole', 'CCO', 'C4H6O_Cyclobutanone', 'C3H3NO_Oxazole', 'C3H4O_allenol', 'C3H4N2_1H_Imidazole', 'C2H8N2_Ethylenediamine', 'C3H4O2_propanedial', 'C6H10_3-Hexyne', 'CH3CCCH3', 'NH3', 'C5H10O_3-Pentanone', 'C5H10_11-dimethyl-Cyclopropane', 'C3H8', 'CH3NO', 'CH3N3', 'C5H6_1-Buten-3-yne-2-methyl-', 'HOCN', 'H2NCH2COOH_Glycine', 'CH3CH2CHO', 'CH2CCH2', 'C4H5N_Cyclopropanecarbonitrile', 'NH2CH2NH2', 'N_CH3_3_Trimethylamine', 'C4H4O_Furan', 'N2H4', 'HCCOH', 'NH2CH2CN', 'CH3CH_NH2_CH3_2-Propanamine', 'HCONHCH3', 'CNH2', 'C2H3N3', 'NH3NH3_AmmoniaDimer', 'CHNHCH_1H_Azirine', 'CH3NO2', 'CH3COOH', 'HNO2', 'C3H3NO_Isoxazole', 'C2H4O', 'CH2NN_diazomethane', 'CHCCH2CH3_1-Butyne', 'CH2CHNH', 'C4H6_1-Methylcyclopropene', 'C2N2', 'C2H4O2', 'CH3NNCH3_E-12-Dimethyldiazene', 'HOCHCCHOH', 'CHONH2', 'CH3ONO', 'CH4', 'CH3OOCH3_dimethylperoxide', 'C5H5N_Bicyclobutane-1-carbonitrile', 'C4H4', 'C2H6N2O2_E-Azodioxymethane', 'C2H5N', 'CCH2', 'C3H5OH_Cyclopropanol', 'C3H4O2_2-PropenoicAcid', 'C6H4_E-Hexa-15-diyne-3-ene', 'C3H6O_Oxetane', 'C4H4N2_Pyridazine', 'C_CN_4', 'CH2N4', 'C2H4N4_1H-Tetrazole-5-methyl-', 'CH3NC', 'C5H8_E-13-Pentadiene', 'NH2COOH', 'CH3CH2CH2CN_Butanenitrile', 'C3H6N2_3-Aminopropionitrile', 'C2H6O2_12-Ethanediol', 'HCOOH', 'C5H6_13-Cyclopentadiene', 'C3H4N2_1H_Pyrazole', 'CH2', 'C4H4N2_Succinonitrile', 'CH3COOCH3', 'NH2CH2CH2CH3', 'CH3CHO', 'H2CCNH', 'C4H8_cyclobutane', 'HCN', 'C4H2N2', 'C2H3CCH', 'NH2OH', 'NH2CCNH2', 'HCCCN', 'CH3CHCHCH3_Z-2-Butene', 'CH2CHCONH_Acrylamide', 'C4H5N_E-2-Butenenitrile', 'CH2CHOCHCH2_VinylEther', 'HOCH', 'C5H8_Cyclopentene', 'CH3OCH2CN_Methoxyacetonitrile', 'CH2NN_diazirine', 'NH2CONH2', 'C2H4O3_123-trioxolane', 'NH2CN', 'C4H9N_Pyrrolidine', 'CH3CN', 'HCNO']
+[array([4, 2, 0, 2]), array([2, 4, 0, 0]), array([0, 0, 1, 1]), array([6, 6, 0, 0]), array([6, 3, 0, 2]), array([7, 4, 1, 0]), array([3, 2, 1, 0]), array([5, 5, 1, 0]), array([4, 3, 2, 0]), array([3, 1, 1, 0]), array([6, 2, 2, 0]), array([1, 0, 1, 1]), array([5, 2, 1, 0]), array([2, 1, 2, 0]), array([2, 2, 0, 0]), array([4, 1, 2, 0]), array([2, 0, 2, 1]), array([3, 1, 1, 1]), array([6, 2, 0, 1]), array([6, 6, 0, 0]), array([4, 4, 2, 0]), array([0, 0, 2, 1]), array([5, 2, 1, 1]), array([6, 3, 0, 1]), array([8, 4, 0, 1]), array([4, 3, 0, 2]), array([4, 2, 2, 2]), array([2, 0, 2, 0]), array([5, 4, 1, 0]), array([2, 1, 1, 0]), array([1, 1, 1, 1]), array([0, 1, 2, 0]), array([4, 4, 0, 1]), array([2, 2, 0, 2]), array([0, 0, 2, 0]), array([0, 3, 0, 1]), array([6, 5, 0, 0]), array([4, 2, 0, 0]), array([4, 2, 0, 1]), array([6, 3, 0, 1]), array([2, 0, 0, 2]), array([2, 1, 1, 0]), array([3, 3, 1, 0]), array([7, 1, 3, 0]), array([0, 0, 1, 2]), array([6, 4, 0, 1]), array([6, 6, 0, 0]), array([6, 4, 0, 1]), array([5, 1, 1, 0]), array([4, 4, 2, 0]), array([2, 3, 0, 2]), array([6, 3, 0, 1]), array([0, 0, 2, 3]), array([8, 4, 0, 0]), array([4, 2, 0, 2]), array([8, 4, 0, 0]), array([4, 6, 0, 0]), array([6, 3, 0, 0]), array([4, 3, 0, 0]), array([4, 2, 4, 0]), array([6, 4, 0, 1]), array([4, 1, 0, 1]), array([2, 1, 0, 3]), array([8, 3, 0, 1]), array([3, 3, 3, 0]), array([1, 0, 1, 3]), array([6, 2, 0, 0]), array([0, 0, 2, 4]), array([6, 3, 0, 0]), array([0, 3, 0, 2]), array([2, 3, 2, 0]), array([6, 4, 0, 0]), array([4, 3, 0, 2]), array([4, 3, 0, 1]), array([3, 2, 1, 0]), array([4, 3, 0, 3]), array([7, 3, 1, 0]), array([8, 5, 0, 0]), array([2, 2, 0, 1]), array([5, 2, 1, 1]), array([5, 2, 1, 0]), array([4, 5, 0, 0]), array([5, 2, 1, 1]), array([2, 2, 0, 4]), array([1, 2, 1, 0]), array([3, 0, 1, 1]), array([8, 5, 0, 0]), array([3, 2, 1, 0]), array([8, 3, 0, 2]), array([6, 6, 0, 1]), array([2, 6, 0, 0]), array([1, 1, 1, 0]), array([1, 0, 3, 0]), array([0, 1, 0, 2]), array([2, 0, 1, 1]), array([4, 3, 2, 0]), array([6, 6, 0, 0]), array([6, 2, 0, 1]), array([3, 1, 1, 3]), array([8, 6, 0, 0]), array([2, 2, 0, 1]), array([8, 3, 0, 1]), array([0, 1, 2, 0]), array([6, 4, 0, 0]), array([7, 2, 1, 0]), array([6, 4, 0, 1]), array([3, 1, 1, 1]), array([6, 5, 0, 0]), array([5, 4, 1, 0]), array([0, 2, 0, 1]), array([6, 4, 0, 1]), array([3, 3, 1, 1]), array([4, 3, 0, 1]), array([4, 3, 2, 0]), array([8, 2, 2, 0]), array([4, 3, 0, 2]), array([10,  6,  0,  0]), array([6, 4, 0, 0]), array([3, 0, 1, 0]), array([10,  5,  0,  1]), array([10,  5,  0,  0]), array([8, 3, 0, 0]), array([3, 1, 1, 1]), array([3, 1, 3, 0]), array([6, 5, 0, 0]), array([1, 1, 1, 1]), array([5, 2, 1, 2]), array([6, 3, 0, 1]), array([4, 3, 0, 0]), array([5, 4, 1, 0]), array([6, 1, 2, 0]), array([9, 3, 1, 0]), array([4, 4, 0, 1]), array([4, 0, 2, 0]), array([2, 2, 0, 1]), array([4, 2, 2, 0]), array([9, 3, 1, 0]), array([5, 2, 1, 1]), array([2, 1, 1, 0]), array([3, 2, 3, 0]), array([6, 0, 2, 0]), array([3, 2, 1, 0]), array([3, 1, 1, 2]), array([4, 2, 0, 2]), array([1, 0, 1, 2]), array([3, 3, 1, 1]), array([4, 2, 0, 1]), array([2, 1, 2, 0]), array([6, 4, 0, 0]), array([4, 2, 1, 0]), array([6, 4, 0, 0]), array([0, 2, 2, 0]), array([4, 2, 0, 2]), array([6, 2, 2, 0]), array([4, 3, 0, 2]), array([3, 1, 1, 1]), array([3, 1, 1, 2]), array([4, 1, 0, 0]), array([6, 2, 0, 2]), array([5, 5, 1, 0]), array([4, 4, 0, 0]), array([6, 2, 2, 2]), array([5, 2, 1, 0]), array([2, 2, 0, 0]), array([6, 3, 0, 1]), array([4, 3, 0, 2]), array([4, 6, 0, 0]), array([6, 3, 0, 1]), array([4, 4, 2, 0]), array([0, 5, 4, 0]), array([2, 1, 4, 0]), array([4, 2, 4, 0]), array([3, 2, 1, 0]), array([8, 5, 0, 0]), array([3, 1, 1, 2]), array([7, 4, 1, 0]), array([6, 3, 2, 0]), array([6, 2, 0, 2]), array([2, 1, 0, 2]), array([6, 5, 0, 0]), array([4, 3, 2, 0]), array([2, 1, 0, 0]), array([4, 4, 2, 0]), array([6, 3, 0, 2]), array([9, 3, 1, 0]), array([4, 2, 0, 1]), array([3, 2, 1, 0]), array([8, 4, 0, 0]), array([1, 1, 1, 0]), array([2, 4, 2, 0]), array([4, 4, 0, 0]), array([3, 0, 1, 1]), array([4, 2, 2, 0]), array([1, 3, 1, 0]), array([8, 4, 0, 0]), array([5, 3, 1, 1]), array([5, 4, 1, 0]), array([6, 4, 0, 1]), array([2, 1, 0, 1]), array([8, 5, 0, 0]), array([5, 3, 1, 1]), array([2, 1, 2, 0]), array([4, 1, 2, 1]), array([4, 2, 0, 3]), array([2, 1, 2, 0]), array([9, 4, 1, 0]), array([3, 2, 1, 0]), array([1, 1, 1, 1])]
+[-6223.473361156801, -4168.6888727082005, -3529.7766294962003, -6304.9452995786005, -7292.465291639401, -5741.833458743401, -3603.7266566730004, -6743.8574807524, -6142.527010926, -2570.731435526, -5141.3767741824, -3545.6034055983996, -3638.5718339834, -4042.0857117190003, -2100.3839647872, -4075.3228313464, -5050.0557783762, -4615.504332898, -4212.195057679, -6303.944083327001, -7179.849824283401, -5014.850621455201, -5683.759623571201, -5246.8562695796, -6314.1960326998005, -7258.4369189228, -9200.4295285092, -3006.2617839078002, -5708.3802806, -2552.4686676844, -4583.287804039001, -4005.5806662200002, -6247.467911083, -6190.244921966, -2976.2179220704, -5145.1841116362, -5270.548691331601, -2134.4296439542, -4178.8623716148, -5246.1042281178, -4118.6797073654, -2553.0515902952, -4640.446329349401, -5612.2865957136, -5572.901767752601, -6281.1563589908, -6304.3792752472, -6281.468147212001, -2604.0419715106004, -7180.0521954652, -7224.626563943, -5247.3490136108, -9103.0844185482, -4269.8144624712, -6223.9604724282, -4270.1595846574, -6270.8520820958, -3202.3046825238002, -3168.3637944582, -8084.0859524306, -6281.305477462801, -3144.2986581604, -7201.664659435401, -5279.5983866296, -7616.341088833401, -7633.335968703401, -2168.0531926730005, -11146.377559988201, -3201.9742272822, -7192.2163171274005, -6111.801666787001, -4236.579302064601, -7258.5395059008, -5212.7137178286, -3604.1641071394006, -9303.456977441, -4705.9275701954, -5303.4927169696, -4142.4528109184, -5681.995807834601, -3638.3567278664, -5236.332913703201, -5684.187713316001, -10280.9040983524, -3569.8243271612, -3578.0969465094, -5303.8043963452, -3604.376192791, -7321.981306739601, -8351.44941343, -6237.058761452401, -2537.5016357652003, -4477.3277553178, -5124.6472326738, -3562.0811328114, -6144.5560561784005, -6307.7628767802, -4211.6893610214, -8700.758617748, -6338.0431240494, -4145.8802228054, -5279.9564070194, -4006.8916842606004, -4235.8381451628, -3671.8889551268, -6281.5433050988, -4613.202520572, -5270.5334529476, -5708.757566661, -4109.3928647164, -6281.4265681928, -6685.1867907326005, -5212.511509915201, -6145.2119053412, -5175.7341055136, -7258.169594129201, -6371.835056911401, -4236.3115418886, -1536.7147528458001, -7382.9361216754005, -5337.6820179057995, -3235.815739315, -4613.5116148646, -5544.8251812896, -5270.5364462016005, -4582.2558389054, -7728.5271875088, -5247.0927094342, -3168.3216984224, -5708.0010625296, -4108.116350731, -4739.1576420702, -6248.686954591601, -3039.4785221966, -4144.404684640401, -5110.0281529264, -4739.7827695624, -5683.6888467198005, -2551.7589943724, -6581.2815564596, -3073.5962843622, -3602.6762422102006, -6657.6107035498, -6224.674744466801, -5590.1333323798, -6684.1762681822, -4178.1353918524, -4040.859429978, -4236.1241641882, -3620.8766959458, -4235.3422990320005, -5043.751631704001, -6222.3683606256, -5141.773217069, -7256.913271002601, -4616.1871213468, -6657.5762811288005, -1100.3772599172, -6253.6479737712, -6741.5350149738, -4201.184726588201, -9227.6992697508, -3637.8753037776, -2098.4626494674003, -5246.168120485, -7258.903458375799, -6270.8654428932, -5246.0028928642005, -7179.0664080774, -11122.138080250601, -7016.495953276, -8084.3938494216, -3605.2110113316, -5304.5754313642, -6661.3466655014, -5741.7981655576, -6177.789856015, -6256.289166678, -5156.612926847601, -5271.8257767564, -6144.742726382401, -1063.3631163356001, -7179.8040819200005, -7292.015405563201, -4739.661107393001, -4179.2948968178, -3605.0176743346, -4269.8393609022005, -2538.1492670852, -7146.319909992, -4202.6364819896, -3579.3381128862, -5108.2842559346, -4606.3099817976, -4270.1149579614, -6718.4529177124, -5708.364225874, -6280.5691369788, -3108.9453079550003, -5305.076964677601, -6717.5244103216, -4040.4883753276, -6120.8563417712, -8263.0938071502, -4042.2098229144, -5774.361258807, -3606.2639836660005, -4580.2553928344]
+[array(-1247.63683413), array(-651.52656927), array(-704.78730151), array(-1029.03789794), array(-1437.18566762), array(-1008.06876026), array(-629.40289107), array(-1131.38912244), array(-1072.91914362), array(-475.27211282), array(-950.5100823), array(-720.90266153), array(-663.94353553), array(-731.1674952), array(-341.58134169), array(-764.16989865), array(-1009.84452201), array(-911.68042015), array(-844.68019213), array(-1028.36632478), array(-1230.75570518), array(-977.76668449), array(-1100.49185855), array(-1000.15214697), array(-1187.97610835), array(-1403.57074731), array(-1793.16174304), array(-574.11367596), array(-974.90283629), array(-457.04732137), array(-879.77983995), array(-693.80732699), array(-1121.59566418), array(-1214.44992846), array(-543.81768757), array(-898.89654122), array(-873.84280382), array(-375.56455072), array(-811.59691697), array(-999.39085217), array(-901.51281573), array(-457.09323824), array(-786.37902136), array(-1084.78296115), array(-1140.06173043), array(-1155.11572821), array(-1028.68009217), array(-1155.52523921), array(-508.53717292), array(-1230.93285597), array(-1369.67559326), array(-1000.62610542), array(-1846.23485705), array(-752.23601055), array(-1248.09790771), array(-752.53518642), array(-994.99393753), array(-564.06101874), array(-530.27582892), array(-1461.80994948), array(-1155.30496946), array(-656.22192927), array(-1496.72016824), array(-1032.61766588), array(-1329.08793061), array(-1592.30161583), array(-409.07732569), array(-2281.58919075), array(-563.84034966), array(-1338.02605411), array(-1041.62075663), array(-719.06278394), array(-1403.51390936), array(-966.35137849), array(-629.48310459), array(-1839.83424319), array(-851.84404731), array(-906.83845882), array(-775.36165952), array(-1098.74439632), array(-663.50358469), array(-840.24891817), array(-1101.09795809), array(-2088.26328278), array(-594.40555422), array(-753.80924275), array(-906.99145233), array(-629.83384108), array(-1466.4766713), array(-1467.02900171), array(-961.56234232), array(-441.96842352), array(-829.75321857), array(-1028.39937193), array(-737.4406209), array(-1074.56787906), array(-1031.90007876), array(-844.16045861), array(-1780.29022296), array(-1062.19968705), array(-778.90107122), array(-1032.9830137), array(-694.63778874), array(-718.55663878), array(-696.93973729), array(-1155.62605165), array(-909.25979989), array(-873.83304606), array(-975.75243361), array(-741.40411476), array(-1155.48440793), array(-1222.80696615), array(-966.13156597), array(-1075.56858822), array(-984.79338309), array(-1403.03489174), array(-1095.48501031), array(-718.90084762), array(-320.62980477), array(-1377.26602651), array(-940.64007619), array(-597.38930687), array(-909.52899906), array(-1017.84860104), array(-873.77359938), array(-878.38802702), array(-1536.7296429), array(-1000.3057919), array(-530.37428934), array(-974.61358156), array(-796.64056786), array(-884.74993375), array(-1122.98529794), array(-607.4520516), array(-777.24831549), array(-919.19707584), array(-885.35472719), array(-1100.60279312), array(-455.82515163), array(-1174.99902771), array(-641.38543435), array(-628.08616029), array(-1345.54707788), array(-1248.8675549), array(-1157.23876202), array(-1221.87715337), array(-810.85358405), array(-729.85759503), array(-718.55598947), array(-645.86316677), array(-718.03888345), array(-853.0340811), array(-1246.36787999), array(-950.91364592), array(-1402.08909733), array(-912.52066391), array(-1345.22528786), array(-220.82633474), array(-1277.63457145), array(-1129.05748304), array(-683.71815096), array(-1820.62895681), array(-663.13995347), array(-339.50925668), array(-999.51132678), array(-1403.82111083), array(-995.04307783), array(-999.20561744), array(-1229.98463013), array(-1861.05141719), array(-1273.57206241), array(-1462.16233025), array(-630.34519769), array(-907.73777684), array(-1349.11466899), array(-1008.06935643), array(-1107.60207068), array(-1280.19687984), array(-1060.20031915), array(-875.14043875), array(-1075.1291621), array(-182.59559778), array(-1230.11341666), array(-1436.74302019), array(-885.25673073), array(-811.97787561), array(-630.57918051), array(-752.14609935), array(-442.60673616), array(-1196.94765563), array(-685.31433487), array(-754.72386485), array(-917.99905619), array(-752.4577917), array(-752.44036612), array(-1256.07998621), array(-974.9008402), array(-1154.68118041), array(-620.76005591), array(-908.13180929), array(-1254.66746178), array(-729.00487033), array(-1201.24072406), array(-1678.78056328), array(-731.04089449), array(-1040.65675765), array(-631.45095284), array(-876.95559557)]
+---------------------------------------
+Begin PBS Epilogue Wed May 26 13:19:25 EDT 2021
+Job ID:     1928707.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   extract_energies
+Resources:  nodes=1:ppn=20,walltime=10:00:00,neednodes=1:ppn=20
+Rsrc Used:  cput=00:00:08,vmem=2092128kb,walltime=00:00:49,mem=53428kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-010-8-r.pace.gatech.edu
+End PBS Epilogue Wed May 26 13:19:25 EDT 2021
+---------------------------------------

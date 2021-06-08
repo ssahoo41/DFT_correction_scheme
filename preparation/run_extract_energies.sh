@@ -1,7 +1,7 @@
 #!/bin/bash
-#PBS -l nodes=4:ppn=24
-#PBS -l walltime=12:00:00
-#PBS -N raw_data_gen
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=10:00:00
+#PBS -N extract_energies
 #PBS -o stdout
 #PBS -e stderr
 #PBS -m abe
@@ -15,4 +15,4 @@ source ~/.bashrc
 
 pyenv activate miniconda3-latest
 
-python save_to_hdf5.py
+python extract_reference_energies.py

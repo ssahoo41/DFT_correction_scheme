@@ -1,0 +1,18 @@
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "save_to_hdf5.py", line 222, in <module>
+    for system in os.listdir(file_path_training):
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/sparc_ccbdb_data/training_data/_set1/'
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "save_to_hdf5.py", line 222, in <module>
+    for system in os.listdir(file_path_training):
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/coda1/p-amedford6/0/ssahoo41/testflight_data/SPARC_test_mcsh/sparc_ccbdb_data/training_data/_set1/'
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.

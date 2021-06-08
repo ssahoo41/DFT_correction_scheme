@@ -1,0 +1,57 @@
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 92, in <module>
+    model = pickle.load( open( model_filename, "wb" ) )
+io.UnsupportedOperation: read
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 92, in <module>
+    model = pickle.load( open( model_filename, "rb" ) )
+EOFError: Ran out of input
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 110, in <module>
+    indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed) #will get the count and unique indices in the list 
+TypeError: partition() missing 1 required positional argument: 'max_distance'
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 110, in <module>
+    indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed, max_distance) #will get the count and unique indices in the list 
+  File "predict_system.py", line 64, in partition
+    if distance[0]< max_distance: #if distance is less than max_distance, distances which are greater than max_distances are the environments that have not been trained on
+IndexError: invalid index to scalar variable.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 110, in <module>
+    indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed, max_distance) #will get the count and unique indices in the list 
+  File "predict_system.py", line 64, in partition
+    if distance[0]< max_distance: #if distance is less than max_distance, distances which are greater than max_distances are the environments that have not been trained on
+IndexError: invalid index to scalar variable.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 114, in <module>
+    correction = reg_model.predict(count_arr[:-1]) #correction corresponding to each environment except the last one based on regression model
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/linear_model/_base.py", line 238, in predict
+    return self._decision_function(X)
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/linear_model/_base.py", line 220, in _decision_function
+    X = check_array(X, accept_sparse=['csr', 'csc', 'coo'])
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/utils/validation.py", line 694, in check_array
+    raise ValueError(
+ValueError: Expected 2D array, got 1D array instead:
+array=[117 117 117 ... 117 117 117].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+pyenv-virtualenv: prompt changing will be removed from future release. configure `export PYENV_VIRTUALENV_DISABLE_PROMPT=1' to simulate the behavior.
+Traceback (most recent call last):
+  File "predict_system.py", line 114, in <module>
+    correction = reg_model.predict(count_arr[:-1].reshape(1,-1)) #correction corresponding to each environment except the last one based on regression model
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/linear_model/_base.py", line 238, in predict
+    return self._decision_function(X)
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/linear_model/_base.py", line 221, in _decision_function
+    return safe_sparse_dot(X, self.coef_.T,
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/storage/home/hcoda1/0/ssahoo41/data/.pyenv/versions/miniconda3-latest/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 152, in safe_sparse_dot
+    ret = a @ b
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 118 is different from 999999)

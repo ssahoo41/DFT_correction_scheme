@@ -5,8 +5,11 @@ import h5py
 from pykdtree.kdtree import KDTree
 from sklearn.linear_model import LinearRegression
 import csv
+from sklearn.linear_model import Lasso
+from sklearn.model_selection import train_test_split
+import pandas as pd
 
-
+#no PCA, final subsampling includes standard scaling, system subsampling no standard scaling 
 def get_mcsh_order_group(mcsh_order):
     group_dict = {0:[1],\
                   1:[1],\
@@ -88,7 +91,7 @@ def load_system_info(filename): #dictionary to store the energy for each system
     return energy_dict
 
 #model_setup is a dictionary with keys and values
-model_setup = {"refdata_filename": "Overall_subsampled_1.0_True.pickle", \
+model_setup = {"refdata_filename": "Overall_subsampled_3.2_True.pickle", \
                 "functional": "GGA_PBE", \
                 "MCSH_RADIAL_MAX_ORDER": 5, \
                 "MCSH_MAX_ORDER" :3, \
@@ -101,21 +104,20 @@ model = {"model_setup": model_setup}
 functional = model_setup["functional"] #value of functional 
 
 ref_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/ref_energy_regression_error.csv")
-print("reference energy dictionary\n")
-print(ref_energy_dict)
+#print("reference energy dictionary\n")
+#print(ref_energy_dict)
 functional_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/{}_energy_regression_error.csv".format(functional))
-print("functional energy dictionary\n")
-print(functional_energy_dict)
+#print("functional energy dictionary\n")
+#print(functional_energy_dict)
 systems = ref_energy_dict.keys()
 print("systems\n")
 print(systems)
+
 subsampled_filename = model_setup["refdata_filename"]
 refdata = pickle.load(open(subsampled_filename, "rb" )) #subsampled file
 refdata = np.vstack((refdata, np.zeros(len(refdata[0]))))
-print("refdata\n")
-print(refdata)
-
-
+#print("refdata\n")
+#print(refdata)
 
 if model_setup["PCA"]:
     pca = PCA(n_components=model_setup["PCA_n_components"])
@@ -151,6 +153,7 @@ for i, system in enumerate(systems):
 
 model["max_distance"] = max_distance
 
+#count_array file will give the count of environments of each types of environment 
 with open('{}_count_array.csv'.format(functional), 'w', newline='') as csvfile:#count_array consists of how many points are there in each environment 
     writer2 = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -158,37 +161,64 @@ with open('{}_count_array.csv'.format(functional), 'w', newline='') as csvfile:#
         writer2.writerow([i, system] + count_arr[i].tolist() + [target[i]])
 
 
+alpha_values = np.array([0, 1e-6, 3e-6, 1e-5, 3e-5, 1e-4, 3e-4, 1e-3, 3e-3, 1e-2, 3e-2, 1e-1, 3e-1, 1, 3, 10, 100, 1000]) #added more alpha values 
+x_train, x_test, y_train, y_test = train_test_split(count_arr, target, test_size=0.2) #0.2 of 210 (number of equations are number than parameters)
 
+#reg = LinearRegression(fit_intercept = False).fit(count_arr, target)
+#coef = reg.coef_
 
-reg = LinearRegression(fit_intercept = False).fit(count_arr, target)
-coef = reg.coef_
+coef_list = []
+mae_list = []
+for j in alpha_values:  
+    reg = Lasso(alpha=j, fit_intercept=False).fit(x_train, y_train)
+    coef = reg.coef_
+    with open('{}_{}_ccsdt_correction_result.csv'.format(functional,j), 'w', newline='') as csvfile:
+        writer2 = csv.writer(csvfile, delimiter=',',\
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for i in range(len(refdata)):
+            writer2.writerow([i, coef[i]])
+    coef_list.append(coef)
+    prediction = reg.predict(x_test) 
+    error = y_test - prediction
+#   print(error) #error for testing dataset 
+    mae = np.mean(np.abs(error))
+    mae_list.append(mae)
+    
 
-model["regression_model"] = reg
+#    print(coef)
+df = pd.DataFrame()
+df['alpha_values'] = list(alpha_values)
+df['mae'] = mae_list
+print(df)
 
-with open('{}_ccsdt_correction_result.csv'.format(functional), 'w', newline='') as csvfile:
-    writer2 = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for i in range(len(refdata)):
-        writer2.writerow([i, coef[i]]) #each row will have correction corresponding to each environment from overall subsampled file
+#model["regression_model"] = reg
+
+#with open('{}_ccsdt_correction_result.csv'.format(functional), 'w', newline='') as csvfile:
+#    writer2 = csv.writer(csvfile, delimiter=',',
+#                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#    for i in range(len(refdata)):
+#        writer2.writerow([i, coef[i]]) #each row will have correction corresponding to each environment from overall subsampled file
 
 #actual correction is GGA_PBE_ccsdt_correction_result 
 
-prediction = reg.predict(count_arr)
-error = target - prediction 
-with open('{}_ccsdt_correction_result_error.csv'.format(functional), 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile, delimiter='\t',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow(['energy','predicted_energy','error','system'])
-    for i, system in enumerate(systems):
-        temp = [target[i], prediction[i],error[i], system]
-        writer.writerow(temp)
+#prediction = reg.predict(count_arr)
+#error = target - prediction 
+#with open('{}_ccsdt_correction_result_error.csv'.format(functional), 'w', newline='') as csvfile:
+#    writer = csv.writer(csvfile, delimiter='\t',
+#                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#    writer.writerow(['energy','predicted_energy','error','system'])
+#    for i, system in enumerate(systems):
+#        temp = [target[i], prediction[i],error[i], system]
+#        writer.writerow(temp)
 
-with open('{}_correction_amount.csv'.format(functional), 'w', newline='') as csvfile:
-    writer2 = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for i, system in enumerate(systems):
-        writer2.writerow([i, system] + np.multiply(count_arr[i], coef).tolist() + [prediction[i]])
+#mae = np.mean(np.abs(error))
+#print(mae)
+#with open('{}_correction_amount.csv'.format(functional), 'w', newline='') as csvfile: #what is this file giving?- correcting for each environment #
+#    writer2 = csv.writer(csvfile, delimiter=',',
+#                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#    for i, system in enumerate(systems):
+#        writer2.writerow([i, system] + np.multiply(count_arr[i], coef).tolist() + [prediction[i]])
 
 print("end")
-print(model)
-pickle.dump( model, open( "{}_functional_based_model.pickle".format(functional), "wb" ) )
+#print(model)
+#pickle.dump( model, open( "{}_functional_based_model.pickle".format(functional), "wb" ) )

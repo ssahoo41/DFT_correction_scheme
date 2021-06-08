@@ -221,11 +221,11 @@ def process_system(filepath, system_name, list_of_functionals = ["GGA_PBE","GGA_
     for functional in list_of_functionals:
         process_one_functional(filepath, system_name, functional, hdf5_filename)
 
-    print("finish system: {}".format(system_name))
-
+    print("finish system: {}".format(system_name)
     return
 
-file_path_training = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/prediction_results/initial_mcsh_data/" #folders are here 
+file_path_training =  "./training_data/_set1/" #folders are here 
+
 #we don't have CCSD(T) level data for these systems
 for system in os.listdir(file_path_training):
     if os.path.exists(file_path_training + "{}/sprc-calc.out".format(system)):

@@ -61,7 +61,7 @@ def partition(data, refdata, max_distance):
 
     indices = []
     for i, distance in enumerate(temp_distances): #temp distances is going to contain all grid points for each system, what index does each grid point belong to and its distance from that index 
-        if distance[0]< max_distance: #if distance is less than max_distance, distances which are greater than max_distances are the environments that have not been trained on
+        if distance< max_distance: #if distance is less than max_distance, distances which are greater than max_distances are the environments that have not been trained on
             indices.append(temp_indices[i])
         else:
             indices.append(-1) #the environments that have not been seen 
@@ -84,12 +84,12 @@ def partition(data, refdata, max_distance):
 
 
 
-model_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/GGA_PBE_functional_based_model.pickle" #model file name
+model_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/cutoff_sig_overall_3.5/GGA_PBE_functional_based_model.pickle" #model file name
 system = "CO_box"
 #system = "CO_on_Pt_relax"
 #system = "Pt_relax"
 
-model = pickle.load( open( model_filename, "wb" ) )
+model = pickle.load(open( model_filename, "rb" ) )
 model_setup = model["model_setup"]
 max_distance = model["max_distance"]
 reg_model = model["regression_model"]
@@ -107,25 +107,28 @@ if model_setup["PCA"]:
     feature_arr_transformed = model["PCA_model"].transform(temp_feature_arr)
 else:
     feature_arr_transformed = temp_feature_arr
-indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed) #will get the count and unique indices in the list 
+indices, count_arr, indices_reduced = partition(feature_arr_transformed, refdata_transformed, max_distance) #will get the count and unique indices in the list 
+
+print(reg_model.coef_)
+print(reg_model.coef_.shape)
+print(count_arr)
+#count_arr = count_arr.reshape(1,-1)
+#print(count_arr.shape)
+#correction = reg_model.predict(count_arr[:-1].reshape(1,-1)) #correction corresponding to each environment except the last one based on regression model
+#print("calculated correction is: {}".format(correction))
+
+#correction_amount_per_env = [0] + reg_model.coef_ 
+
+#correction_amount_per_gridpoint = np.zeros(feature_arr_transformed)
+
+#for i, index in enumerate(indices):
+#    for j in range(len(list(indices_reduced))):
+#        if index == indices_reduced[j]:
+#            correction_amount_per_gridpoint[i] = correction_amount_per_env[j]
 
 
-
-correction = reg_model.predict(count_arr[:-1]) #correction corresponding to each environment except the last one based on regression model
-print("calculated correction is: {}".format(correction))
-
-correction_amount_per_env = [0] + reg_model.coef_ 
-
-correction_amount_per_gridpoint = np.zeros(feature_arr_transformed)
-
-for i, index in enumerate(indices):
-    for j in range(len(list(indices_reduced))):
-        if index == indices_reduced[j]:
-            correction_amount_per_gridpoint[i] = correction_amount_per_env[j]
-
-
-with open('{}_correction_per_gridpoint.csv'.format(system), 'w', newline='') as csvfile:
-    writer2 = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for i in range(len(data)):
-        writer2.writerow([i, correction_amount_per_gridpoint[i]]) 
+#with open('{}_correction_per_gridpoint.csv'.format(system), 'w', newline='') as csvfile:
+#    writer2 = csv.writer(csvfile, delimiter=',',
+#                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#    for i in range(len(data)):
+#        writer2.writerow([i, correction_amount_per_gridpoint[i]]) 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -l nodes=4:ppn=24
+#PBS -l nodes=2:ppn=12
 #PBS -l walltime=12:00:00
 #PBS -N overall_subsample
 #PBS -o stdout

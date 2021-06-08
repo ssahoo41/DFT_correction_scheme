@@ -73,10 +73,8 @@ system = data_filepath.split("_MCSH")[0]
 system_name = system.split("raw_data_files/")[1]
 print(system_name)
 
-filename = "./logged_data/{}_subsampled_length.dat".format(system_name)
-for i in range(2,20,2):
-    print(i)
-    print(np.log(i))
+filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/logged_data/{}_subsampled_length.dat".format(system_name)
+for i in np.arange(1.2,2,0.05):
     len_sub_feature = subsample_system(system_name, data_filepath, cutoff_sig = np.log(i), functional = functional)
     message = "{}\t{}\n".format(np.log(i), len_sub_feature)
     log_result(filename, message)

@@ -104,6 +104,6 @@ with open('GGA_PBE_energy_regression_error.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter='\t',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(['H','C','N','O','energy','predicted_energy','error','system'])
-    for i, energy in enumerate(ref_energy_list):
+    for i, energy in enumerate(sparc_energy_list):
         temp = atoms_count_list[i].tolist() + [energy, prediction_SP[i],error[i], system_list[i]]
         writer.writerow(temp) 

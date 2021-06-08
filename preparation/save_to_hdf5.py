@@ -78,7 +78,7 @@ def read_ref_energy(system_name, filename = "energy"):
             # temp = line.strip().split()
             if line.strip().startswith("Energy at 0K"):
                 CCSDT_0K_energy = float(line.strip().split()[-1]) 
-    return CCSDT_0K_energy/23.061
+    return CCSDT_0K_energy*27.2114
 
 def read_ref_coords(system_name, filename = "coords"):
 
@@ -206,7 +206,7 @@ def process_system(filepath, system_name, list_of_functionals = ["GGA_PBE","GGA_
     with h5py.File(hdf5_filename,'w') as data:
         metadata_grp = data.create_group("metadata")
         #metadata_grp.create_dataset("System_name", data=str(system_name))#comment this out
-        metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy]) #this is in kcal/mol most likely
+        metadata_grp.create_dataset("CCSDT_0K_energy", data=[CCSDT_0K_energy]) #this is in Hartree most likely
         metadata_grp.create_dataset("atomic_numbers", data=atomic_numbers)
         metadata_grp.create_dataset("atomic_coords", data=coords)
 
@@ -217,7 +217,8 @@ def process_system(filepath, system_name, list_of_functionals = ["GGA_PBE","GGA_
 
     return
 
-file_path_training = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/"
+
+file_path_training = "./training_data/_setl3/"
 for system in os.listdir(file_path_training):
     if os.path.exists(file_path_training + "{}/energy".format(system)):
         try:

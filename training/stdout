@@ -1,0 +1,931 @@
+---------------------------------------
+Begin PBS Prologue Sun Jun  6 13:57:01 EDT 2021
+Job ID:     2021208.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   overall_subsample
+Queue:      inferno
+End PBS Prologue Sun Jun  6 13:57:01 EDT 2021
+---------------------------------------
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CO3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CO3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCHO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCHO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H2N2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H2N2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_25-dihydro-Furan_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_25-dihydro-Furan
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HN3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HN3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Pyrazine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Pyrazine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3N3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3N3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH_CH3_CN_2-methyl-Propanenitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH_CH3_CN_2-methyl-Propanenitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O_Cyclopropanone_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O_Cyclopropanone
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H10_3-Hexyne_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H10_3-Hexyne
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_3-Penten-1-yne-E-_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_3-Penten-1-yne-E-
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4CO3_EthyleneCarbonate_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4CO3_EthyleneCarbonate
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N4_1H-Tetrazole-5-methyl-_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N4_1H-Tetrazole-5-methyl-
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Cyclopentene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Cyclopentene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CONH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CONH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H3N3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H3N3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHONH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHONH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CCNH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CCNH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2NCH2COOH_Glycine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2NCH2COOH_Glycine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H5OH_Cyclopropanol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H5OH_Cyclopropanol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N2O2_Oxalamide_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N2O2_Oxalamide
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_1-Buten-3-yne-2-methyl-_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_1-Buten-3-yne-2-methyl-
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2H4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2H4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_3-Penten-1-yne-Z-_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_3-Penten-1-yne-Z-
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_propanedial_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_propanedial
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Cyclopropanecarbonitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Cyclopropanecarbonitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H7N_Cyclopropylamine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H7N_Cyclopropylamine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COOCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COOCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCCN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCCN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4O_Furan_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4O_Furan
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Z-2-Butenenitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Z-2-Butenenitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NCN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NCN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2O2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2O2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_13-Diazine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_13-Diazine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH7N3_triaminomethane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH7N3_triaminomethane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHCHCH3_E-2-Butene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHCHCH3_E-2-Butene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_Cyclobutanone_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_Cyclobutanone
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHNOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHNOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3N3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3N3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NC_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NC
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Pyrrole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_Pyrrole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3N_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3N
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H10O_3-Pentanone_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H10O_3-Pentanone
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CCH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CCH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CO2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CO2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H9N_Pyrrolidine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H9N_Pyrrolidine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O3_123-trioxolane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O3_123-trioxolane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHCCH2CH3_1-Butyne_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHCCH2CH3_1-Butyne
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2NO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2NO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHOCH2OH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHOCH2OH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_4H_Imidazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_4H_Imidazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8O_Cyclobutanol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8O_Cyclobutanol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6N2_3-Aminopropionitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6N2_3-Aminopropionitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6_1-Methylcyclopropene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6_1-Methylcyclopropene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CCCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CCCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H4_Z-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H4_Z-Hexa-15-diyne-3-ene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNC_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNC
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2NO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2NO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OOCH3_dimethylperoxide_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OOCH3_dimethylperoxide
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_AcetoneEnol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_AcetoneEnol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3ONO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3ONO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H7OH_1-Propanol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H7OH_1-Propanol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NNCH3_E-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NNCH3_E-12-Dimethyldiazene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H2O2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H2O2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2H2_E-diazine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2H2_E-diazine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6N2O2_E-Azodioxymethane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6N2O2_E-Azodioxymethane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H4_E-Hexa-15-diyne-3-ene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H4_E-Hexa-15-diyne-3-ene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H2O4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3NH3_AmmoniaDimer_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3NH3_AmmoniaDimer
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2N2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2N2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCHNH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCHNH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CN2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CN2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4O
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_cis-2-butenal_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_cis-2-butenal
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H8O2_1-methylethyl-Hydroperoxide_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H8O2_1-methylethyl-Hydroperoxide
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCHCCHOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCHCCHOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3O_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3O
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NHCHNH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NHCHNH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3NO_Isoxazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3NO_Isoxazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HOCH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CNCH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CNCH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHNH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHNH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCNO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCNO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCOOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCOOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2NH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2NH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2OH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2OH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N2O3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Benzene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Benzene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_2-PropenoicAcid_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_2-PropenoicAcid
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H10_11-dimethyl-Cyclopropane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H10_11-dimethyl-Cyclopropane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H8N2_Ethylenediamine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H8N2_Ethylenediamine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C_CN_4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C_CN_4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHNHCH_1H_Azirine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHNHCH_1H_Azirine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_E-13-Pentadiene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_E-13-Pentadiene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2CH2CN_Butanenitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2CH2CN_Butanenitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_1H_Pyrazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_1H_Pyrazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H3CCH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H3CCH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHOCHCH2_VinylEther_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHOCHCH2_VinylEther
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Bicyclopentane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Bicyclopentane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2NH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2NH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CNH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CNH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2CH2CH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2CH2CH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_Oxetane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_Oxetane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2OH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2OH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_B-Propiolactone_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_B-Propiolactone
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H8_E-hexa-234-triene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H8_E-hexa-234-triene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Spiropentane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H8_Spiropentane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCNH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCCNH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3NO_Oxazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H3NO_Oxazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8_cyclobutane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8_cyclobutane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCHCH2_Butadiene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCHCH2_Butadiene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_propenalol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O2_propenalol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H5N_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H5N
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N_CH3_3_Trimethylamine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/N_CH3_3_Trimethylamine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_13-Cyclopentadiene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H6_13-Cyclopentadiene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_1H_Imidazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_1H_Imidazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_PropyleneOxide_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6O_PropyleneOxide
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NN_diazirine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NN_diazirine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHNCH2_2H_Azirine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHNCH2_2H_Azirine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Pyridazine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Pyridazine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6_Cyclopropane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H6_Cyclopropane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHCHCH3_Z-2-Butene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CHCHCH3_Z-2-Butene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H4_Pentatetraene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H4_Pentatetraene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8_methylcyclopropane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H8_methylcyclopropane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CCH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CCH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_2H_Imidazole_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4N2_2H_Imidazole
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2COOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2COOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N4_1H-Tetrazole-1-methyl-_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H4N4_1H-Tetrazole-1-methyl-
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CNOH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CNOH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6O2_12-Ethanediol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C2H6O2_12-Ethanediol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CCO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CCO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHOCHCHCH3_2-Butenal_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CHOCHCHCH3_2-Butenal
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2CN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2CH2CN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COCCH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COCCH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_1245-Hexatetraene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_1245-Hexatetraene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NO2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NO2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_23-dihydro-Furan_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6O_23-dihydro-Furan
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNCNH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNCNH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNCO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HNCO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Succinonitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H4N2_Succinonitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCONH_Acrylamide_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHCONH_Acrylamide
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H2N2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H2N2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CCNH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/H2CCNH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NN_diazomethane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2NN_diazomethane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CONH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CONH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CCH2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CCH2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3O_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3O
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Trimethylenecycopropane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Trimethylenecycopropane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_E-2-Butenenitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H5N_E-2-Butenenitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OC2H5_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OC2H5
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCNH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCNH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Hexa-15-diene-3-yne_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6_Hexa-15-diene-3-yne
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NNCH3_Z-12-Dimethyldiazene_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3NNCH3_Z-12-Dimethyldiazene
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCONHCH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCONHCH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH3
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H5N_Bicyclobutane-1-carbonitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H5N_Bicyclobutane-1-carbonitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2N4_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2N4
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHNH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH2CHNH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3COOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCH2CN_Methoxyacetonitrile_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3OCH2CN_Methoxyacetonitrile
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3O2_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3O2
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H5N_Pyridine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C5H5N_Pyridine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6O_25-Cyclohexadienone_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C6H6O_25-Cyclohexadienone
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH_NH2_CH3_2-Propanamine_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH_NH2_CH3_2-Propanamine
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3C_OH_NH_Ethaninidic-acid_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3C_OH_NH_Ethaninidic-acid
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6_Methylenecyclopropane_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C4H6_Methylenecyclopropane
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCN_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/HCN
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O_allenol_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H4O_allenol
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2COOH_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/NH2COOH
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2CHO_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/CH3CH2CHO
+end
+/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H8_MCSHLegendre_3_3.000000_5_subsampled_0.1_False.pickle
+start system: /storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/system_subsampled_files_0.1/C3H8
+end
+Started NN-subsampling, original length: 7639942
+use pykdtree backend
+Subsample with standard scaled data
+start iteration 1, total length: 7639942
+end iteration 1. length: 6903795	 time:1426.5772335529327
+start iteration 2, total length: 6903795
+end iteration 2. length: 6239467	 time:1352.3888654708862
+start iteration 3, total length: 6239467
+end iteration 3. length: 5640179	 time:1275.7058806419373
+start iteration 4, total length: 5640179
+end iteration 4. length: 5099221	 time:1232.772620677948
+start iteration 5, total length: 5099221
+end iteration 5. length: 4610712	 time:1109.5246090888977
+start iteration 6, total length: 4610712
+end iteration 6. length: 4169333	 time:1049.8099853992462
+start iteration 7, total length: 4169333
+end iteration 7. length: 3770479	 time:974.966783285141
+start iteration 8, total length: 3770479
+end iteration 8. length: 3410152	 time:913.8049654960632
+start iteration 9, total length: 3410152
+end iteration 9. length: 3084538	 time:865.2875497341156
+start iteration 10, total length: 3084538
+end iteration 10. length: 2789959	 time:780.8435339927673
+start iteration 11, total length: 2789959
+end iteration 11. length: 2523701	 time:743.7134878635406
+start iteration 12, total length: 2523701
+end iteration 12. length: 2283062	 time:680.3801512718201
+start iteration 13, total length: 2283062
+end iteration 13. length: 2065420	 time:632.0143573284149
+start iteration 14, total length: 2065420
+end iteration 14. length: 1868441	 time:585.3887765407562
+start iteration 15, total length: 1868441
+end iteration 15. length: 1690313	 time:546.9561295509338
+start iteration 16, total length: 1690313
+end iteration 16. length: 1529335	 time:511.9319660663605
+start iteration 17, total length: 1529335
+end iteration 17. length: 1383796	 time:464.21196603775024
+start iteration 18, total length: 1383796
+end iteration 18. length: 1252143	 time:422.4743559360504
+start iteration 19, total length: 1252143
+end iteration 19. length: 1132979	 time:386.6036922931671
+start iteration 20, total length: 1132979
+end iteration 20. length: 1025118	 time:345.3401439189911
+start iteration 21, total length: 1025118
+end iteration 21. length: 927593	 time:309.6323115825653
+start iteration 22, total length: 927593
+end iteration 22. length: 839335	 time:284.581668138504
+start iteration 23, total length: 839335
+end iteration 23. length: 759559	 time:251.48936247825623
+start iteration 24, total length: 759559
+end iteration 24. length: 687378	 time:228.54486536979675
+start iteration 25, total length: 687378
+end iteration 25. length: 622068	 time:202.90406203269958
+start iteration 26, total length: 622068
+end iteration 26. length: 562909	 time:183.5249378681183
+start iteration 27, total length: 562909
+end iteration 27. length: 509398	 time:164.2403974533081
+start iteration 28, total length: 509398
+end iteration 28. length: 461016	 time:144.73161053657532
+start iteration 29, total length: 461016
+end iteration 29. length: 417249	 time:129.38904309272766
+start iteration 30, total length: 417249
+end iteration 30. length: 377587	 time:113.81640338897705
+start iteration 31, total length: 377587
+end iteration 31. length: 341748	 time:100.90690326690674
+start iteration 32, total length: 341748
+end iteration 32. length: 309356	 time:88.38431549072266
+start iteration 33, total length: 309356
+end iteration 33. length: 279953	 time:79.13239049911499
+start iteration 34, total length: 279953
+end iteration 34. length: 253355	 time:69.14559674263
+start iteration 35, total length: 253355
+end iteration 35. length: 229312	 time:61.838205337524414
+start iteration 36, total length: 229312
+end iteration 36. length: 207509	 time:50.850921392440796
+start iteration 37, total length: 207509
+end iteration 37. length: 187893	 time:44.643115758895874
+start iteration 38, total length: 187893
+end iteration 38. length: 170106	 time:38.57077121734619
+start iteration 39, total length: 170106
+end iteration 39. length: 153973	 time:33.99349856376648
+start iteration 40, total length: 153973
+end iteration 40. length: 139362	 time:29.227797508239746
+start iteration 41, total length: 139362
+end iteration 41. length: 126195	 time:25.3977530002594
+start iteration 42, total length: 126195
+end iteration 42. length: 114240	 time:21.508958101272583
+start iteration 43, total length: 114240
+end iteration 43. length: 103416	 time:19.36165761947632
+start iteration 44, total length: 103416
+end iteration 44. length: 93620	 time:16.265613317489624
+start iteration 45, total length: 93620
+end iteration 45. length: 84765	 time:13.680827140808105
+start iteration 46, total length: 84765
+end iteration 46. length: 76743	 time:12.243835687637329
+start iteration 47, total length: 76743
+end iteration 47. length: 69463	 time:10.135354280471802
+start iteration 48, total length: 69463
+end iteration 48. length: 62870	 time:8.441220760345459
+start iteration 49, total length: 62870
+end iteration 49. length: 56918	 time:6.971828937530518
+start iteration 50, total length: 56918
+end iteration 50. length: 51508	 time:5.994940757751465
+start iteration 51, total length: 51508
+end iteration 51. length: 46635	 time:5.316317796707153
+start iteration 52, total length: 46635
+end iteration 52. length: 42205	 time:4.607378959655762
+start iteration 53, total length: 42205
+end iteration 53. length: 38202	 time:3.9209494590759277
+start iteration 54, total length: 38202
+end iteration 54. length: 34611	 time:3.5847232341766357
+start iteration 55, total length: 34611
+end iteration 55. length: 31332	 time:3.2932398319244385
+start iteration 56, total length: 31332
+end iteration 56. length: 28376	 time:2.9774203300476074
+start iteration 57, total length: 28376
+end iteration 57. length: 25693	 time:2.7559144496917725
+start iteration 58, total length: 25693
+end iteration 58. length: 23264	 time:2.5547304153442383
+start iteration 59, total length: 23264
+end iteration 59. length: 21068	 time:2.3330159187316895
+start iteration 60, total length: 21068
+end iteration 60. length: 19073	 time:2.162036657333374
+start iteration 61, total length: 19073
+end iteration 61. length: 17271	 time:1.9724621772766113
+start iteration 62, total length: 17271
+end iteration 62. length: 15626	 time:1.8507802486419678
+start iteration 63, total length: 15626
+end iteration 63. length: 14149	 time:1.7221410274505615
+start iteration 64, total length: 14149
+end iteration 64. length: 12815	 time:1.6098384857177734
+start iteration 65, total length: 12815
+end iteration 65. length: 11597	 time:1.5320310592651367
+start iteration 66, total length: 11597
+end iteration 66. length: 10509	 time:1.4765667915344238
+start iteration 67, total length: 10509
+end iteration 67. length: 9515	 time:1.396468162536621
+start iteration 68, total length: 9515
+end iteration 68. length: 8637	 time:1.3290038108825684
+start iteration 69, total length: 8637
+end iteration 69. length: 7816	 time:1.3060951232910156
+start iteration 70, total length: 7816
+end iteration 70. length: 7091	 time:1.2639374732971191
+start iteration 71, total length: 7091
+end iteration 71. length: 6424	 time:1.2189130783081055
+start iteration 72, total length: 6424
+end iteration 72. length: 5827	 time:1.19305419921875
+start iteration 73, total length: 5827
+end iteration 73. length: 5284	 time:1.154003620147705
+start iteration 74, total length: 5284
+end iteration 74. length: 4792	 time:1.1425719261169434
+start iteration 75, total length: 4792
+end iteration 75. length: 4346	 time:1.1131486892700195
+start iteration 76, total length: 4346
+end iteration 76. length: 3926	 time:1.0976958274841309
+start iteration 77, total length: 3926
+end iteration 77. length: 3548	 time:1.0887691974639893
+start iteration 78, total length: 3548
+end iteration 78. length: 3217	 time:1.0647685527801514
+start iteration 79, total length: 3217
+end iteration 79. length: 2925	 time:1.0602285861968994
+start iteration 80, total length: 2925
+end iteration 80. length: 2655	 time:1.0552620887756348
+start iteration 81, total length: 2655
+end iteration 81. length: 2408	 time:1.0477714538574219
+start iteration 82, total length: 2408
+end iteration 82. length: 2186	 time:1.0339295864105225
+start iteration 83, total length: 2186
+end iteration 83. length: 1984	 time:1.0317883491516113
+start iteration 84, total length: 1984
+end iteration 84. length: 1807	 time:1.0293307304382324
+start iteration 85, total length: 1807
+end iteration 85. length: 1635	 time:1.025726318359375
+start iteration 86, total length: 1635
+end iteration 86. length: 1480	 time:1.023409366607666
+start iteration 87, total length: 1480
+end iteration 87. length: 1339	 time:1.023270845413208
+start iteration 88, total length: 1339
+end iteration 88. length: 1210	 time:1.0197055339813232
+start iteration 89, total length: 1210
+end iteration 89. length: 1095	 time:1.011606216430664
+start iteration 90, total length: 1095
+end iteration 90. length: 993	 time:1.023954153060913
+start iteration 91, total length: 993
+end iteration 91. length: 901	 time:1.0117692947387695
+start iteration 92, total length: 901
+end iteration 92. length: 814	 time:1.0132057666778564
+start iteration 93, total length: 814
+end iteration 93. length: 736	 time:1.0092952251434326
+start iteration 94, total length: 736
+end iteration 94. length: 667	 time:1.009749412536621
+start iteration 95, total length: 667
+end iteration 95. length: 604	 time:1.007080316543579
+start iteration 96, total length: 604
+end iteration 96. length: 546	 time:1.006561040878296
+start iteration 97, total length: 546
+end iteration 97. length: 496	 time:1.0076887607574463
+start iteration 98, total length: 496
+end iteration 98. length: 450	 time:1.0070359706878662
+start iteration 99, total length: 450
+end iteration 99. length: 411	 time:1.0074493885040283
+start iteration 100, total length: 411
+end iteration 100. length: 376	 time:1.0070958137512207
+start iteration 101, total length: 376
+end iteration 101. length: 341	 time:1.0059757232666016
+start iteration 102, total length: 341
+end iteration 102. length: 310	 time:1.0054922103881836
+start iteration 103, total length: 310
+end iteration 103. length: 285	 time:1.0058841705322266
+start iteration 104, total length: 285
+end iteration 104. length: 259	 time:1.0059216022491455
+start iteration 105, total length: 259
+end iteration 105. length: 235	 time:1.0049052238464355
+start iteration 106, total length: 235
+end iteration 106. length: 215	 time:1.0040364265441895
+start iteration 107, total length: 215
+end iteration 107. length: 196	 time:1.002793550491333
+start iteration 108, total length: 196
+end iteration 108. length: 178	 time:1.003514051437378
+start iteration 109, total length: 178
+end iteration 109. length: 162	 time:1.0042285919189453
+start iteration 110, total length: 162
+end iteration 110. length: 148	 time:1.0035927295684814
+start iteration 111, total length: 148
+end iteration 111. length: 136	 time:1.0032870769500732
+start iteration 112, total length: 136
+end iteration 112. length: 125	 time:1.0023586750030518
+start iteration 113, total length: 125
+end iteration 113. length: 116	 time:1.0028440952301025
+start iteration 114, total length: 116
+end iteration 114. length: 108	 time:1.00211501121521
+start iteration 115, total length: 108
+end iteration 115. length: 100	 time:1.0028457641601562
+start iteration 116, total length: 100
+end iteration 116. length: 92	 time:1.0023269653320312
+start iteration 117, total length: 92
+end iteration 117. length: 86	 time:1.0038704872131348
+start iteration 118, total length: 86
+end iteration 118. length: 80	 time:1.0036370754241943
+start iteration 119, total length: 80
+end iteration 119. length: 74	 time:1.002716064453125
+start iteration 120, total length: 74
+end iteration 120. length: 69	 time:1.00142502784729
+start iteration 121, total length: 69
+end iteration 121. length: 65	 time:1.0173118114471436
+start iteration 122, total length: 65
+end iteration 122. length: 61	 time:1.0007727146148682
+start iteration 123, total length: 61
+end iteration 123. length: 57	 time:1.0058655738830566
+start iteration 124, total length: 57
+end iteration 124. length: 54	 time:1.0032951831817627
+start iteration 125, total length: 54
+end iteration 125. length: 51	 time:1.0017468929290771
+start iteration 126, total length: 51
+end iteration 126. length: 49	 time:1.0182321071624756
+start iteration 127, total length: 49
+end iteration 127. length: 46	 time:1.0012860298156738
+start iteration 128, total length: 46
+end iteration 128. length: 44	 time:1.0030732154846191
+start iteration 129, total length: 44
+end iteration 129. length: 42	 time:1.002781629562378
+start iteration 130, total length: 42
+end iteration 130. length: 40	 time:1.003021478652954
+start iteration 131, total length: 40
+end iteration 131. length: 38	 time:1.00962495803833
+start iteration 132, total length: 38
+end iteration 132. length: 36	 time:1.0023458003997803
+start iteration 133, total length: 36
+end iteration 133. length: 35	 time:1.001885175704956
+start iteration 134, total length: 35
+end iteration 134. length: 34	 time:1.0019340515136719
+start iteration 135, total length: 34
+end iteration 135. length: 33	 time:1.0016069412231445
+start iteration 136, total length: 33
+end iteration 136. length: 32	 time:1.0016543865203857
+start iteration 137, total length: 32
+end iteration 137. length: 31	 time:1.0008912086486816
+start iteration 138, total length: 31
+end iteration 138. length: 30	 time:1.0004298686981201
+start iteration 139, total length: 30
+end iteration 139. length: 29	 time:1.0009970664978027
+start iteration 140, total length: 29
+end iteration 140. length: 28	 time:1.0005590915679932
+start iteration 141, total length: 28
+end iteration 141. length: 28	 time:1.00162935256958
+end NN-subsampling. length: 28	 time:19246.535614013672
+Time elapsed: 19277.03465104103
+---------------------------------------
+Begin PBS Epilogue Sun Jun  6 19:18:54 EDT 2021
+Job ID:     2021208.sched-torque.pace.gatech.edu
+User ID:    ssahoo41
+Job name:   overall_subsample
+Resources:  nodes=2:ppn=12,walltime=12:00:00,neednodes=2:ppn=12
+Rsrc Used:  cput=61:21:05,vmem=21526736kb,walltime=05:21:51,mem=19719020kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-010-24-r.pace.gatech.edu atl1-1-02-010-28-l.pace.gatech.edu
+End PBS Epilogue Sun Jun  6 19:18:54 EDT 2021
+---------------------------------------
