@@ -5,6 +5,7 @@ import h5py
 from pykdtree.kdtree import KDTree
 from sklearn.linear_model import LinearRegression
 import csv
+import pandas as pd
 
 #function details
 def get_mcsh_order_group(mcsh_order):
@@ -24,7 +25,7 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
                 result.append("{}_{}_{:.6f}_Legendre_{}".format(mcsh_order, group_num, max_r, legendre_order))
     return result
 
-def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/raw_data_files/"):
+def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/prep_final_results/raw_data_files/"):
 
 
     hdf5_filename = directory + "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
@@ -70,31 +71,51 @@ def partition(data, refdata):
     return count_arr, max_distance, indices, indices_reduced #indices in increasing order and count of each index
 
 #model details
-model_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/cutoff_sig_overall_3.5/GGA_PBE_functional_based_model.pickle"
+#model_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/cutoff_sig_overall_3.5/GGA_PBE_functional_based_model.pickle"
 
-model = pickle.load(open( model_filename, "rb" ) )
-model_setup = model["model_setup"]
-max_distance = model["max_distance"]
-reg_model = model["regression_model"]
-refdata_transformed = model["refdata_transformed"]
-print(reg_model.coef_)
-print(reg_model.coef_.shape)
+#model = pickle.load(open( model_filename, "rb" ) )
+#model_setup = model["model_setup"]
+#max_distance = model["max_distance"]
+#reg_model = model["regression_model"]
+#refdata_transformed = model["refdata_transformed"]
+#print(reg_model.coef_)
+#print(reg_model.coef_.shape)
+
+correction_file = "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/scratch/correction_scheme_testing/prelim_result/cut_off_sig_3.5_CV/GGA_PBE_1.0_ccsdt_correction_result.csv"
+system = "H2CO3"
+df = pd.read_csv(correction_file, header=None)
+
+coefs = df[1].tolist()
+
+subsampled_filename = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/training_results/prelim_training_train_test/overall_subsample_files/Overall_subsampled_3.5_True.pickle"
+refdata = pickle.load(open(subsampled_filename, "rb" )) #subsampled file
+refdata = np.vstack((refdata, np.zeros(len(refdata[0]))))
+
+refdata_transformed = refdata 
+
+#temp_feature_arr = load_system( system, \
+#                                functional = model_setup["functional"], \
+#                                MCSH_RADIAL_MAX_ORDER = model_setup["MCSH_RADIAL_MAX_ORDER"], \
+#                                MCSH_MAX_ORDER = model_setup["MCSH_MAX_ORDER"], \
+#                                MCSH_MAX_R = model_setup["MCSH_MAX_R"])
 
 temp_feature_arr = load_system( system, \
-                                functional = model_setup["functional"], \
-                                MCSH_RADIAL_MAX_ORDER = model_setup["MCSH_RADIAL_MAX_ORDER"], \
-                                MCSH_MAX_ORDER = model_setup["MCSH_MAX_ORDER"], \
-                                MCSH_MAX_R = model_setup["MCSH_MAX_R"])
-if model_setup["PCA"]:
-    feature_arr_transformed = model["PCA_model"].transform(temp_feature_arr)
-else:
-    feature_arr_transformed = temp_feature_arr
+                                functional = "GGA_PBE", \
+                                MCSH_RADIAL_MAX_ORDER = 5, \
+                                MCSH_MAX_ORDER = 3, \
+                                MCSH_MAX_R = 3.0)
+
+#if model_setup["PCA"]:
+    #feature_arr_transformed = model["PCA_model"].transform(temp_feature_arr)
+#else:
+feature_arr_transformed = temp_feature_arr
 count_arr, max_distance, indices, indices_reduced = partition(feature_arr_transformed, refdata_transformed) #will get the count and unique indices in the list 
 
 count_arr = count_arr.reshape(-1,1) #number of time each environment appears as compared to reference data
 
-correction_amount_per_env = reg_model.coef_
-correction_amount_per_gridpoint = np.zeros(feature_arr_transformed)
+#correction_amount_per_env = reg_model.coef_
+correction_amount_per_env = coefs 
+correction_amount_per_gridpoint = np.zeros(1000000)
 
 for i, index in enumerate(indices):
     for j in range(len(list(indices_reduced))):
@@ -104,5 +125,5 @@ for i, index in enumerate(indices):
 with open('{}_correction_per_gridpoint.csv'.format(system), 'w', newline='') as csvfile:
     writer2 = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for i in range(len(data)):
+    for i, index in enumerate(indices):
         writer2.writerow([i, correction_amount_per_gridpoint[i]]) 

@@ -8,6 +8,7 @@ import csv
 from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
 import pandas as pd
+from sklearn.model_selection import KFold
 
 #no PCA, final subsampling includes standard scaling, system subsampling no standard scaling 
 def get_mcsh_order_group(mcsh_order):
@@ -28,7 +29,7 @@ def get_feature_list_legendre(max_mcsh_order, max_legendre_order, max_r):
     return result
 
 
-def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/raw_data_files/"):
+def load_system(system, functional, MCSH_RADIAL_MAX_ORDER, MCSH_MAX_ORDER, MCSH_MAX_R, directory = "/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/prep_final_results/raw_data_files/"):
 
 
     hdf5_filename = directory + "{}_MCSHLegendre_{}_{:.6f}_{}.h5"\
@@ -91,7 +92,7 @@ def load_system_info(filename): #dictionary to store the energy for each system
     return energy_dict
 
 #model_setup is a dictionary with keys and values
-model_setup = {"refdata_filename": "Overall_subsampled_3.2_True.pickle", \
+model_setup = {"refdata_filename": "Overall_subsampled_3.5_True.pickle", \
                 "functional": "GGA_PBE", \
                 "MCSH_RADIAL_MAX_ORDER": 5, \
                 "MCSH_MAX_ORDER" :3, \
@@ -103,10 +104,10 @@ model = {"model_setup": model_setup}
 
 functional = model_setup["functional"] #value of functional 
 
-ref_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/ref_energy_regression_error.csv")
+ref_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/prep_final_results/ref_energy_regression_error.csv")
 #print("reference energy dictionary\n")
 #print(ref_energy_dict)
-functional_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/DFT_correction_scheme/preparation/{}_energy_regression_error.csv".format(functional))
+functional_energy_dict = load_system_info("/storage/home/hcoda1/0/ssahoo41/data/testflight_data/SPARC_test_mcsh/results_folder/preparation_results/prep_final_results/{}_energy_regression_error.csv".format(functional))
 #print("functional energy dictionary\n")
 #print(functional_energy_dict)
 systems = ref_energy_dict.keys()
@@ -151,6 +152,9 @@ for i, system in enumerate(systems):
     # except:
     #     print("ERROR: system {} not processed".format(system))
 
+mae_baseline = np.mean(np.abs(target))
+print("Baseline MAE is {}".format(mae_baseline))
+
 model["max_distance"] = max_distance
 
 #count_array file will give the count of environments of each types of environment 
@@ -161,28 +165,77 @@ with open('{}_count_array.csv'.format(functional), 'w', newline='') as csvfile:#
         writer2.writerow([i, system] + count_arr[i].tolist() + [target[i]])
 
 
-alpha_values = np.array([0, 1e-6, 3e-6, 1e-5, 3e-5, 1e-4, 3e-4, 1e-3, 3e-3, 1e-2, 3e-2, 1e-1, 3e-1, 1, 3, 10, 100, 1000]) #added more alpha values 
-x_train, x_test, y_train, y_test = train_test_split(count_arr, target, test_size=0.2) #0.2 of 210 (number of equations are number than parameters)
+alpha_values = np.array([0, 1e-6, 3e-6, 1e-5, 3e-5, 1e-4, 3e-4, 1e-3, 3e-3, 1e-2, 3e-2, 1e-1, 3e-1, 1, 3, 10, 100, 1000, 10000]) #added more alpha values 
+
+kf = KFold(n_splits=5, shuffle = True)
+
+MAE_test = [] #MAE for each alpha (validation_dataset)
+MAE_all = [] #MAE for each alpha (whole_dataset)
+
+for j in alpha_values:
+    df_2 = pd.DataFrame()
+    mae_test = [] #for each fold (validation dataset)
+    mae_all = [] #for each fold (all dataset)
+    k = 0 #keep count of fold 
+    for train_index, test_index in kf.split(count_arr):
+        k=k+1 #increment i by 1 for the fold 
+        x_train, x_test = count_arr[train_index], count_arr[test_index]
+        y_train, y_test = target[train_index], target[test_index]
+        reg = Lasso(alpha=j, fit_intercept=False).fit(x_train, y_train)
+        coef = reg.coef_
+        with open('{}_fold_{}_{}_ccsdt_correction_result.csv'.format(functional,k,j), 'w', newline='') as csvfile:
+            writer2 = csv.writer(csvfile, delimiter=',',\
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for i in range(len(refdata)):
+                writer2.writerow([i, coef[i]]) #coefficients for each fold saved in file 
+        #prediction on validation and whole dataset
+        predict_test = reg.predict(x_test)
+        predict_all = reg.predict(count_arr)
+        #error in prediction 
+        error_test = y_test - predict_test
+        error_all = target - predict_all
+
+        mae_test.append(np.mean(np.abs(error_test))) #5 values 
+        
+        mae_all.append(np.mean(np.abs(error_all))) #5 values 
+    df_2['MAE_val'] = mae_test
+    df_2['MAE_all'] = mae_all 
+    print(df_2)
+    
+    MAE_test.append(np.mean(mae_test)) #for each alpha 
+    MAE_all.append(np.mean(mae_all)) #for each alpha 
+
+df = pd.DataFrame()
+df['alpha_values'] = list(alpha_values)
+df['MAE (val)'] = MAE_test
+df['MAE (all)'] = MAE_all
+print(df)
+df.to_csv("MAE_file.csv", index=False)
+            
+            
+
+
+#x_train, x_test, y_train, y_test = train_test_split(count_arr, target, test_size=0.2) #0.2 of 210 (number of equations are number than parameters)
 
 #reg = LinearRegression(fit_intercept = False).fit(count_arr, target)
 #coef = reg.coef_
 
-coef_list = []
-mae_list = []
-for j in alpha_values:  
-    reg = Lasso(alpha=j, fit_intercept=False).fit(x_train, y_train)
-    coef = reg.coef_
-    with open('{}_{}_ccsdt_correction_result.csv'.format(functional,j), 'w', newline='') as csvfile:
-        writer2 = csv.writer(csvfile, delimiter=',',\
-                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for i in range(len(refdata)):
-            writer2.writerow([i, coef[i]])
-    coef_list.append(coef)
-    prediction = reg.predict(x_test) 
-    error = y_test - prediction
+#coef_list = []
+#mae_list = []
+#for j in alpha_values:  
+#    reg = Lasso(alpha=j, fit_intercept=False).fit(x_train, y_train)
+#    coef = reg.coef_
+#    with open('{}_{}_ccsdt_correction_result.csv'.format(functional,j), 'w', newline='') as csvfile:
+#        writer2 = csv.writer(csvfile, delimiter=',',\
+#                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#        for i in range(len(refdata)):
+#            writer2.writerow([i, coef[i]])
+ #   coef_list.append(coef)
+ #   prediction = reg.predict(x_test) 
+ #   error = y_test - prediction
 #   print(error) #error for testing dataset 
-    mae = np.mean(np.abs(error))
-    mae_list.append(mae)
+ #   mae = np.mean(np.abs(error))
+ #   mae_list.append(mae)
     
 
 #    print(coef)

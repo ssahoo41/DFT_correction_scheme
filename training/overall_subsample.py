@@ -30,7 +30,7 @@ subsampled_data_filename = "Overall_subsampled_{}_{}.pickle"\
 
 subsampled_feature_arr = subsampling(overall_data,cutoff_sig=cutoff_sig,rate=0.1, method = "pykdtree",\
                                              verbose = 2, standard_scale=standard_scale)#increased the rate from 0.1 to 0.5 to check if it works
-#print(subsampled_feature_arr.shape)
+#print(subsampled_feature_arr.shape) 
 pickle.dump( subsampled_feature_arr, open( subsampled_data_filename, "wb" ) )  
 
 end = time.time()
